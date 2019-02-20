@@ -1,0 +1,72 @@
+{{!< default}} {{> header}} <div class="wrapper_barley">
+  <main role="main">
+    {{#post}}
+    <article class="article_barley" role="article" itemscope itemtype="http://schema.org/Article">
+      <header>
+        <h1 class="post-title_barley" itemprop="headline" id="header">{{title}}</h1>
+      </header>
+      <div class="post-content_barley" itemprop="articleBody">
+        {{content}}
+      </div>
+      <footer class="article_meta_barley">
+        <div class="half">
+          <div>
+            <span class="dimmed">Posted on </span>
+            <time class="date_barley" datetime="{{date format="YYYY-MM-DD"}}" itemprop="datePublished">{{date
+              format='MM-DD-YYYY'}}</time>
+          </div>
+          {{#if tags}}
+          <div>
+            <span class="dimmed"> Tagged in </span>
+            <span> {{tags separator=" , "}}</span>
+          </div>
+          {{/if}}
+        </div>
+        <div class="half text-right">
+          <div class="share_barley font_small">Share this post</div>
+          <a class="btn" target="_blank" href="http://twitter.com/share?text={{title}}&url={{url absolute="true"}}">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a class="btn" target="_blank" href="http://www.facebook.com/sharer.php?u={{url absolute="true"}}">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a class="btn" target="_blank" href="https://plus.google.com/share?url={{url absolute="true"}}">
+            <i class="fa fa-google-plus"></i>
+          </a>
+        </div>
+        <div class="clear"></div>
+        {{#if author}}
+        <div class="post-author_barley">
+          <address itemscope itemtype="http://schema.org/Person">
+            {{#if primary_author.profile_image}}
+            <figure>
+              <div itemprop="image" class="author-image_barley" style="background-image: url({{primary_author.profile_image}});"></div>
+            </figure>
+            {{/if}}
+            <h4>
+              <span itemprop="name">{{author.name}}</span>
+            </h4>
+            {{#if author.website}}
+            <a href="{{author.website}}" itemprop="url">{{author.website}}</a>
+            {{/if}}
+            <div class="author-bio_barley">
+              <p>{{author.bio}}</p>
+            </div>
+            <div class="clear"></div>
+          </address>
+        </div>
+        {{/if}}
+
+      </footer>
+      {{!-- {{> disqus}} --}}
+    </article>
+    {{/post}}
+
+    {{#if pagination}}
+    <div class="pagination_barley">
+      {{{pagination}}}
+    </div>
+    {{/if}}
+  </main>
+  </div>
+  {{> footer}}

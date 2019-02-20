@@ -1,0 +1,30 @@
+# ghost
+assets/
+tmp
+
+# node.js / npm
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+node_modules/
+
+npm-debug.log
+
+# bower
+bower_components/
+
+.idea
+
+config.json
+partials/disqus.hbs
+partials/google-analytics.hbs
