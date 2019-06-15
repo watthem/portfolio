@@ -38,7 +38,7 @@
         {{{body}}}
 
         {{!-- The tiny footer at the very bottom --}}
-        <footer class="site-footer main-footer clearfix">
+        <footer class="site-footer clearfix">
             <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
             <section class="poweredby">Powered by <a href="https://sellfy.com/p/Acjr">Ghost + Boo</a></section>
         </footer>
@@ -46,7 +46,7 @@
     </div>
 
     {{!-- jQuery needs to come before `{{ghost_foot}}` so that jQuery can be used in code injection --}}
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     {{!-- Ghost outputs important scripts and data with this tag --}}
     {{ghost_foot}}
     {{!-- Fitvids makes video embeds responsive and awesome --}}

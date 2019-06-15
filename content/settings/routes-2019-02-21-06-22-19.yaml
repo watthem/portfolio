@@ -1,0 +1,14 @@
+routes:
+
+collections:
+  /work/:
+    permalink: /work/{slug}/
+    filter: tag:work
+    order: asc
+  /:
+    permalink: /{slug}/
+    template: index
+
+taxonomies:
+  tag: /portfolio/{slug}/
+  author: /author/{slug}/

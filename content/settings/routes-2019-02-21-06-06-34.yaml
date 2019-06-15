@@ -1,0 +1,11 @@
+routes:
+
+collections:
+  /portfolio/:
+    permalink: /portfolio/{slug}/
+    filter: primary_tag:portfolio
+    order: asc
+
+taxonomies:
+  tag: /tag/{slug}/
+  author: /author/{slug}/

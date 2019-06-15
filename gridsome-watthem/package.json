@@ -1,0 +1,15 @@
+{
+  "name": "gridsome-watthem",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@tryghost/content-api": "^1.2.2",
+    "camelcase": "^5.3.1",
+    "gridsome": "^0.6.1",
+    "vue-filter-date-format": "^1.2.5"
+  }
+}

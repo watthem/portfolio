@@ -1,0 +1,14 @@
+routes:
+
+collections:
+  /:
+    permalink: /{slug}/
+    template: index
+  /portfolio/:
+    permalink: /portfolio/{slug}/
+    filter: tag:piece
+    order: asc
+
+taxonomies:
+  tag: /portfolio/{slug}/
+  author: /author/{slug}/
