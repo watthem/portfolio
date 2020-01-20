@@ -5,28 +5,11 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-const GhostSource = require("./source-ghost");
-
 module.exports = function (api) {
   api.loadSource(({
     addContentType
   }) => {
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api
-
-    var options = {
-      url: "http://localhost:2500",
-      key: "cc9aaf30c15c0f443da764ed3a",
-      perPage: 100,
-      version: 'v2',
-      typeName: 'Ghost',
-      settingsName: null,
-      routes: {
-        post: '/post/:slug',
-        tag: '/tag/:slug'
-      }
-    }
-
-    var ghostSource = new GhostSource(api, options)
   })
 
   api.createPages(({
