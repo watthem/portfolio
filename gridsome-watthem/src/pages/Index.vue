@@ -14,6 +14,7 @@
     <section class="py-12 px-4 text-center">
       <div class="w-full max-w-2xl mx-auto">
         <h2 class="text-5xl mt-2 mb-6 leading-tight font-heading">I'm matthew, I live in Seattle WA.</h2>
+        <div>I've been a product manager, technical services manager, and currently work as a technical writing consultant.</div>
         <p
           class="text-sm m-2 font-semibold"
         >I have a knack for writing technical content for both developers and customers with a focus on software systems and programming APIs.</p>
@@ -21,12 +22,12 @@
         <g-link to="/about" class="text-blue-700 hover:underline">Learn more about me &raquo;</g-link>
       </div>
     </section>
-    <section>I've been a product manager, technical services manager, and currently work as a technical writing consultant.</section>
+
     <section class="py-12 px-4">
       <div class="flex flex-wrap -mx-4">
         <div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
           <div class="flex flex-col h-full p-8 bg-gray-200 rounded">
-            <h2 class="text-3xl font-heading">Also creative!</h2>
+            <h2 class="text-3xl font-heading">Not just technical</h2>
             <p
               class="max-w-sm mt-auto mb-8 text-gray-500 leading-relaxed"
             >My creative content has been featured on the front page of medium.com</p>
@@ -48,13 +49,8 @@
 
         <div class="lg:w-1/2 px-4">
           <div class="flex flex-wrap -m-2">
-            <div class="w-1/2 p-2">
-              To-do: Loop through featured css demos
-              <img
-                class="rounded shadow-md"
-                src="placeholders/pictures/office.jpg"
-                alt
-              />
+            <div class="w-full p-2">
+              <DemoList></DemoList>
             </div>
           </div>
         </div>
@@ -63,8 +59,8 @@
             <h2 class="text-3xl font-heading">I also know web programming!</h2>
             <p
               class="max-w-sm mt-auto mb-8 text-gray-500 leading-relaxed"
-            >My CSS animations have been picked to be on the front page of codepen.io</p>
-            <a class="text-right text-blue-700 hover:underline" href="#">Check out more</a>
+            >My interests in writing technical content has taught me how to build fast, responsive websites using Javascript, APIs, and Markdown. My CSS animations have been picked to be on the front page of codepen.io</p>
+            <!-- <a class="text-right text-blue-700 hover:underline" href="#">Check out more</a> -->
           </div>
         </div>
       </div>
@@ -92,9 +88,11 @@
 
 <script>
 import WorkList from "../components/WorkList";
+import DemoList from "../components/DemoList";
 export default {
   components: {
-    WorkList
+    WorkList,
+    DemoList
   },
   metaInfo: {
     title: "Hello, world!"

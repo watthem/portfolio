@@ -8,21 +8,31 @@ module.exports = {
   siteName: 'Matthew Portfolio',
   plugins: [{
     use: "@gridsome/source-filesystem",
-    options: [{
-      // Path is the location of the markdown content we will be consuming in our posts
-      path: "markdown/creative/**/*.md",
+    options: {
+      // Path is the location of the markdown content we will be consuming in our collections.
+      path: "markdown/work/**/*.md",
       // Typename is the GrapqhQL type and template name. A .vue file in src/tempaltes MUST MATCH (===) the typeName to have a template for it
       typeName: "Work",
       route: "/work/:title"
-    }, {
-      path: "markdown/content/**/*.md",
+    }
+  }, {
+    use: "@gridsome/source-filesystem",
+    options: {
+      // Path is the location of the markdown content we will be consuming in our collections.
+      path: "markdown/creative/**/*.md",
+      // Typename is the GrapqhQL type and template name. A .vue file in src/tempaltes MUST MATCH (===) the typeName to have a template for it
       typeName: "Creative",
-      route: "/content/:title"
-    }, {
-      path: "markdown/content/**/*.md",
-      typeName: "Creative",
-      route: "/content/:title"
-    }]
+      route: "/creative/:title"
+    }
+  }, {
+    use: "@gridsome/source-filesystem",
+    options: {
+      // Path is the location of the markdown content we will be consuming in our collections.
+      path: "markdown/demos/**/*.md",
+      // Typename is the GrapqhQL type and template name. A .vue file in src/tempaltes MUST MATCH (===) the typeName to have a template for it
+      typeName: "Demo",
+      route: "/demo/:title"
+    }
   }, {
     use: 'gridsome-plugin-tailwindcss',
   }]
