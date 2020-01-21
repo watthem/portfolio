@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <section class="py-12 px-4 text-center">
+    <section class="py-12 px-4 text-center bg-gray-300">
       <h2 class="text-4xl mb-8 font-heading">Technical Writing Portfolio</h2>
       <div class="max-w-2xl mx-auto">
         <div class="text-center">
@@ -24,37 +24,26 @@
     </section>
 
     <section class="py-12 px-4">
-      <div class="flex flex-wrap -mx-4">
-        <div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
+      <div class="flex flex-wrap -mx-4 mb-10">
+        <div class="w-full lg:w-1/2 px-4 mb-8">
           <div class="flex flex-col h-full p-8 bg-gray-200 rounded">
             <h2 class="text-3xl font-heading">Not just technical</h2>
             <p
               class="max-w-sm mt-auto mb-8 text-gray-500 leading-relaxed"
-            >My creative content has been featured on the front page of medium.com</p>
-            <a class="text-right text-blue-700 hover:underline" href="#">Check out more</a>
+            >My creative content has been featured on several popular curator lists on medium.com</p>
+            <!-- <a class="text-right text-blue-700 hover:underline" href="#">Check out more</a> -->
           </div>
         </div>
         <div class="lg:w-1/2 px-4">
-          <div class="flex flex-wrap -m-2">
-            <div class="w-1/2 p-2">
-              To-do: Loop through featured creative content
-              <img
-                class="rounded shadow-md"
-                src="placeholders/pictures/office.jpg"
-                alt
-              />
-            </div>
-          </div>
-        </div>
-
-        <div class="lg:w-1/2 px-4">
-          <div class="flex flex-wrap -m-2">
+          <div class="flex flex-wrap -m-2 bg-gray-300">
             <div class="w-full p-2">
-              <DemoList></DemoList>
+              <CreativeList></CreativeList>
             </div>
           </div>
         </div>
-        <div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
+      </div>
+      <div class="flex flex-wrap -mx-4">
+        <div class="w-full lg:w-1/2 px-4 mb-8">
           <div class="flex flex-col h-full p-8 bg-gray-200 rounded">
             <h2 class="text-3xl font-heading">I also know web programming!</h2>
             <p
@@ -63,10 +52,17 @@
             <!-- <a class="text-right text-blue-700 hover:underline" href="#">Check out more</a> -->
           </div>
         </div>
+        <div class="lg:w-1/2 px-4">
+          <div class="flex flex-wrap -m-2 bg-gray-300">
+            <div class="w-full p-2">
+              <DemoList></DemoList>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="py-12 px-4">
+    <!-- <section class="py-12 px-4">
       <h2 class="text-3xl text-center mb-8 font-heading">Latest posts</h2>
       <div class="flex flex-wrap -mx-4">
         <div class="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
@@ -82,17 +78,19 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
   </Layout>
 </template>
 
 <script>
-import WorkList from "../components/WorkList";
+import CreativeList from "../components/CreativeList";
 import DemoList from "../components/DemoList";
+import WorkList from "../components/WorkList";
 export default {
   components: {
-    WorkList,
-    DemoList
+    CreativeList,
+    DemoList,
+    WorkList
   },
   metaInfo: {
     title: "Hello, world!"

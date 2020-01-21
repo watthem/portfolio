@@ -6,6 +6,6 @@ Stub: To help support multiple device layouts and resolutions, it was important 
 Subject Matter: .NET, C#, NinjaScript, WPF
 Technology Used: Confluence, Help+Manual, JIRA
 URL: https://ninjatrader.com/support/helpGuides/nt8/?working_with_pixel_coordinates.htm
-PDF: "haha"
+PDF: ""
 ---
 ![alt text](./img/pixels.png)

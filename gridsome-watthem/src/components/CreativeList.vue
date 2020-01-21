@@ -2,16 +2,16 @@
   <div class>
     <ClientOnly>
       <simple-carousel-container loop>
-        <simple-carousel-item v-for="(edge) in $static.featuredDemos.edges" :key="edge.node.id">
+        <simple-carousel-item v-for="(edge) in $static.featuredCreative.edges" :key="edge.node.id">
           <div class="py-8 px-4 m-auto rounded shadow-lg bg-white">
             <g-link :to="edge.node.path">
               <h3 class="text-2xl mb-4 font-heading">{{ edge.node.title }}</h3>
             </g-link>
             <div class="px-6 py-4">
-              <span class="text-gray-900 leading-none">I demostrated</span>
+              <span class="text-gray-900 leading-none">I published it on</span>
               <span
                 class="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
-              >{{ edge.node.Technology_Used }}.</span>
+              >{{ edge.node.Published_On }}.</span>
             </div>
             <g-link :to="edge.node.path">
               <p class="text-gray-500 leading-relaxed text-md">{{ edge.node.Stub}}</p>
@@ -30,17 +30,17 @@
 </template>
 
 <static-query>
-query Demo {
- featuredDemos: allDemo (filter: { Featured: { eq: true }}) {
+query Creative {
+ featuredCreative: allCreative (filter: { Featured: { eq: true }}) {
     edges {
       node {
         id
      	  title
         URL
         Stub
-        Technology_Used
         content
-        path       
+        path        
+        Published_On
       }
     }
   }
@@ -54,7 +54,7 @@ import {
 } from "vue-simple-carousel";
 
 export default {
-  name: "DemoList",
+  name: "CreativeList",
   components: {
     SimpleCarouselItem,
     SimpleCarouselContainer
