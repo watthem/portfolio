@@ -4,3 +4,7 @@ node_modules
 node_modules
 node_modules
 *.shhh
+ghost-watthem/content/logs/http___localhost_2369__development.log
+ghost-watthem/.ghostpid
+ghost-watthem/content/logs/http___localhost_2369__development.error.log
+ghost-watthem/content/logs/http___localhost_2369__development.log
