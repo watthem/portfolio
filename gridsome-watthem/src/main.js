@@ -3,6 +3,13 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import VueFilterDateFormat from "vue-filter-date-format"; // handles converting Date() to human as
+// import style
+
+
+
+import "../node_modules/vue-slick-carousel/dist/vue-slick-carousel.css";
+// optional style for arrows & dots
+import "../node_modules/vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 
 export default function (Vue, {
   router,

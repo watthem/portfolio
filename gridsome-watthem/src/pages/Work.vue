@@ -108,7 +108,7 @@ export default {
     Pager
   },
   metaInfo: {
-    title: "Work portfolio"
+    title: "Work Examples"
   }
 };
 </script>
