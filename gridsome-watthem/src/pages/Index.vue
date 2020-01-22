@@ -1,15 +1,5 @@
 <template>
   <Layout>
-    <section class="py-12 px-4 text-center bg-gray-300">
-      <h2 class="text-4xl mb-8 font-heading">Technical Writing Portfolio</h2>
-
-      <div class="max-w-2xl mx-auto">
-        <div class="text-center">
-          <WorkList></WorkList>
-        </div>
-      </div>
-    </section>
-
     <section class="py-12 px-4 text-center">
       <div class="w-full max-w-2xl mx-auto">
         <h2 class="text-5xl mt-2 mb-6 leading-tight font-heading">I'm matthew, I live in Seattle WA.</h2>
@@ -21,39 +11,54 @@
         <g-link to="/about" class="text-blue-700 hover:underline">Learn more about me &raquo;</g-link>
       </div>
     </section>
+    <section class="py-12 px-10 text-center bg-blue-500">
+      <h2 class="text-4xl mb-8 font-heading">Technical Writing Portfolio</h2>
 
-    <section class="py-12 px-4">
-      <div class="flex flex-wrap -mx-4 mb-10">
-        <div class="w-full lg:w-1/2 px-4 mb-8">
-          <div class="flex flex-col h-full p-8 bg-gray-200 rounded">
+      <div class="mx-auto">
+        <div class="text-center">
+          <WorkList></WorkList>
+        </div>
+      </div>
+    </section>
+    <g-link
+      class="text-blue-700 hover:underline text-center block"
+      to="/work"
+    >See more work examples &raquo;</g-link>
+
+    <section class="bg-orange-500 my-10 p-10">
+      <div class>
+        <div class>
+          <div class>
             <h2 class="text-3xl font-heading">Not just technical</h2>
             <p
-              class="max-w-sm mt-auto mb-8 text-gray-500 leading-relaxed"
+              class="text-white leading-relaxed"
             >My creative content has been featured on several popular curator lists on medium.com</p>
             <!-- <a class="text-right text-blue-700 hover:underline" href="#">Check out more</a> -->
           </div>
         </div>
-        <div class="lg:w-1/2 px-4">
-          <div class="flex flex-wrap -m-2 bg-gray-300">
-            <div class="w-full p-2">
+        <div class>
+          <div class>
+            <div class>
               <CreativeList></CreativeList>
             </div>
           </div>
         </div>
       </div>
-      <div class="flex flex-wrap -mx-4">
-        <div class="w-full lg:w-1/2 px-4 mb-8">
-          <div class="flex flex-col h-full p-8 bg-gray-200 rounded">
+    </section>
+    <section class="bg-purple-500 p-10">
+      <div class>
+        <div class>
+          <div class>
             <h2 class="text-3xl font-heading">I also know web programming!</h2>
             <p
-              class="max-w-sm mt-auto mb-8 text-gray-500 leading-relaxed"
+              class="text-white leading-relaxed"
             >My interests in writing technical content has taught me how to build fast, responsive websites using Javascript, APIs, and Markdown. My CSS animations have been picked to be on the front page of codepen.io</p>
             <!-- <a class="text-right text-blue-700 hover:underline" href="#">Check out more</a> -->
           </div>
         </div>
-        <div class="lg:w-1/2 px-4">
-          <div class="flex flex-wrap -m-2 bg-gray-300">
-            <div class="w-full p-2">
+        <div class>
+          <div class="bg-blue-500">
+            <div class>
               <DemoList></DemoList>
             </div>
           </div>
@@ -74,7 +79,7 @@ export default {
     WorkList
   },
   metaInfo: {
-    title: "Hello, world!"
+    title: "Welcome"
   }
 };
 </script>

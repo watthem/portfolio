@@ -18,23 +18,27 @@ export default {
 };
 </script>
 
-<style>
+<style >
 .content-html {
   font-family: georgia, serif;
   max-width: 980px;
   margin: auto;
 }
 
-figure.kg-card.kg-image-card {
+.content-html a {
+  text-decoration: underline;
+}
+
+.content-html figure.kg-card.kg-image-card {
   display: flex;
   justify-content: center;
   margin: 2rem;
 }
-h1,
-h2,
-h3,
-h4,
-h5 {
+.content-html h1,
+.content-html h2,
+.content-html h3,
+.content-html h4,
+.content-html h5 {
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
     helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   font-weight: 600;
@@ -42,23 +46,23 @@ h5 {
   margin: 4rem 0 0;
 }
 
-h1 {
+.content-html h1 {
   font-size: 4rem;
 }
 
-h2 {
+.content-html h2 {
   font-size: 3rem;
 }
-h3 {
+.content-html h3 {
   font-size: 2rem;
 }
-p {
+.content-html p {
   margin: 2rem 0 0;
   font-weight: 400;
   font-size: 1.2rem;
   line-height: 1.5;
 }
-video {
+.content-html video {
   filter: grayscale(20%) saturate(80%) opacity(0.8);
 }
 </style>

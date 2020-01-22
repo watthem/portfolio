@@ -13,7 +13,13 @@ module.exports = {
         path: "markdown/work/**/*.md",
         // Typename is the GrapqhQL type and template name. A .vue file in src/tempaltes MUST MATCH (===) the typeName to have a template for it
         typeName: "Work",
-        route: "/work/:title"
+        route: "/work/:title",
+        refs: {
+          tags: {
+            typeName: 'Work',
+            create: true
+          }
+        }
       }
     }, {
       use: "@gridsome/source-filesystem",
