@@ -2,11 +2,10 @@
   <Layout>
     <section class="py-12 px-4 text-center bg-gray-300">
       <h2 class="text-4xl mb-8 font-heading">Technical Writing Portfolio</h2>
+
       <div class="max-w-2xl mx-auto">
         <div class="text-center">
-          <div>
-            <WorkList></WorkList>
-          </div>
+          <WorkList></WorkList>
         </div>
       </div>
     </section>
@@ -61,24 +60,6 @@
         </div>
       </div>
     </section>
-
-    <!-- <section class="py-12 px-4">
-      <h2 class="text-3xl text-center mb-8 font-heading">Latest posts</h2>
-      <div class="flex flex-wrap -mx-4">
-        <div class="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
-          <div class="h-full pb-8 rounded shadow-md">
-            <a href="#">
-              <img class="mb-4" src="placeholders/pictures/work.jpg" alt />
-              <div class="px-6">
-                <small>Jan 17 2020 | By Matthew</small>
-                <h3 class="text-xl my-3 font-heading">To-do:</h3>
-                <p class="text-gray-500">Loop through all latest mixed content posts</p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>-->
   </Layout>
 </template>
 
