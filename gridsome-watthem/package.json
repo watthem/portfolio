@@ -15,7 +15,8 @@
     "vue-carousel": "^0.18.0",
     "vue-filter-date-format": "^1.2.5",
     "vue-simple-carousel": "^0.3.9",
-    "vue-simple-slider": "^1.0.2"
+    "vue-simple-slider": "^1.0.2",
+    "vue-slick-carousel": "^1.0.0"
   },
   "devDependencies": {
     "gridsome-plugin-tailwindcss": "^2.2.32"
