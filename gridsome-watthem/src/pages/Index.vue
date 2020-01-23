@@ -7,7 +7,7 @@
             <g-image src="../pro.jpg" class="rounded-b-full"></g-image>
           </div>
           <div class="text-center px-3 pb-6 pt-2">
-            <h3 class="text-black bold">I'm matthew,</h3>
+            <h3 class="text-black font-bold">I'm matthew,</h3>
             <p class="mt-2 text-grey-dark">I live in Seattle WA.</p>
           </div>
           <div class="flex justify-center pb-3 text-grey-dark">
@@ -20,15 +20,15 @@
         </div>
       </div>
     </section>
-    <section class="py-12 px-10 bg-blue-500">
-      <h2 class="text-4xl mb-8 font-heading">
-        <font-awesome class="mr-5 text-blue-900 w-20" :icon="['fa', 'keyboard']" />Technical Writing
+    <section class="py-12 px-10 bg-blue-500 max-w-3xl m-auto">
+      <h2 class="text-4xl mb-8 font-heading text-blue-900">
+        <font-awesome class="mr-5 w-12" :icon="['fa', 'keyboard']" />Technical Writing
       </h2>
       <p
         class="text-gray leading-relaxed"
       >I have a knack for writing technical content for both developers and customers with a focus on software systems and programming APIs.</p>
       <div class="mx-auto">
-        <div class="text-center">
+        <div class="text-center max-w-2xl m-auto">
           <WorkList></WorkList>
         </div>
       </div>
@@ -38,47 +38,30 @@
       to="/work"
     >See more work examples &raquo;</g-link>
 
-    <section class="bg-green-200 my-10 p-10">
+    <section class="bg-green-200 my-10 p-10 max-w-3xl m-auto">
       <div class>
-        <div class>
-          <div class>
-            <h2 class="text-3xl font-heading">
-              <font-awesome class="mr-5 text-blue-900 w-20" :icon="['fa', 'signature']" />Not just technical
-            </h2>
-            <p
-              class="text-gray leading-relaxed"
-            >My creative content has been featured on several popular curator lists on medium.com</p>
-            <!-- <a class="text-right text-blue-700 hover:underline" href="#">Check out more</a> -->
-          </div>
-        </div>
-        <div class>
-          <div class>
-            <div class>
-              <CreativeList></CreativeList>
-            </div>
-          </div>
+        <h2 class="text-3xl font-heading text-blue-900">
+          <font-awesome class="mr-5 w-12" :icon="['fa', 'signature']" />Not just technical
+        </h2>
+        <p
+          class="text-gray leading-relaxed"
+        >My creative content has been featured on several popular curator lists on medium.com</p>
+        <div class="text-center max-w-2xl m-auto">
+          <CreativeList></CreativeList>
         </div>
       </div>
     </section>
-    <section class="bg-blue-200 p-10">
+    <section class="bg-blue-200 p-10 max-w-3xl m-auto">
       <div class>
-        <div class>
-          <div class>
-            <h2 class="text-3xl font-heading">
-              <font-awesome class="mr-5 text-blue-900 w-20" :icon="['fa', 'code-branch']" />I also know web programming!
-            </h2>
-            <p
-              class="text-gray leading-relaxed"
-            >My interests in writing technical content has taught me how to build fast, responsive websites using Javascript, APIs, and Markdown. My CSS animations have been picked to be on the front page of codepen.io</p>
-            <!-- <a class="text-right text-blue-700 hover:underline" href="#">Check out more</a> -->
-          </div>
-        </div>
-        <div class>
-          <div class>
-            <div class>
-              <DemoList></DemoList>
-            </div>
-          </div>
+        <h2 class="text-3xl font-heading text-blue-900">
+          <font-awesome class="mr-5 w-12" :icon="['fa', 'code-branch']" />I also know web programming!
+        </h2>
+        <p
+          class="text-gray leading-relaxed"
+        >My interests in writing technical content has taught me how to build fast, responsive websites using Javascript, APIs, and Markdown. My CSS animations have been picked to be on the front page of codepen.io</p>
+        <!-- <a class="text-right text-blue-700 hover:underline" href="#">Check out more</a> -->
+        <div class="text-center max-w-2xl m-auto">
+          <DemoList></DemoList>
         </div>
       </div>
     </section>

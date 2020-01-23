@@ -2,7 +2,10 @@
   <Layout :title="$page.work.title">
     <ContentView :contentData="$page.work"></ContentView>
     <aside class="lg:w-1/3 m-auto py-5 bg-blue-500">
-      <h3>Other work on {{ pageSubjectMatter }}</h3>
+      <h3 class="m-auto pl-2 text-2xl font-heading text-blue-900">
+        <font-awesome class="mr-5 w-12" :icon="['fa', 'briefcase']" />
+        Other work on {{ pageSubjectMatter }}
+      </h3>
       <div>
         <div
           class="p-8 m-8 rounded shadow-lg bg-white"
@@ -15,7 +18,7 @@
           <div class="px-6 py-4">
             <span class="text-gray-900 leading-none">I wrote about</span>
             <span
-              class="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+              class="text-center inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
             >{{ edge.node.Subject_Matter }}</span>
           </div>
           <g-link :to="edge.node.path">
@@ -30,7 +33,10 @@
         </div>
       </div>
     </aside>
-    <g-link class="text-blue-700 hover:underline" to="/work">See more work examples &raquo;</g-link>
+    <g-link
+      class="text-blue-700 hover:underline text-center block"
+      to="/work"
+    >See more work examples &raquo;</g-link>
   </Layout>
 </template>
 
@@ -47,7 +53,7 @@ query Work ($path: String!) {
     Subject_Matter
     Built_With    
   },
-   works: allWork{
+   works: allWork(filter: { path: { ne: $path }}){
     edges {
       node {
        ... on Work {

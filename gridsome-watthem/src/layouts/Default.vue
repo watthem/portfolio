@@ -3,10 +3,15 @@
     <header class="header">
       <nav class="flex justify-around content-center p-4 bg-gray-100 shadow-md">
         <strong>
-          <g-link to="/" class="text-xl text-blue-400 font-semibold">{{ $static.metadata.siteName }}</g-link>
+          <g-link to="/" class="text-blue-400 font-semibold">{{ $static.metadata.siteName }}</g-link>
         </strong>
-        <g-link class="text-blue-700 underline" to="/work">Work Examples</g-link>
-        <g-link class="text-blue-700 underline" to="/about">About Me</g-link>
+
+        <g-link class="text-blue-700 underline" to="/work">
+          <font-awesome class="mr-1 w-6" :icon="['fa', 'briefcase']" />Work Examples
+        </g-link>
+        <g-link class="text-blue-700 underline" to="/about">
+          <font-awesome class="mr-1 w-6" :icon="['fa', 'address-card']" />About Me
+        </g-link>
       </nav>
     </header>
     <transition name="fade" appear>
@@ -14,6 +19,27 @@
         <slot />
       </main>
     </transition>
+    <section class="container mx-auto text-center py-6 mb-12">
+      <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">Call to Action</h1>
+      <div class="w-full mb-4">
+        <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
+      </div>
+
+      <h3 class="my-4 text-3xl leading-tight">Feel free to schedule time from my calendar below</h3>
+
+      <a href="https://calendly.com/mscohendricks/quick" target="_new">
+        <button
+          class="mx-auto lg:mx-0 hover:underline bg-red-500 text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
+        >I'd love a quick chat.</button>
+      </a>
+      <p>
+        Or send me an email at
+        <a
+          class="text-blue-700 underline hover:text-white hover:bg-blue-700"
+          href="mailto:mscohendricks@gmail.com"
+        >mscohendricks@gmail.com</a>
+      </p>
+    </section>
     <footer class="bg-black text-white p-4 text-center mt-20">
       <ul>
         <li>
@@ -45,12 +71,18 @@
 
       <div class="m-10">
         <p>&copy; 2020</p>
-        <g-link class="underline" to="/about">Matthew Hendricks</g-link>
+        <a class="underline" href="https://www.matthewhendricks.net">MatthewHendricks.net</a>
+        <br />
+
+        <span></span>
       </div>
       <p class="text-sm">
         Built with
         <a class="underline" href="https://www.gridsome.org">Gridsome</a>,
-        <a class="underline" href="https://www.vuejs.org">VueJS</a>, and Markdown
+        <a class="underline" href="https://www.vuejs.org">VueJS</a>, Markdown
+        <br />
+        <span class="text-sm">& hosted on&nbsp;</span>
+        <a class="underline text-sm" href="https://watthem.github.io">watthem.github.io</a>
       </p>
     </footer>
   </div>

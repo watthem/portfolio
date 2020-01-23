@@ -44,7 +44,9 @@
               src="../st.png"
             />
 
-            <p class="p-10">{{ edge.node.Stub }}</p>
+            <g-link :to="edge.node.path">
+              <p class="p-10">{{ edge.node.Stub }}</p>
+            </g-link>
             <div class="content-end text-right">
               <a
                 class="px-3 text-blue-700 underline hover:text-white hover:bg-blue-700"
@@ -61,7 +63,6 @@
       </section>
       <div class="flex text-sm justify-around p-10">
         <div>Showing page {{ $page.works.pageInfo.currentPage }} of {{ $page.works.pageInfo.totalPages }}</div>
-
         <Pager
           :info="$page.works.pageInfo"
           linkClass="px-3 text-blue-700 underline hover:text-white hover:bg-blue-700 "

@@ -8,6 +8,8 @@ const nodeExternals = require('webpack-node-externals')
 module.exports = {
 
   siteName: 'Matthew Portfolio',
+  siteUrl: "https://www.matthewhendricks.net",
+  description: "Matthew Hendricks portfolio",
   plugins: [{
       use: "@gridsome/source-filesystem",
       options: {

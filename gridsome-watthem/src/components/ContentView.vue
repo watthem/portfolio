@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-full m-auto text-center">
+  <div class="max-w-3xl m-auto text-center">
     <h2>
       <a class="underline py-8 block" :href="contentData.URL">
         <strong>{{ contentData.title }}</strong>
@@ -23,9 +23,9 @@
       <a class="underline py-8 block" :href="contentData.URL">
         <div class="img-gray" v-html="contentData.content"></div>
       </a>
-      <div v-if="contentData.Company" class="text-center m-auto w-full">
-        <div class="inline-block">
-          <div class="w-8">
+      <div class="text-center m-auto w-full flex justify-center items-center">
+        <div class>
+          <div class="w-8" v-if="contentData.Company">
             <img
               v-if="contentData.Company.startsWith('Ookla')"
               class="grey-icon"
@@ -38,10 +38,14 @@
             />
           </div>
         </div>
-        <input type="text" class="shadow rounded border-0 p-3 w-2/3" :value="contentData.URL " />
-        <a class="underline mx-2" :href="contentData.URL">
-          <span>&raquo;</span>
-        </a>
+        <div class="w-1/2">
+          <input type="text" class="shadow rounded border-0 p-3 w-full" :value="contentData.URL " />
+        </div>
+        <div>
+          <a class="underline mx-2 text-blue-700" :href="contentData.URL">
+            <span>&raquo;</span>
+          </a>
+        </div>
       </div>
       <div class="m-10">
         <p>{{contentData.Stub}}</p>

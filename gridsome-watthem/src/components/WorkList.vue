@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="p-8 m-8 rounded shadow-lg bg-white"
+      class="p-8 my-8 rounded shadow-lg bg-white"
       v-for="(edge) in $static.featuredWork.edges"
       :key="edge.node.id"
     >
@@ -11,11 +11,11 @@
       <div class="px-6 py-4">
         <span class="text-gray-900 leading-none">I wrote about</span>
         <span
-          class="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
+          class="inline-block text-center bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
         >{{ edge.node.Subject_Matter }}</span>
       </div>
       <g-link :to="edge.node.path">
-        <p class="text-gray-500 leading-relaxed text-md">{{ edge.node.Stub}}</p>
+        <p class="text-gray-700 leading-relaxed text-md">{{ edge.node.Stub}}</p>
       </g-link>
       <div class="content-end text-right">
         <a
