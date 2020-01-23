@@ -7,3 +7,4 @@ node_modules
 ghost-watthem/.ghostpid
 ghost-watthem/content/logs/*
 
+ghost-watthem/content/logs/http___localhost_2369__development.log

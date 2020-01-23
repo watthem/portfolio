@@ -6,15 +6,7 @@
 const nodeExternals = require('webpack-node-externals')
 
 module.exports = {
-  chainWebpack(config, {
-    isServer
-  }) {
-    if (isServer) {
-      config.externals(nodeExternals({
-        whitelist: [/^vue-slick-carousel/, /\.css$/, /\?vue&type=style/]
-      }))
-    }
-  },
+
   siteName: 'Matthew Portfolio',
   plugins: [{
       use: "@gridsome/source-filesystem",
@@ -59,6 +51,24 @@ module.exports = {
         baseUrl: 'http://localhost:2369',
         contentKey: 'e48cd8bcb07a3dd1dd54457318',
         version: 'v3' // default
+      }
+    },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        cacheTime: 600000, // default
+        // exclude: ['/exclude-me'],
+        config: {
+
+          '/work/*': {
+            changefreq: 'monthly',
+            priority: 1
+          },
+          '/about': {
+            changefreq: 'yearly',
+            priority: 0.5
+          }
+        }
       }
     }
   ]
