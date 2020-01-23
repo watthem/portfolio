@@ -3,8 +3,18 @@
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
+const nodeExternals = require('webpack-node-externals')
 
 module.exports = {
+  chainWebpack(config, {
+    isServer
+  }) {
+    if (isServer) {
+      config.externals(nodeExternals({
+        whitelist: [/^vue-slick-carousel/, /\.css$/, /\?vue&type=style/]
+      }))
+    }
+  },
   siteName: 'Matthew Portfolio',
   plugins: [{
       use: "@gridsome/source-filesystem",

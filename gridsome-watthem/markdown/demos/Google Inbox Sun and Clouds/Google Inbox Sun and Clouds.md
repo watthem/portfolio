@@ -2,6 +2,7 @@
 title: Google Inbox Sun and Clouds
 Status: Completed
 Stub: An animated version of the image used in Google's Inbox empty inbox layout.
+Built_With: CSS, HTML
 Technology Used: Responsive Web Design, CSS animations
 URL: https://codepen.io/watthem/pen/xREydy
 Featured: true

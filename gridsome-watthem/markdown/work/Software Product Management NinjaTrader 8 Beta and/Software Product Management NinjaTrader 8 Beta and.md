@@ -4,7 +4,7 @@ Company: NinjaTrader LLC
 Status: Ready
 Stub: I was promoted to Product Manager after working as a technical support lead for the NinjaTrader platform. When I was promoted, much of the early planning and specification was already completed, so I was brought on to help with the engineering implementation, user acceptance testing, and documentation up until the first major release of NinjaTrader 8 in November of 2016.
 Subject Matter: NinjaTrader
-Technology Used: Confluence, Help+Manual, JIRA
+Built With: Confluence, Help+Manual, JIRA
 URL: https://ninjatrader.com/support/helpGuides/nt8/beta_release_notes.htm
 ---
 

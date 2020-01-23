@@ -3,13 +3,39 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import VueFilterDateFormat from "vue-filter-date-format"; // handles converting Date() to human as
-// import style
+import VueSlickCarousel from 'vue-slick-carousel'
 
-
-
-import "../node_modules/vue-slick-carousel/dist/vue-slick-carousel.css";
+// potential build issue related to importing npm style sheets in js?
+// ref: https://github.com/gridsome/gridsome/issues/312
+// import style for carousel from local src
+// import "vue-slick-carousel/dist/vue-slick-carousel.css";
 // optional style for arrows & dots
-import "../node_modules/vue-slick-carousel/dist/vue-slick-carousel-theme.css";
+// import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
+
+import {
+  FontAwesomeIcon,
+
+} from '@fortawesome/vue-fontawesome'
+import {
+  config,
+  library
+} from '@fortawesome/fontawesome-svg-core'
+import {
+  faGithub,
+  faMedium,
+  faLinkedin,
+  faCodepen
+} from '@fortawesome/free-brands-svg-icons'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+import {
+  faAt,
+  faKeyboard,
+  faCodeBranch,
+  faSignature
+} from '@fortawesome/free-solid-svg-icons'
+
+config.autoAddCss = false;
+library.add(faGithub, faMedium, faLinkedin, faCodepen, faAt, faKeyboard, faCodeBranch, faSignature);
 
 export default function (Vue, {
   router,
@@ -18,6 +44,8 @@ export default function (Vue, {
 }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
+  Vue.component('VueSlickCarousel', VueSlickCarousel)
+  Vue.component('font-awesome', FontAwesomeIcon)
 
   Vue.use(VueFilterDateFormat);
 }

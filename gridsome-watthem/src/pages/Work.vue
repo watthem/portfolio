@@ -59,18 +59,15 @@
           </div>
         </div>
       </section>
-      <aside class="m-10">
+      <div class="flex text-sm justify-around p-10">
+        <div>Showing page {{ $page.works.pageInfo.currentPage }} of {{ $page.works.pageInfo.totalPages }}</div>
+
         <Pager
           :info="$page.works.pageInfo"
-          firstLabel="Go to first page"
-          lastLabel="Go to last page"
           linkClass="px-3 text-blue-700 underline hover:text-white hover:bg-blue-700 "
           :showNavigation="true"
         />
-        <div class="flex justify-around m-auto text-center rounded py-10">
-          <div>Showing page {{ $page.works.pageInfo.currentPage }} of {{ $page.works.pageInfo.totalPages }}</div>
-        </div>
-      </aside>
+      </div>
     </div>
   </Layout>
 </template>
@@ -106,6 +103,9 @@ import { Pager } from "gridsome";
 export default {
   components: {
     Pager
+  },
+  data() {
+    return {};
   },
   metaInfo: {
     title: "Work Examples"

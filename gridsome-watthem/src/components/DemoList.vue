@@ -1,6 +1,6 @@
 <template>
-  <VueSlickCarousel v-bind="settings">
-    <div v-for="(edge) in $static.featuredDemos.edges" :key="edge.node.id">
+  <div>
+    <div class="p-8 m-8" v-for="(edge) in $static.featuredDemos.edges" :key="edge.node.id">
       <div class="py-8 px-4 m-auto rounded shadow-lg bg-white">
         <g-link :to="edge.node.path">
           <h3 class="text-2xl mb-4 font-heading">{{ edge.node.title }}</h3>
@@ -22,7 +22,7 @@
         </div>
       </div>
     </div>
-  </VueSlickCarousel>
+  </div>
 </template>
 
 <static-query>
@@ -44,19 +44,11 @@ query Demo {
 </static-query>
 
 <script>
-import VueSlickCarousel from "vue-slick-carousel";
-
 export default {
   name: "DemoList",
-  components: {
-    VueSlickCarousel
-  },
+  components: {},
   data() {
-    return {
-      settings: {
-        dots: true
-      }
-    };
+    return {};
   }
 };
 </script>

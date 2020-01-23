@@ -14,6 +14,9 @@ query GhostPages{
 export default {
   metaInfo: {
     title: "About Me"
+  },
+  data() {
+    return {};
   }
 };
 </script>

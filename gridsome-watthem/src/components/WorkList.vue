@@ -1,8 +1,7 @@
 <template>
-  <VueSlickCarousel v-bind="settings">
+  <div>
     <div
-      class="py-8 px-4 m-auto rounded shadow-lg bg-white"
-      v-bind="settings"
+      class="p-8 m-8 rounded shadow-lg bg-white"
       v-for="(edge) in $static.featuredWork.edges"
       :key="edge.node.id"
     >
@@ -25,7 +24,7 @@
         >read more</a>
       </div>
     </div>
-  </VueSlickCarousel>
+  </div>
 </template>
 
 <static-query>
@@ -48,19 +47,11 @@ query Work {
 </static-query>
 
 <script>
-import VueSlickCarousel from "vue-slick-carousel";
-
 export default {
   name: "WorkList",
-  components: {
-    VueSlickCarousel
-  },
+  components: {},
   data() {
-    return {
-      settings: {
-        dots: true
-      }
-    };
+    return {};
   }
 };
 </script>

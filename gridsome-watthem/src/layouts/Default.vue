@@ -16,15 +16,42 @@
     </transition>
     <footer class="bg-black text-white p-4 text-center mt-20">
       <ul>
-        <li>Medium.com</li>
-        <li>LinkedIn.com</li>
-        <li>GitHub.com</li>
-        <li>CodePen.io</li>
-        <li>Email</li>
+        <li>
+          <a href="https://medium.com/@thoughtabout">
+            <font-awesome class="w-8" :icon="['fab', 'medium']" />
+          </a>
+        </li>
+        <li>
+          <a href="https://linkedin.com/in/watthem">
+            <font-awesome class="w-8" :icon="['fab', 'linkedin']" />
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/watthem">
+            <font-awesome class="w-8" :icon="['fab', 'github']" />
+          </a>
+        </li>
+        <li>
+          <a href="https://codepen.io/watthem">
+            <font-awesome class="w-8" :icon="['fab', 'codepen']" />
+          </a>
+        </li>
+        <li>
+          <a href="mailto:mscohendricks@gmail.com">
+            <font-awesome class="w-8" :icon="['fa', 'at']" />
+          </a>
+        </li>
       </ul>
-      <h5>Matthew Hendricks</h5>
-      <p>(C) 2020</p>
-      <p>Built with Gridsome, VueJS, Markdown</p>
+
+      <div class="m-10">
+        <p>&copy; 2020</p>
+        <g-link class="underline" to="/about">Matthew Hendricks</g-link>
+      </div>
+      <p class="text-sm">
+        Built with
+        <a class="underline" href="https://www.gridsome.org">Gridsome</a>,
+        <a class="underline" href="https://www.vuejs.org">VueJS</a>, and Markdown
+      </p>
     </footer>
   </div>
 </template>
