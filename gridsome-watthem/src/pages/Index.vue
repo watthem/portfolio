@@ -4,7 +4,7 @@
       <div class="w-3/4 m-auto">
         <div class="rounded rounded-t-lg max-w-xs m-auto">
           <div class="-mt-8">
-            <g-image src="../pro.jpg" class="rounded-b-full"></g-image>
+            <g-image src="../pro2.jpg" class="rounded-b-full"></g-image>
           </div>
           <div class="text-center px-3 pb-6 pt-2">
             <h3 class="text-black font-bold">I'm matthew,</h3>

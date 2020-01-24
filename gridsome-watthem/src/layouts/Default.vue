@@ -20,18 +20,30 @@
       </main>
     </transition>
     <section class="container mx-auto text-center py-6 mb-12">
-      <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">Call to Action</h1>
+      <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center">Reach out</h1>
+      <p>
+        Currently
+        <b>Open to Offers</b>.
+      </p>
+      <p>I'm avaiable for short-term projects and contracts as needed.</p>
+      <h3
+        class="my-4 text-2xl leading-tight"
+      >To discuss your requirments, feel free to schedule time from my calendar below:</h3>
       <div class="w-full mb-4">
         <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
+        <div class="max-w-xs m-auto">
+          <div class="mt-8">
+            <g-image src="../pro.jpg" class="rounded-b-full"></g-image>
+          </div>
+        </div>
       </div>
-
-      <h3 class="my-4 text-3xl leading-tight">Feel free to schedule time from my calendar below</h3>
-
+      <h2>Quick, before my son reaches it first!</h2>
       <a href="https://calendly.com/mscohendricks/quick" target="_new">
         <button
           class="mx-auto lg:mx-0 hover:underline bg-red-500 text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
         >I'd love a quick chat.</button>
       </a>
+
       <p>
         Or send me an email at
         <a
