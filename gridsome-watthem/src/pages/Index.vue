@@ -2,7 +2,7 @@
   <Layout>
     <section class="py-12 px-4">
       <div class="w-3/4 m-auto">
-        <div class="rounded rounded-t-lg overflow-hidden max-w-xs m-auto">
+        <div class="rounded rounded-t-lg max-w-xs m-auto">
           <div class="-mt-8">
             <g-image src="../pro.jpg" class="rounded-b-full"></g-image>
           </div>
@@ -27,6 +27,42 @@
       <p
         class="text-gray leading-relaxed"
       >I have a knack for writing technical content for both developers and customers with a focus on software systems and programming APIs.</p>
+      <br />
+      <h3 class="text-3xl mb-8 font-heading text-blue-900">Skills</h3>
+      <div class="m-auto bg-white rounded shadow-lg">
+        <div class="px-6 py-4">
+          <h4 class="font-bold text-xl mb-2">Technical Content Development</h4>
+          <ul class="px-10">
+            <li class="list-disc">
+              <p
+                class="text-gray-700 text-base"
+              >Plans and creates technical information by writing text, designing illustrations, and enhancing content management systems to support high-value projects.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="px-6 py-4">
+          <h4 class="font-bold text-xl mb-2">Programmer Writer</h4>
+          <ul class="px-10">
+            <li class="list-disc">
+              <p
+                class="text-gray-700 text-base"
+              >Develops documentation and code samples that developers need to do their jobs.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="px-6 py-4">
+          <h4 class="font-bold text-xl mb-2">Process Documentation</h4>
+          <ul class="px-10">
+            <li class="list-disc">
+              <p
+                class="text-gray-700 text-base"
+              >Details procedures used in business processes for technical and non-technical audiences alike.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <h3 class="text-3xl mb-8 font-heading text-blue-900">Past work examples</h3>
       <div class="mx-auto">
         <div class="text-center max-w-2xl m-auto">
           <WorkList></WorkList>
@@ -45,9 +81,47 @@
         </h2>
         <p
           class="text-gray leading-relaxed"
-        >My creative content has been featured on several popular curator lists on medium.com</p>
-        <div class="text-center max-w-2xl m-auto">
-          <CreativeList></CreativeList>
+        >My history as a product manager and team leader involved seeing through several creatively-driven projects. My creative content has been featured on several popular curator lists on medium.com</p>
+        <br />
+        <h3 class="text-3xl mb-8 font-heading text-blue-900">Skills</h3>
+        <div class="m-auto bg-white rounded shadow-lg">
+          <div class="px-6 py-4">
+            <h4 class="font-bold text-xl mb-2">Content Project Management</h4>
+            <ul class="px-10">
+              <li class="list-disc">
+                <p
+                  class="text-gray-700 text-base"
+                >Drives the production of written and visual projects to completion on scope and on schedule.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="px-6 py-4">
+            <h4 class="font-bold text-xl mb-2">Creative Writing</h4>
+            <ul class="px-10">
+              <li class="list-disc">
+                <p
+                  class="text-gray-700 text-base"
+                >Drafts well-structured and expressive written word to deliver storylines and ideas using Content Management Systems.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="px-6 py-4">
+            <h4 class="font-bold text-xl mb-2">Blog Content</h4>
+            <ul class="px-10">
+              <li class="list-disc">
+                <p
+                  class="text-gray-700 text-base"
+                >Grows website traffic with new blog posts from thorough research on industry-related topics.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <br />
+        <h3 class="text-3xl mb-8 font-heading text-blue-900">Past writing examples</h3>
+        <div class="mx-auto">
+          <div class="text-center max-w-2xl m-auto">
+            <CreativeList></CreativeList>
+          </div>
         </div>
       </div>
     </section>
@@ -59,9 +133,50 @@
         <p
           class="text-gray leading-relaxed"
         >My interests in writing technical content has taught me how to build fast, responsive websites using Javascript, APIs, and Markdown. My CSS animations have been picked to be on the front page of codepen.io</p>
-        <!-- <a class="text-right text-blue-700 hover:underline" href="#">Check out more</a> -->
-        <div class="text-center max-w-2xl m-auto">
-          <DemoList></DemoList>
+        <br />
+        <h3 class="text-3xl mb-8 font-heading text-blue-900">Skills</h3>
+        <div class="m-auto bg-white rounded shadow-lg">
+          <div class="px-6 py-4">
+            <h4 class="font-bold text-xl mb-2">Web Project Management</h4>
+            <ul class="px-10">
+              <li class="list-disc">
+                <p
+                  class="text-gray-700 text-base"
+                >Combines creative and technical experiences to manage the entire lifecycle of a website project, from design to delivery.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="px-6 py-4">
+            <h4 class="font-bold text-xl mb-2">Responsive and JAMStack friendly</h4>
+            <ul class="px-10">
+              <li class="list-disc">
+                <p class="text-gray-700 text-base">
+                  Builds fully responsive designs for mobile and desktop that are quick, user-friendly, and enhanced with JavaScript and services available via APIs - check out
+                  <a
+                    class="text-blue-700 hover:underline"
+                    href="https://jamstack.org/"
+                  >jamstack.org</a>.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="px-6 py-4">
+            <h4 class="font-bold text-xl mb-2">CSS Animations and Transitions</h4>
+            <ul class="px-10">
+              <li class="list-disc">
+                <p
+                  class="text-gray-700 text-base"
+                >Integrates clever animations and user interface changes to improve the quality feeling of a website.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <br />
+        <h3 class="text-3xl mb-8 font-heading text-blue-900">Past web examples</h3>
+        <div class="mx-auto">
+          <div class="text-center max-w-2xl m-auto">
+            <DemoList></DemoList>
+          </div>
         </div>
       </div>
     </section>
@@ -89,7 +204,5 @@ export default {
 </script>
 
 <style>
-.home-links a {
-  margin-right: 1rem;
-}
+/*  */
 </style>

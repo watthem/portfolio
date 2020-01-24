@@ -1,8 +1,8 @@
 Project folder used to configure and build www.matthewhendricks.net.
 
-`./gridsome-watthem` is a Vue powered static site generator that is configured to read local Markdown content. See the gridsome.config.js for more information.
+`./gridsome-watthem` is a Vue powered static site generator that is configured to read local Markdown content. See the [gridsome.config.js](https://github.com/watthem/portfolio/blob/master/gridsome-watthem/gridsome.config.js) for more information.
 
-`./ghost-watthem/` is a Ghost CLI instance and database used to design custom posts and pages. Note: Ghost must be running for the gridsome develop/build process to complete.
+`./ghost-watthem/` is a Ghost CLI instance and database used to design custom posts and pages (aka backend). Note: Ghost must be running for the gridsome develop/build process to complete.
 
 $ cd ghost-watthem
 $ ghost start
