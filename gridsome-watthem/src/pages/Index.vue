@@ -7,12 +7,12 @@
             <g-image src="../pro2.jpg" class="rounded-b-full"></g-image>
           </div>
           <div class="text-center px-3 pb-6 pt-2">
-            <h3 class="text-black font-bold">I'm matthew,</h3>
+            <h3 class="text-black font-bold">I'm Matthew,</h3>
             <p class="mt-2 text-grey-dark">I live in Seattle WA.</p>
           </div>
           <div class="flex justify-center pb-3 text-grey-dark">
             <div class="text-center mr-3 pr-3">
-              <div>I've been a product manager, technical services manager, and currently work as a technical writing consultant.</div>
+              <div>I've been a product manager, technical services manager, and work currently as a technical writing consultant.</div>
 
               <g-link to="/about" class="text-blue-700 hover:underline">Learn more about me &raquo;</g-link>
             </div>
@@ -132,7 +132,7 @@
         </h2>
         <p
           class="text-gray leading-relaxed"
-        >My interests in writing technical content has taught me how to build fast, responsive websites using Javascript, APIs, and Markdown. My CSS animations have been picked to be on the front page of codepen.io</p>
+        >My interest in writing technical content has taught me how to build fast, responsive websites using Javascript, APIs, and Markdown. My CSS animations have been picked to be on the front page of codepen.io</p>
         <br />
         <h3 class="text-3xl mb-8 font-heading text-blue-900">Skills</h3>
         <div class="m-auto bg-white rounded shadow-lg">

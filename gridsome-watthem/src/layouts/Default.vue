@@ -25,10 +25,10 @@
         Currently
         <b>Open to Offers</b>.
       </p>
-      <p>I'm avaiable for short-term projects and contracts as needed.</p>
+      <p>I'm available for short-term projects and contracts as needed.</p>
       <h3
         class="my-4 text-2xl leading-tight"
-      >To discuss your requirments, feel free to schedule time from my calendar below:</h3>
+      >To discuss your requirements, feel free to schedule time from my calendar below:</h3>
       <div class="w-full mb-4">
         <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
         <div class="max-w-xs m-auto">
@@ -53,29 +53,30 @@
       </p>
     </section>
     <footer class="bg-black text-white p-4 text-center mt-20">
-      <ul>
-        <li>
+      <p>Find me on these platforms</p>
+      <ul class="flex justify-center">
+        <li class="p-2">
           <a href="https://medium.com/@thoughtabout">
             <font-awesome class="w-8" :icon="['fab', 'medium']" />
           </a>
         </li>
-        <li>
+        <li class="p-2">
           <a href="https://linkedin.com/in/watthem">
             <font-awesome class="w-8" :icon="['fab', 'linkedin']" />
           </a>
         </li>
-        <li>
+        <li class="p-2">
           <a href="https://github.com/watthem">
             <font-awesome class="w-8" :icon="['fab', 'github']" />
           </a>
         </li>
-        <li>
+        <li class="p-2">
           <a href="https://codepen.io/watthem">
             <font-awesome class="w-8" :icon="['fab', 'codepen']" />
           </a>
         </li>
-        <li>
-          <a href="mailto:mscohendricks@gmail.com">
+        <li class="p-2">
+          <a alt="email" href="mailto:mscohendricks@gmail.com">
             <font-awesome class="w-8" :icon="['fa', 'at']" />
           </a>
         </li>

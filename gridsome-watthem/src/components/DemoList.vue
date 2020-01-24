@@ -9,7 +9,7 @@
         <h3 class="text-2xl mb-4 font-heading">{{ edge.node.title }}</h3>
       </g-link>
       <div class="px-6 py-4">
-        <span class="text-gray-900 leading-none">I demostrated</span>
+        <span class="text-gray-900 leading-none">I demonstrated</span>
         <span
           class="inline-block text-center bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1"
         >{{ edge.node.Technology_Used }}</span>
