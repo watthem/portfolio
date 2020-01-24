@@ -15,3 +15,5 @@ $ gridsome develop
 For a static build to the `./gridsome-watthem/dist` folder
 
 $ gridsome build
+
+Currently, dist content is copied to another directory and changes are pushed to https://github.com/watthem/watthem.github.io
