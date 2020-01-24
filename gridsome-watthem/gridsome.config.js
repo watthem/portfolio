@@ -11,6 +11,11 @@ module.exports = {
   siteUrl: "https://www.matthewhendricks.net",
   description: "Matthew Hendricks portfolio",
   plugins: [{
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-89279090-1'
+      }
+    }, {
       use: "@gridsome/source-filesystem",
       options: {
         // Path is the location of the markdown content we will be consuming in our collections.
