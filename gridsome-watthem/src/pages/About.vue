@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="content-html" v-html="$page.about.html"></div>
+    <div class="content-html m-auto p-5" v-html="$page.about.html"></div>
   </Layout>
 </template>
 <page-query>
