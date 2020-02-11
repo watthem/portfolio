@@ -29,16 +29,19 @@ import {
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import {
   faAt,
+  faFileAlt,
   faCodeBranch,
   faHeartBroken,
   faKeyboard,
   faSignature,
   faBriefcase,
+  faFilePdf,
   faAddressCard
+
 } from '@fortawesome/free-solid-svg-icons'
 
 config.autoAddCss = false;
-library.add(faGithub, faMedium, faLinkedin, faCodepen, faAt, faHeartBroken, faKeyboard, faCodeBranch, faSignature, faBriefcase, faAddressCard);
+library.add(faGithub, faMedium, faLinkedin, faFileAlt, faFilePdf, faCodepen, faAt, faHeartBroken, faKeyboard, faCodeBranch, faSignature, faBriefcase, faAddressCard);
 
 export default function (Vue, {
   router,

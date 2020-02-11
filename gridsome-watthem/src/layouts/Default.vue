@@ -3,14 +3,20 @@
     <header class="header">
       <nav class="flex justify-around content-center p-4 bg-gray-100 shadow-md">
         <strong>
-          <g-link to="/" class="text-blue-400 font-semibold">{{ $static.metadata.siteName }}</g-link>
+          <g-link
+            to="/"
+            class="text-blue-400 font-semibold break-all"
+          >{{ $static.metadata.siteName }}</g-link>
         </strong>
 
-        <g-link class="text-blue-700 underline" to="/work">
-          <font-awesome class="mr-1 w-6" :icon="['fa', 'briefcase']" />Work Examples
+        <g-link class="text-blue-700 underline opacity:50" to="/work">
+          <font-awesome class="mr-1 w-6" :icon="['fa', 'briefcase']" />Work
+        </g-link>
+        <g-link class="text-blue-700 underline" to="/resume">
+          <font-awesome class="mr-1 w-6" :icon="['fa', 'file-alt']" />Resume
         </g-link>
         <g-link class="text-blue-700 underline" to="/about">
-          <font-awesome class="mr-1 w-6" :icon="['fa', 'address-card']" />About Me
+          <font-awesome class="mr-1 w-6" :icon="['fa', 'address-card']" />About
         </g-link>
       </nav>
     </header>
