@@ -3,7 +3,9 @@
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
-const nodeExternals = require('webpack-node-externals')
+
+
+var googleOptions = require("./googleDocs.secret");
 
 module.exports = {
 
@@ -77,6 +79,9 @@ module.exports = {
           }
         }
       }
+    }, {
+      use: 'gridsome-source-google-docs',
+      options: googleOptions.config
     }
   ]
 }

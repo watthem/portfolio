@@ -4,7 +4,7 @@
 import DefaultLayout from '~/layouts/Default.vue'
 import VueFilterDateFormat from "vue-filter-date-format"; // handles converting Date() to human as
 import VueSlickCarousel from 'vue-slick-carousel'
-
+import VueMarkdown from 'vue-markdown'
 // potential build issue related to importing npm style sheets in js?
 // ref: https://github.com/gridsome/gridsome/issues/312
 // import style for carousel from local src
@@ -52,6 +52,6 @@ export default function (Vue, {
   Vue.component('Layout', DefaultLayout)
   Vue.component('VueSlickCarousel', VueSlickCarousel)
   Vue.component('font-awesome', FontAwesomeIcon)
-
+  Vue.component('vue-markdown', VueMarkdown)
   Vue.use(VueFilterDateFormat);
 }
