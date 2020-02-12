@@ -9,3 +9,4 @@ ghost-watthem/content/logs/*
 
 ghost-watthem/content/logs/http___localhost_2369__development.log
 gridsome-watthem/googleDocs.secret.js
+gridsome-watthem/google-docs-token.json
