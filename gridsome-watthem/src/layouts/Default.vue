@@ -13,7 +13,7 @@
           <font-awesome class="mr-1 w-6" :icon="['fa', 'briefcase']" />Work
         </g-link>
         <g-link class="text-blue-700 underline" to="/resume">
-          <font-awesome class="mr-1 w-6" :icon="['fa', 'file-alt']" />Resume
+          <font-awesome class="mr-1 w-4" :icon="['fa', 'file-alt']" />Resume
         </g-link>
         <g-link class="text-blue-700 underline" to="/about">
           <font-awesome class="mr-1 w-6" :icon="['fa', 'address-card']" />About
