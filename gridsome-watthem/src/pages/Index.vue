@@ -20,7 +20,7 @@
         </div>
       </div>
     </section>
-    <section class="py-12 px-10 bg-blue-500 max-w-3xl m-auto">
+    <section class="morph-blue py-12 px-10 bg-blue-500 max-w-3xl m-auto">
       <h2 class="text-4xl mb-8 font-heading text-blue-900">
         <font-awesome class="mr-5 w-12" :icon="['fa', 'keyboard']" />Technical Writing
       </h2>
@@ -74,7 +74,7 @@
       to="/work"
     >See more work examples &raquo;</g-link>
 
-    <section class="bg-green-200 my-10 p-10 max-w-3xl m-auto">
+    <section class="morph-green bg-green-200 my-10 p-10 max-w-3xl m-auto">
       <div class>
         <h2 class="text-3xl font-heading text-blue-900">
           <font-awesome class="mr-5 w-12" :icon="['fa', 'signature']" />Not just technical
@@ -125,7 +125,7 @@
         </div>
       </div>
     </section>
-    <section class="bg-blue-200 p-10 max-w-3xl m-auto">
+    <section class="morph-lightblue bg-blue-200 p-10 max-w-3xl m-auto">
       <div class>
         <h2 class="text-3xl font-heading text-blue-900">
           <font-awesome class="mr-5 w-12" :icon="['fa', 'code-branch']" />I also know web programming!
@@ -204,5 +204,36 @@ export default {
 </script>
 
 <style>
-/*  */
+.morph-blue {
+  border-radius: 8px;
+  background: linear-gradient(145deg, #47a4f1, #3b8acb);
+  transition: 700ms ease all;
+}
+
+.morph-blue:hover {
+  box-shadow: 5px 5px 10px #3b8acb, -5px -5px 10px #49a8f8;
+  transition: 700ms ease all;
+}
+
+.morph-green {
+  border-radius: 8px;
+  background: linear-gradient(145deg, #d4ffe4, #b2ddc0);
+  transition: 700ms ease all;
+}
+
+.morph-green:hover {
+  box-shadow: 5px 5px 10px #b2ddc0, -5px -5px 10px #d4ffe4;
+  transition: 700ms ease all;
+}
+
+.morph-lightblue {
+  border-radius: 8px;
+  background: linear-gradient(145deg, #cbf3ff, #abccdf);
+  transition: 700ms ease all;
+}
+
+.morph-lightblue:hover {
+  box-shadow: 5px 5px 10px #abccdf, -5px -5px 10px #cbf3ff;
+  transition: 700ms ease all;
+}
 </style>

@@ -10,7 +10,7 @@
         <font-awesome class="mr-1 w-6" :icon="['fa', 'file-pdf']" />Download PDF
       </button>
     </a>
-    <div class="shadow-2xl w-full">
+    <div class="w-full morph-black">
       <div class="resume-container">
         <vue-markdown :source="$page.posts.edges[0].node.body"></vue-markdown>
       </div>
@@ -40,15 +40,27 @@ query IndexQuery {
 .resume-container {
   height: 80vh;
   margin: auto;
-  background: black;
+
   opacity: 0.85;
   padding: 2rem;
   color: #f3f3f3;
   overflow: auto;
 }
 
+.morph-black {
+  border-radius: 8px;
+  background: linear-gradient(145deg, #2c2c2e, #252527);
+  box-shadow: 1px 1px 17px #232325, -1px -1px 17px #2f2f31;
+  transition: 1s ease all;
+}
+
 .resume-container h2:first-of-type {
   display: none; /* hides some meta data that gets spit out by gridsome google drive plugin */
+}
+
+.resume-container a {
+  color: #47a4f1;
+  text-decoration: underline;
 }
 
 .resume-container h1 {

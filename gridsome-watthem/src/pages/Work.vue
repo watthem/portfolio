@@ -6,7 +6,7 @@
           <h2 class="text-3xl">Work Examples</h2>
           <p
             class="text-lg"
-          >This is just a sample of the work I've completed including subject matters, and technologies I used to build them.</p>
+          >This is just a sample of the work I've completed including subject matters and technologies I used to build them.</p>
         </div>
       </section>
       <div class="flex text-sm justify-around p-10">
