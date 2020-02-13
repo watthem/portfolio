@@ -83,7 +83,7 @@ export default {
 
 <style>
 .img-gray {
-  @apply opacity-75 pb-10 m-auto rounded overflow-hidden shadow-lg object-scale-down h-64 w-3/4;
+  @apply opacity-75 pb-10 m-auto rounded overflow-hidden shadow-lg object-scale-down  w-3/4;
   filter: grayscale(0.8);
 }
 .img-gray:hover {
