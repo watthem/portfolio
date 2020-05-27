@@ -26,7 +26,7 @@
       </h2>
       <p
         class="text-gray leading-relaxed"
-      >I have a knack for writing technical content for both developers and customers with a focus on software systems and programming APIs.</p>
+      >I have a knack for developing technical content for both developers and customers with a focus on software systems and programming APIs.</p>
       <br />
       <h3 class="text-3xl mb-8 font-heading text-blue-900">Skills</h3>
       <div class="m-auto bg-white rounded shadow-lg">

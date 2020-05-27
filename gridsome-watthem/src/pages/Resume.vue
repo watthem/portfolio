@@ -12,7 +12,7 @@
     </a>
     <div class="w-full morph-black">
       <div class="resume-container">
-        <vue-markdown :source="$page.posts.edges[0].node.body"></vue-markdown>
+        <vue-markdown :source="$page.posts.edges[1].node.body"></vue-markdown>
       </div>
     </div>
   </layout>
@@ -48,9 +48,10 @@ query IndexQuery {
 }
 
 .morph-black {
+  margin: auto 1rem;
   border-radius: 8px;
   background: linear-gradient(145deg, #2c2c2e, #252527);
-  box-shadow: 1px 1px 17px #232325, -1px -1px 17px #2f2f31;
+  /* box-shadow: 1px 1px 17px #232325, -1px -1px 17px #2f2f31; */
   transition: 1s ease all;
 }
 
@@ -117,7 +118,8 @@ query IndexQuery {
   padding: 1rem 0;
 }
 
-.resume-container ul {
+.resume-container ul,
+ol {
   padding: 1rem;
   list-style-type: disc;
 }
