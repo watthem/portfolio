@@ -1,6 +1,5 @@
 <template>
   <Layout :title="$page.site.title">
-    <h1>Site.vue</h1>
     <PageView :contentData="$page.site"></PageView>
   </Layout>
 </template>
