@@ -7,3 +7,4 @@ ghost-watthem/content/logs/http___localhost_2369__development.log
 gridsome-watthem/google-docs-token.json
 gridsome-watthem/googleDocs.secret.js
 ghost-watthem/.ghost-cli
+dist
