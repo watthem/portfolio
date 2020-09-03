@@ -2,23 +2,23 @@
 
 Hey, thanks for stopping by my little nook.
 
-I like writing about and developing things that help people make their daily lives a little bit easier. So if there's anything you think I can help with, then please feel free to [get in touch](#get-in-touch) or [schedule a call](#schedule-a-call).
+I enjoy writing about and developing things that help people make their daily lives a little easier. So if there's anything you think I can help with, then please [get in touch](#get-in-touch) or [schedule a call](#schedule-a-call).
 
 And while you're here, if there's I've written that makes you want to do better work, please consider [leaving a donation](#donate).
 
 ## Something I can help with?
 
-![support](../src/assets/support.svg)
-
 ### Get in touch
 
-Please feel free to send me an email, text, or leave a voicemail.
+![support](../src/assets/support.svg)
+
+Send me an email, text, or leave a voicemail.
 
 <a class="email" mailto="mscotthendricks@gmail.com">mscohendricks@gmail.com</a>
 
 <a class="phone" href="tel:+16466942062‬">+1 ‪(646) 694-2062‬</a>
 
-<a class="location" href="https://www.google.com/maps/place/Seattle,+WA+98125">Seattle, WA (98125)</a>
+<a class="location" href="https://www.google.com/maps/place/Seattle,+WA+98125">Seattle WA (98125)</a>
 
 ### Send me a note
 
@@ -68,14 +68,14 @@ Like my work? Please consider making a small cryptocurrency donation in support 
 
 ### Or buy me a coffee
 
-![Buy me a coffee](https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg) Like many, our lives and means have been disrupted by Covid-19. That's why 4% of all my buymeacoffee.com earnings go to The Child Mind Institute's [COVID-19 RESPONSE](https://childmind.org/coping-during-covid-19-resources-for-parents/) towards helping families get the resources and support they need during this uncertain time - match me by visiting [https://childmind.org/donate/](https://childmind.org/donate/)
+![Buy me a coffee](https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg) Like many, Covid-19 has disrupted our daily lives and resources.That's why 4% of all my buymeacoffee.com earnings go to The Child Mind Institute's [COVID-19 RESPONSE](https://childmind.org/coping-during-covid-19-resources-for-parents/) towards helping families get the resources and support they need during this uncertain time - match me by visiting [https://childmind.org/donate/](https://childmind.org/donate/)
 
 <a class="link-button" href="https://www.buymeacoff.ee/mscotthendricks"><button>Buy me a coffee </button>
 </a>
 
 ### Corona Virus: Parents Resource
 
-> "With schools closed, children at home anxiety is running high. We know parents are struggling to balance work, child care, self care all while keeping worries — both your children’s and you own— under control. You don’t have to do it alone. We’ve put together resources to help you stay safe, sane, and supported during this troubling time." — **[Child Mind Institute (childmind.org)](https://childmind.org/donate)**
+> "With schools closed and children at home, anxiety is running high. We know parents are struggling to balance work, child care, self care all while keeping worries — both your children’s and you own — under control. You don’t have to do it alone. We’ve put together resources to help you stay safe, sane, and supported during this troubling time." — **[Child Mind Institute (childmind.org)](https://childmind.org/donate)**
 
 <div class="youtube">
 <iframe src="https://www.youtube.com/embed/aYlXLMaFzgU"  allowfullscreen></iframe>

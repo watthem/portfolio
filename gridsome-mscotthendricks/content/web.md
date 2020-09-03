@@ -16,7 +16,7 @@ Using a blend of:
 
 We can increase employee productivity and improve customer experience by reevaluating your existing service processes and use modern, friendly software UIs to create and collaborate content for your website.
 
-My approach helps reinforce data security by separating the editing functionality from how the content is displayed.
+My approach helps reinforce data security by separating the editing functionality from how your website displays its content.
 
 We'll do this all while expanding your bottom line by using software services you're already using.
 
@@ -24,8 +24,8 @@ We'll do this all while expanding your bottom line by using software services 
   - Account Management/Support
   - Custom API Development
   - Data Migration
-  - Employee Processs Training
-  - Perfromance Optimization
+  - Employee Process Training
+  - Performance Optimization
   - Setup and Configuration
   - Third-Party Integration
 
@@ -61,7 +61,7 @@ We'll do this all while expanding your bottom line by using software services 
   - APIs
   - Blogs
   - Documentation
-  - HTML, YAML, CSV, XML, JSON etc.
+  - HTML, YAML, CSV, XML, JSON, etc.
 
 - **Static Web Hosts & CDNs**
 
