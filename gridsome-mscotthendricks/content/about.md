@@ -15,7 +15,7 @@ I'm proud to have worked with smaller start-ups and independent consulting gigs.
 - **Ookla** - (the outstanding cats behind [Speedtest.net](http://speedtest.net/))
 - **Microsoft** - (until [Covid-19 ruined everything](/how-covid-19-ruined-everything/))
 
-I am proud of the accomplishments I have had on the teams I've been a part of and considered being an influence of high quality and new standards.
+I am proud of the accomplishments I have had on the teams I've been a part of and I am considered an influence of high quality and new standards.
 
 <a class="link-button" href="/resume"><button>My résumé</button></a>
 

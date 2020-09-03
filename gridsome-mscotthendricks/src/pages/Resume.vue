@@ -1,7 +1,7 @@
 <template>
   <Layout showWork="true">
     <div class="download">
-      <a class="link-button" href="matthew-hendricks_resume.pdf"
+      <a class="link-button" href="/matthew-hendricks_resume.pdf"
         ><button>Download PDF</button></a
       >
     </div>
