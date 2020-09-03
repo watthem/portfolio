@@ -1,0 +1,122 @@
+<template>
+  <Layout>
+    <!-- List works -->
+    <div class="works" id="works">
+      <div class="works content-box">
+        <h1 id="work">Matthew's work portfolio</h1>
+        <p class="works__sort">(by Date)</p>
+        <Pager :info="$page.works.pageInfo" :showNavigation="true" />
+
+        <WorkCard
+          v-for="edge in $page.works.edges"
+          :key="edge.node.id"
+          :work="edge.node"
+        />
+        <Pager :info="$page.works.pageInfo" :showNavigation="true" />
+      </div>
+
+      <!-- List subjects -->
+      <Tags context="work" :tags="$page.subjects"></Tags>
+      <!-- Author intro -->
+      <Author
+        :show-title="true"
+        :show-email="true"
+        :show-subtitle="true"
+        :show-intro-long="true"
+        :show-links="false"
+        :show-resume="true"
+      />
+      <WonderWall></WonderWall>
+    </div>
+  </Layout>
+</template>
+
+<page-query>
+query ($page: Int) {
+  works: allWork  (perPage: 2, page: $page) @paginate {
+    pageInfo {
+      totalPages
+      currentPage
+    },
+    edges {
+      node {
+        id
+        title
+        date (format: "MMMM YYYY")
+        timeToRead
+        description
+        tags {
+          id
+          title
+          path
+        }
+        subjects {
+          id
+          title
+          path
+        }
+        cover_image
+        company
+        path
+       
+      }
+    }
+  },
+  subjects: allSubject (sortBy: "title", order: ASC) {
+    edges {
+      node {
+        id
+        title
+        path
+      }
+    }
+  }  
+}
+</page-query>
+
+<script>
+import { Pager } from "gridsome";
+
+import Author from "~/components/Author.vue";
+import WorkCard from "~/components/WorkCard.vue";
+import Tags from "~/components/Tags.vue";
+import WonderWall from "~/components/WonderWall.vue";
+export default {
+  components: {
+    Author,
+    Pager,
+    WonderWall,
+    WorkCard,
+    Tags,
+  },
+  metaInfo: {
+    title: "Work",
+  },
+};
+</script>
+
+<style lang="scss" scoped>
+.works {
+  h1 {
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--body-color);
+  }
+
+  &__link {
+    padding: var(--space);
+  }
+
+  &__sort {
+    text-align: center;
+  }
+
+  nav {
+    text-align: center;
+    margin: var(--space);
+  }
+  nav a {
+    padding: 1rem;
+  }
+}
+</style>

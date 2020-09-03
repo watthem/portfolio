@@ -1,0 +1,103 @@
+.text-center {
+  text-align: center;
+}
+
+.space-bottom {
+  margin-bottom: var(--space);
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.row-wrap {
+  flex-flow: row wrap;
+}
+
+.list-none {
+  list-style: none;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-column-reverse {
+  flex-direction: column-reverse;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.justify-flex-start {
+  justify-content: flex-start;
+}
+
+.justify-flex-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.justify-pace-evenly {
+  justify-content: pace-evenly;
+}
+
+.justify-start {
+  justify-content: start;
+}
+
+.justiy-end {
+  justify-content: end;
+}
+
+.justify-left {
+  justify-content: left;
+}
+
+.justify-right {
+  justify-content: right;
+}
+
+.bgcolor {
+  background: var(--bg-color);
+}
+
+.bg-link-color {
+  background: var(--link-color);
+}
+
+.color-from-bg {
+  color: var(--bg-color);
+}

@@ -1,0 +1,48 @@
+// Default variables
+html {
+  --base-font-size: 20px;
+}
+
+// Light default theme
+body {
+  --bg-color: #f3f7f9;
+  --bg-content-color: #fff;
+  --bg-code: #bebebe5b;
+  --body-color: #444;
+  --title-color: #111;
+  --link-color: #729ac0;
+  --highlight-color: #4176a7;
+  --error-color: #c07b72;
+  --warning-color: #c0b672;
+  --good-color: #72c098;
+  --comp-color: #8572c0;
+  --border-color: rgba(0, 0, 0, 0.1);
+  --space: 3.5rem;
+  --content-width: 860px;
+  --header-height: 80px;
+  --radius: 5px;
+  --box: 1px 1px 5px 0 rgba(0, 0, 0, 0.02), 1px 1px 15px 0 rgba(0, 0, 0, 0.03);
+  --box2: 1px 10px 30px 0 rgba(0, 0, 0, 0.1);
+  --box-hover: 1px 10px 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+// Make  things smaller for mobile
+@media screen and (max-width: 650px) {
+  html {
+    --base-font-size: 17px;
+  }
+  body {
+    --space: 1.5rem;
+    --header-height: 60px;
+  }
+}
+
+// Override variables for Dark theme
+body[data-theme="dark"] {
+  --bg-color: #303030;
+  --bg-content-color: #333333;
+  --bg-code: rgba(0, 0, 0, 0.3);
+  --border-color: rgba(255, 255, 255, 0.1);
+  --body-color: #ced8de;
+  --title-color: #fff;
+}

@@ -1,0 +1,55 @@
+// Used to wrap content inside a nice box.
+.content-box {
+  background-color: var(--bg-content-color);
+  max-width: var(--content-width);
+  margin: 0 auto;
+  transition: background-color 0.6s;
+  padding: var(--space);
+  border-radius: var(--radius);
+  box-shadow: var(--box);
+  transition: transform 0.3s, background-color 0.3s, box-shadow 0.6s;
+
+  & .content-box {
+    background: var(--bg-code);
+    color: var(--body-color);
+  }
+}
+
+.content-box video {
+  //box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+
+  box-shadow: var(--box);
+
+  filter: grayscale(20%) saturate(80%) opacity(0.8);
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.content-box form {
+  filter: grayscale(20%) saturate(80%) opacity(0.8);
+  //box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  box-shadow: var(--box1);
+  display: block;
+  padding: var(--space);
+  position: relative;
+  text-align: center;
+  color: var(--body-color);
+}
+
+.youtube {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.youtube iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
