@@ -18,25 +18,13 @@ Think of a technical writer like a medic dropping in with life-support to your s
 
 For over 13 years, I've been fortunate enough to have worked both with enterprise and smaller startup customers on highly technical projects.
 
-You might be in search for a part of the team who:
+- You might be in search for a part of the team who is:
 
-- Have experience working with a variety of modern content management systems and integrating shared information with website development projects.
-- Knowledge of working with APIs for web and documentation projects.
-- Is great with organizational details and performs laborious data entry tasks to make solutions more attractive.
-- Hands-on with markdown CSS and JavaScript principles.
-
-You might need:
-
-- Knowledge of rest API development with node.js, website development, and web design.
-- Knowledgeable about JavaScript website development, best practices, and developer support.
-- Localization and regionalization planning.
-- Plans resources to build technical documentation, writings and content management following style guidelines.
-- Structured data analysis and internet research.
-- Supports day-to-day communication strategies through project management writing experience.
-- Web content development and copywriting.
-- English grammar.
-- Compiles easy to digest business strategy content briefings.
-- Balances time with project-related administrative support and internet research.
+  - Hands-on with markdown CSS and JavaScript principles.
+  - Capable of working with a variety of modern content management systems and integrating shared information with website development projects.
+  - Great with organizational details and performs laborious data entry tasks to make solutions more attractive.
+  - Familar with rest API development with node.js, website development, and web design.
+  - Knowledgeable about website development, best practices, and developer support.
 
 Contact me and I will make sure the work we build together can grow with the developing needs of your team and stakeholders.
 

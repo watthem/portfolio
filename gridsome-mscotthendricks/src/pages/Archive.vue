@@ -40,7 +40,7 @@
 
 <page-query>
 query {
-  posts: allPost {
+  posts: allPost (sort: [{ by: "featured" }, { by: "date" } ], filter: { published: { eq: true }} ) {
     edges {
       node {
         id
@@ -59,7 +59,7 @@ query {
     }
   },
 
-    works: allPost {
+    works: allWork (sort: [{ by: "featured" }, { by: "date" } ], filter: { published: { eq: true }} ) {
     edges {
       node {
         id

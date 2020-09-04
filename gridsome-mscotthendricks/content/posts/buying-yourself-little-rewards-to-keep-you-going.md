@@ -7,7 +7,7 @@ Type: Article
 Writing Stage: Final
 canonical_url: false
 cover_image: /post/images/gifts.jpg
-date: 2009-02-26
+date: 2019-02-26
 description: How does your routine bring motivation in your daily life, your goals, and fuel your desires?
 published: true
 tags: ["Mindfulness & Mental Health"]

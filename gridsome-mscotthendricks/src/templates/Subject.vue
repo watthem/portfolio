@@ -1,5 +1,5 @@
 <template>
-  <Layout showWork="true">
+  <Layout :showWork="true" :showResume="true">
     <div class="works content-box">
       <h1 class="subject-title text-center space-bottom">
         Work related to ⚡ {{ $page.subject.title }}
