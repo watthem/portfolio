@@ -61,5 +61,5 @@ a.phone:before {
 hr {
   border-color: var(--border-color);
   width: 80%;
-  margin: var(--space) auto;
+  margin: calc(var(--space) / 3) auto;
 }

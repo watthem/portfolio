@@ -4,19 +4,10 @@
       <nav class="footer-nav">
         <ul>
           <li><g-link class to="/services">Services</g-link></li>
-          <li>
-            <ul>
-              <li>
-                <g-link class to="/services/documentation"
-                  >Documentation</g-link
-                >
-              </li>
-              <li>
-                <g-link class to="/services/management">Management</g-link>
-              </li>
-              <li><g-link class to="/services/web">Web</g-link></li>
-            </ul>
-          </li>
+          <li><g-link class to="/services/documentation">Documentation</g-link
+                ></li>
+          <li><g-link class to="/services/management">Management</g-link></li>
+          <li><g-link class to="/services/web">Web</g-link></li>
         </ul>
         <ul>
           <li><g-link class to="/">Home</g-link></li>
@@ -33,7 +24,7 @@
 
         <ul>
           <li><g-link class to="/resume">Resume</g-link></li>
-          <li><g-link class to="/work#recent"> Work Examples</g-link></li>
+          <li><g-link class to="/work"> Work Examples</g-link></li>
         </ul>
       </nav>
       <div class="details">
@@ -94,26 +85,31 @@
 }
 
 .footer-nav {
-  align-items: flex-start;
+
+
+  
+  
+  
   background: var(--bg-color);
-
-  margin: auto;
-  max-width: var(--content-width);
-  text-align: left;
-
+  
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1f;
   gap: 1px 1px;
   grid-template-areas: ". . . ." ". . . ." ". . . ." ". . . .";
-
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1f;
+  margin: auto;
+  max-width: var(--content-width);
   min-height: var(--header-height);
   padding: 0 var(--space);
+  
+  text-overflow: ellipsis;
+  white-space: nowrap;
 
   & ul {
     list-style: none;
     padding: 0;
-    margin: 0 0.5rem;
+    margin: 0 1rem;
+    
 
     & ul {
       font-size: 80%;

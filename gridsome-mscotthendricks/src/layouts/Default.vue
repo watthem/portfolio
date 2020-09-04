@@ -9,22 +9,14 @@
         />
       </div>
       <div class="header__right">
-        <div class="'">
-          <g-link v-if="showResume" class="link-button" to="/resume">
-            <button>
-              See my resume
-            </button>
-          </g-link>
-          <g-link
-            v-if="showCall"
-            class="link-button"
-            to="/contact#schedule-a-call"
-          >
-            <button>
-              Schedule a call
-            </button>
-          </g-link>
+        <div v-if="showCall">
+          <CallButton></CallButton>
         </div>
+        <div v-else-if="showResume">
+          <ResumeButton :showPage="true"></ResumeButton>
+        </div>
+        <div v-else-if="showWelcome"></div>
+
         <ToggleTheme />
       </div>
     </header>
@@ -41,6 +33,8 @@
 
 <script>
 import Logo from "~/components/Logo.vue";
+import ResumeButton from "~/components/ResumeButton.vue";
+import CallButton from "~/components/CallButton.vue";
 import ToggleTheme from "~/components/ToggleTheme.vue";
 import Nav from "~/components/Nav.vue";
 import Footer from "~/components/Footer.vue";
@@ -54,6 +48,8 @@ export default {
   },
   components: {
     Logo,
+    ResumeButton,
+    CallButton,
     ToggleTheme,
     Footer,
     Nav,
@@ -62,6 +58,24 @@ export default {
 </script>
 
 <style lang="scss">
+.tag {
+  border-radius: var(--radius) var(--radius) var(--radius);
+  display: block;
+  text-decoration: none;
+  z-index: 1;
+  position: relative;
+}
+
+.tag:before {
+  content: "⚡";
+  opacity: 0;
+
+  padding: var(--radius);
+}
+
+.tag:hover:before {
+  opacity: 1;
+}
 .services {
   margin: var(--space) auto;
 
@@ -132,7 +146,8 @@ export default {
     box-shadow: var(--box);
     color: var(--title-color);
     cursor: pointer;
-    font: inherit;
+    font-size: 90%;
+
     margin: auto;
     padding: 0.75rem 1rem 0.75rem 1rem;
     text-align: center;
@@ -141,6 +156,10 @@ export default {
     &:hover {
       transform: translateY(-2%);
       box-shadow: var(--box-hover);
+    }
+
+    &.icon svg {
+      margin-right: calc(var(--radius) * 2);
     }
   }
 }

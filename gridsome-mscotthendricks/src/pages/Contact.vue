@@ -2,17 +2,19 @@
   <Layout showCall="true">
     <div class="content-box" v-html="$page.doc.content"></div>
     <div class="content-box">
-      <h2 id="schedule-a-call">Schedule a call</h2>
-
-      <!-- <g-image src="." width="500" /> -->
-      <g-image src="../../src/assets/calendar.svg"></g-image>
-      <p>
-        I'm happy to set up a
-        <a href="https://calendly.com/matthewhendricks/quick"
-          >20-minute phone or video call</a
-        >
-        to help discuss your needs and requirements.
-      </p>
+      <div class="content-box">
+        <h2 id="schedule-a-call">Schedule a call</h2>
+        <p>
+          I'm happy to set up a
+          <a href="https://calendly.com/matthewhendricks/quick"
+            >20-minute phone or video call</a
+          >
+          to help discuss your needs and requirements.
+        </p>
+        <a href="https://calendly.com/matthewhendricks/quick">
+          <g-image class="small" src="../../src/assets/calendar.svg"></g-image>
+        </a>
+      </div>
       <!-- <vue-calendly
         class=""
         url="https://calendly.com/matthewhendricks"
@@ -91,8 +93,8 @@ export default {
 </script>
 
 <style scoped>
-img {
+/* img {
   width: 50%;
   margin: auto;
-}
+} */
 </style>

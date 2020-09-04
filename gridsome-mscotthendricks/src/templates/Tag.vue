@@ -2,7 +2,7 @@
   <Layout>
     <div class="posts content-box">
       <h1 class="tag-title text-center space-bottom">
-        Posts tagged and related to ⚡ {{ $page.tag.title }}
+        Posts related to ⚡ {{ $page.tag.title }}
       </h1>
       <PostCard
         v-for="edge in $page.tag.belongsTo.edges"
@@ -15,7 +15,7 @@
 </template>
 
 <page-query>
-query Tag ($id: ID!) {
+query Tag ($id: String!) {
   tag (id: $id) {
     title
     belongsTo {
@@ -23,7 +23,9 @@ query Tag ($id: ID!) {
         node {
           ...on Post {
             title
+            published
             path
+            cover_image
             date (format: "MMMM YYYY")
             timeToRead
             description
@@ -36,10 +38,12 @@ query Tag ($id: ID!) {
             }
           }
         }
-        node {
+        workNode: node {
            ...on Work {
             title
             path
+            published
+            cover_image
             date (format: "MMMM YYYY")
             timeToRead
             description

@@ -36,7 +36,7 @@
   bottom: -0.5rem;
   max-width: var(--content-width);
   display: grid;
-  gap: 1px 1px;
+
   grid-template-areas: ". . . .";
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -46,14 +46,14 @@
   min-height: var(--header-height);
   // padding: 0 calc(var(--space) / 2);
   position: sticky;
-  text-align: justify;
+
   z-index: 10;
   padding: 0 var(--space);
   & a {
     font-size: 1.2rem;
     text-decoration: none;
     opacity: 0.8;
-    margin: 0 0.5rem;
+    margin: 0 1rem;
   }
 
   & a.active--exact.active {
@@ -62,7 +62,7 @@
   }
 
   & a.active:after {
-    transform: scaleX(0.8);
+    transform: scaleX(0.6);
     border-bottom: solid var(--radius) var(--link-color);
   }
 
@@ -74,7 +74,7 @@
     transition: transform 250ms ease-in-out;
     transform-origin: 0%;
   }
-  & a:hover:after {
+  & a:not(.active):hover:after {
     transform: scaleX(0.6);
   }
 

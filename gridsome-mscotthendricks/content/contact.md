@@ -6,7 +6,7 @@ I enjoy writing about and developing things that help people make their daily li
 
 And while you're here, if there's I've written that makes you want to do better work, please consider [leaving a donation](#donate).
 
-## Something I can help with?
+## Something I can help with?{class="big"}
 
 ![support](../src/assets/support.svg)
 
@@ -14,11 +14,11 @@ And while you're here, if there's I've written that makes you want to do better 
 
 Send me an email, text, or leave a voicemail.
 
-<a class="email" mailto="mscotthendricks@gmail.com">mscohendricks@gmail.com</a>
+**Phone** [+1 ‪ (646) 694-2062](tel:+16466942062)
 
-<a class="phone" href="tel:+16466942062‬">+1 ‪(646) 694-2062‬</a>
+**Email** [mscotthendricks@gmail.com](mailto:mscotthendricks@gmail.com)
 
-<a class="location" href="https://www.google.com/maps/place/Seattle,+WA+98125">Seattle WA (98125)</a>
+**Location** [Seattle WA (98125)](https://www.google.com/maps/place/Seattle,+WA+98125)
 
 ### Send me a note
 
@@ -59,24 +59,27 @@ Project in mind? Or need some help with documentation? Want to share your though
 
 Like my work? Please consider making a small cryptocurrency donation in support of my work in advocacy of mental health.
 
-- **BTC**
-  - `bc1qxh43fxj0nelgrzdarw20xqupe40uu9n87elkef`
-- **LTC**
-  - `ltc1qgw0qtx98r46s8ztmvgdlex7z9652gnazuns7f2`
-- **ETH**
-  - `0x4CCA834388a145955854Dc38a9D349A8298032a1`
+- **BTC** `bc1qxh43fxj0nelgrzdarw20xqupe40uu9n87elkef`
+- **LTC** `ltc1qgw0qtx98r46s8ztmvgdlex7z9652gnazuns7f2`
+- **ETH** `0x4CCA834388a145955854Dc38a9D349A8298032a1`
 
 ### Or buy me a coffee
 
-![Buy me a coffee](https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg) Like many, Covid-19 has disrupted our daily lives and resources.That's why 4% of all my buymeacoffee.com earnings go to The Child Mind Institute's [COVID-19 RESPONSE](https://childmind.org/coping-during-covid-19-resources-for-parents/) towards helping families get the resources and support they need during this uncertain time - match me by visiting [https://childmind.org/donate/](https://childmind.org/donate/)
-
-<a class="link-button" href="https://www.buymeacoff.ee/mscotthendricks"><button>Buy me a coffee </button>
+[![Buy me a coffee](../src/assets/bmc.svg)](https://www.buymeacoff.ee/mscotthendricks)
+<a class="link-button" href="https://www.buymeacoff.ee/mscotthendricks">
+<button class="">Buy me a coffee </button>
 </a>
 
-### Corona Virus: Parents Resource
+Like many, Covid-19 has disrupted our daily lives and resources.That's why 4% of all my buymeacoffee.com earnings go to The Child Mind Institute's [COVID-19 RESPONSE](https://childmind.org/coping-during-covid-19-resources-for-parents/) towards helping families get the resources and support they need during this uncertain time - match me by visiting [https://childmind.org/donate/](https://childmind.org/donate/)
+
+---
+
+#### Corona Virus: Parents Resource
 
 > "With schools closed and children at home, anxiety is running high. We know parents are struggling to balance work, child care, self care all while keeping worries — both your children’s and you own — under control. You don’t have to do it alone. We’ve put together resources to help you stay safe, sane, and supported during this troubling time." — **[Child Mind Institute (childmind.org)](https://childmind.org/donate)**
 
 <div class="youtube">
 <iframe src="https://www.youtube.com/embed/aYlXLMaFzgU"  allowfullscreen></iframe>
 </div>
+
+---

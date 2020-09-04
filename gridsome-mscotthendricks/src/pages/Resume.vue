@@ -1,12 +1,13 @@
 <template>
-  <Layout showWork="true" showCall="true">
+  <Layout :v-text="true" :showCall="true" :showResume="false">
     <div class="content-box">
       <div class="download">
-        <a class="link-button " href="/Matthew_Hendricks.pdf"
-          ><button class="">Download PDF</button></a
-        >
+        <ResumeButton></ResumeButton>
       </div>
       <div class="content-box resume" v-html="$page.doc.content"></div>
+      <div class="download">
+        <ResumeButton></ResumeButton>
+      </div>
     </div>
     <Author
       :show-title="false"
@@ -46,10 +47,11 @@ query {
 
 <script>
 import Author from "~/components/Author.vue";
-
+import ResumeButton from "~/components/ResumeButton.vue";
 import Tags from "~/components/Tags.vue";
 export default {
   components: {
+    ResumeButton,
     Author,
     Tags,
   },
@@ -69,5 +71,16 @@ export default {
   width: 100%;
   margin: auto;
   padding: var(--space);
+}
+
+.download a:after {
+  color: var(--title-color);
+  content: "\2193";
+  opacity: 0;
+  padding-left: var(--radius);
+}
+
+.download a:hover:after {
+  opacity: 1;
 }
 </style>

@@ -2,7 +2,7 @@
   <Layout showWork="true">
     <div class="works content-box">
       <h1 class="subject-title text-center space-bottom">
-        Work tagged and related to ⚡ {{ $page.subject.title }}
+        Work related to ⚡ {{ $page.subject.title }}
       </h1>
       <WorkCard
         v-for="edge in $page.subject.belongsTo.edges"

@@ -1,14 +1,15 @@
 <template>
   <div>
     <div class="work-tags">
-      <g-link
-        class="work-tags__link"
+      <a
+        class="tag  link-button"
         v-for="tag in work.tags"
         :key="tag.id"
-        :to="tag.path"
-      >
-        {{ tag.title }}
-      </g-link>
+        :href="tag.path"
+        ><button>
+          {{ tag.title }}
+        </button>
+      </a>
     </div>
     <div class="work-subjects">
       <span> for {{ work.company }} </span><span> on </span>
@@ -38,23 +39,12 @@ export default {
     color: currentColor;
     text-decoration: none;
     background-color: var(--bg-color);
-    color: currentColor !important; //Todo: remove important;
     padding: 0.5em;
+
     border-radius: var(--radius);
   }
   &__link:before {
     content: "#";
-  }
-}
-
-.work-tags {
-  margin: 1em 0 0;
-
-  &__link {
-    font-size: 1.2em;
-    font-weight: bold;
-    color: currentColor;
-    text-decoration: none;
   }
 }
 </style>

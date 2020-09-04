@@ -63,29 +63,4 @@ a.active--exact.active {
 .item a {
   display: block;
 }
-
-.tag {
-  // background: var(--bg-color);
-  border-radius: var(--radius) var(--radius) var(--radius);
-
-  text-decoration: none;
-}
-
-.tag::before {
-  content: "⚡";
-  opacity: 0;
-
-  padding: var(--radius);
-}
-
-// .tag::after {
-//   content: "\279E";
-//   opacity: 0;
-
-//   padding: var(--radius);
-// }
-
-.tag:hover:before {
-  opacity: 1;
-}
 </style>
