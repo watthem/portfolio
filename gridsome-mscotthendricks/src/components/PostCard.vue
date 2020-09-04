@@ -1,5 +1,9 @@
 <template>
-  <div class="post-card content-box" :class="{ 'post-card--has-poster': post.poster }">
+  <div
+    v-if="post.published"
+    class="post-card content-box"
+    :class="{ 'post-card--has-poster': post.poster }"
+  >
     <div class="post-card__header">
       <g-image
         alt="Cover image"

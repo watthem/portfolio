@@ -11,6 +11,7 @@ cover_image: "https://i.imgur.com/pDIfqRL.jpg"
 date: 2020-08-12
 description: "The best way to genuinely improve mental performance is to understand the natural limits of our brain. By paying attention to your habits, you can learn to cultivate the mind to create your best work."
 published: true
+featured: true
 tags: ["Mindfulness & Mental Health", "Project Management"]
 title: "How to plan your day so your creativity and focus will flourish"
 ---
@@ -49,7 +50,7 @@ Since planning takes the most energy, we should *prioritize* prioritizing abov
 
 Monday morning is the best time for quiet reflection because you have the least noise from the week. This is a great time to spend an entire morning planning the rest of your week.
 
-[https://miro.medium.com/max/5760/0\*hLTpL-0DB1P8oRp8](https://miro.medium.com/max/5760/0*hLTpL-0DB1P8oRp8)
+![https://miro.medium.com/max/5760/0*hLTpL-0DB1P8oRp8](https://miro.medium.com/max/5760/0*hLTpL-0DB1P8oRp8)
 
 Photo by [Will Porada](https://unsplash.com/@will0629?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
 
@@ -63,7 +64,7 @@ Just after waking up is the most optimal time to develop and engage with ideas t
 
 Things like journaling, meditating, or exercise create temporal and spatial energy. This gives us the chance to unload our most complex thinking early in the day. Often these activities create a sense of resolve and give us the fuel for our brain to use. Instead of the default, where our problems nag us while we’re trying to focus on important tasks later in the day.
 
-[https://miro.medium.com/max/2800/0\*nO0krekj3sbkIppv](https://miro.medium.com/max/2800/0*nO0krekj3sbkIppv)
+![https://miro.medium.com/max/2800/0*nO0krekj3sbkIppv](https://miro.medium.com/max/2800/0*nO0krekj3sbkIppv)
 
 Photo by [NeONBRAND](https://unsplash.com/@neonbrand?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
 
@@ -87,7 +88,7 @@ We naturally schedule blocks of time for different modes of thinking. But most o
 
 If possible, try to muster some discipline and wait to do tasks until you must do them. This means not even thinking about what needs doing until you’re doing them. Turn the productivity system off and focus.
 
-[https://miro.medium.com/max/5866/0\*1e0hZRhDF31c7sL2](https://miro.medium.com/max/5866/0*1e0hZRhDF31c7sL2)
+![https://miro.medium.com/max/5866/0*1e0hZRhDF31c7sL2](https://miro.medium.com/max/5866/0*1e0hZRhDF31c7sL2)
 
 Photo by [Icons8 Team](https://unsplash.com/@icons8?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
 
@@ -111,7 +112,7 @@ Insight requires relaxation and often come to us when we’re not thinking about
 
 Since insight is so valuable to our daily life, it’s not only crucial to plan and adhere to your breaks, it’s also important that you are away from your computer or phone by doing something activity disengages you from your work. Like having a cup of tea by the window, reading a chapter or two from a book, or a routing [round of earthing](https://www.healthline.com/health/grounding) (if that’s your thing).
 
-[https://miro.medium.com/max/7952/0\*h-em29jvG_EkmOwH](https://miro.medium.com/max/7952/0*h-em29jvG_EkmOwH)
+![https://miro.medium.com/max/7952/0*h-em29jvG_EkmOwH](https://miro.medium.com/max/7952/0*h-em29jvG_EkmOwH)
 
 Photo by [Clint McKoy](https://unsplash.com/@clintmckoy?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
 

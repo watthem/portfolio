@@ -5,7 +5,7 @@
       <div class="posts content-box">
         <h1 id="recent">Blog articles</h1>
 
-        <p class="posts__sort">(by Date)</p>
+        <p class="posts__sort">(Featured by Date)</p>
         <Pager :info="$page.posts.pageInfo" />
 
         <PostCard
@@ -30,7 +30,7 @@
 
 <page-query>
 query ($page: Int) { 
-  posts: allPost (filter: { published: { eq: true }}, perPage: 3, page: $page) @paginate {
+  posts: allPost (sort: [{ by: "featured" }, { by: "date" } ], filter: { published: { eq: true }}, perPage: 3, page: $page) @paginate {
     pageInfo {
       totalPages
       currentPage
@@ -38,6 +38,7 @@ query ($page: Int) {
     edges {
       node {
         id
+        featured
         title
         date (format: "MMMM YYYY")
         timeToRead

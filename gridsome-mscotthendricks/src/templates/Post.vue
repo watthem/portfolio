@@ -27,7 +27,7 @@
         <!-- Add comment widgets here -->
       </div>
     </div>
-    <div else="$page.post.published">
+    <div v-else class="content-box">
       <div class="post-title">
         <h1 class="post-title__text">Oops 😳</h1>
 

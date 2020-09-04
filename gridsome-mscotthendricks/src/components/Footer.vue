@@ -28,6 +28,7 @@
           </li>
           <li>
           <li><g-link class to="/contact#donate">Donate</g-link></li>
+           <li><g-link class to="/contact#schedule-a-call">Schedule a call</g-link></li>
         </ul>
 
         <ul>

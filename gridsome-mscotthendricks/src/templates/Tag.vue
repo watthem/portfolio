@@ -10,6 +10,7 @@
         :post="edge.node"
       />
     </div>
+    <Author :showTitle="true" :showLinks="true"></Author>
   </Layout>
 </template>
 

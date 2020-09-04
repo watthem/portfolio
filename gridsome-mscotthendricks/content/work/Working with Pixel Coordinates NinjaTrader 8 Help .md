@@ -2,6 +2,7 @@
 title: Working with Pixel Coordinates - NinjaTrader 8 Help Guide
 company: NinjaTrader LLC
 Status: Ready
+published: true
 cover_image: /work/images/pixels.png
 description: To help support multiple device layouts and resolutions, 3rd party developers needed to be aware of the discrepancies that can occur between pixels and devices, as well as how to correct and prevent these issues from arising.
 subjects: [".NET/C#", "NinjaTrader"]

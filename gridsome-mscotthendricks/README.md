@@ -1,8 +1,26 @@
+# Gridsome
+
+`./gridsome-mscotthendricks` is a static site generator project powered by Gridsome and Vue that is configured to read local Markdown content from the local file system. See the [gridsome.config.js](https://github.com/mscotthendricks/portfolio/blob/master/gridsome-mscotthendricks/gridsome.config.js) for more information.
+
+Content is built from local files in relative `gridsome-mscotthendricks\content` directory.
+
+## Start gridsome in local development mode to make changes to layout.
+
+$ cd gridsome-mscotthendricks
+$ gridsome develop
+
+For a static build to the `./gridsome-mscotthendricks/dist` folder
+
+\$ gridsome build
+
+Currently, dist content is copied to another directory and changes are pushed to [mscotthendricks.github.io repository](https://github.com/watthem/mscotthendricks.github.io)
+
 # Gridsome Blog Starter
 
 > A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.
 
 ## Features
+
 - Beautiful and simple design.
 - Markdown for content.
 - Tags support.

@@ -26,8 +26,12 @@
     </p>
     <p v-if="showIntroLong" class="author__intro">
       Knowledge Worker, Technical Writer, Product Manager with a background in
-      customer support - values Collaborative Communication and leading with
-      empathy.
+      customer support and documentation.
+      <br />
+      <small>
+        Specializes in Content Management Systems and values collaborative
+        communication.</small
+      >
     </p>
     <div v-if="showLinks" class="author__links">
       <p>Find me on these platforms:</p>

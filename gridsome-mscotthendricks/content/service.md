@@ -1,4 +1,4 @@
-# **Freelance Services and Techncial Solutions**
+# Freelance Services and Technical Solutions
 
 You need someone who understands the plan and the deliverable. Getting a comprehensive view of specialized work and cutting down useless processes is what I like to do best.
 
@@ -8,9 +8,9 @@ What I do almost every day (and what I can help you with doing):
 2. [Product and Project Management](/watthem/services/management) for software projects.
 3. [Technical Solutions](/services/web) for the web.
 
-I’m committed to an empirical and development-focused mindset where following evidence and research has taught me remarkable ways to build on human strengths and proven ability to not take limitations personally, which helps us both do good work confidentiality for stakeholders at all levels.
-
 As a disciplined technical writer, my core strength is in understanding how to use the entire team to manage subject-matter time efficiently. As a versatile product manager, I keep a bird's-eye view on all priorities that keep me transparent and flexible to make changes when needed.
+
+_Follow the science_ - I’m ready to work with you using an empirical and development-focused mindset. Following evidence and research has taught me remarkable ways to build on human strengths that can be applied to work successfully on your project.
 
 ## I can help with
 
@@ -74,7 +74,7 @@ But I'm also experienced and skilled with most popular collaboration services:
 
 I'm a hands-on product manager who knows and uses code every day. I've figured out ways to work on systems that help develop easy-to-understand solutions.
 
-[!["document"](../src/assets/code.svg){class="medium"}](/services/web)
+[!["code"](../src/assets/code.svg){class="medium"}](/services/web)
 
 - **Help Desk and eCommerce Services for Small Businesses**
 - **Website builder and hosting consultation (Squarespace, Wix, Shopify, Ghost, Netlify)**
@@ -102,20 +102,20 @@ I'm a hands-on product manager who knows and uses code every day. I've figured o
 
 ## **Questions**
 
-### **How can you help me with my website**
+### **How can you help me with my website?**
 
 I specialize in website integrations and project-related planning, support, and documentation.
 
-### **What is JAMStack**
+### **What is JAMStack?**
 
 JAMStack stands for JavaScript, APIs, and Markdown and is a fresh approach for building websites. I have found this method useful since it makes it easy to update content.
 
-### Do you use XYZ framework
+### **Do you use XYZ framework?**
 
 If you're looking for a technical document and support, I'd love to help! Shoot me an email and we can talk about your requirements.
 
 As far as web solutions, I stay away from large frameworks and like to build lightweight websites that anyone can use and update.
 
-### **What do you charge**
+### **What do you charge?**
 
 Let's say, roughly `$50` an hour? But I prefer to charge based on project and milestone. We can talk this out.

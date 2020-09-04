@@ -1,10 +1,11 @@
 <template>
-  <Layout>
+  <Layout :showResume="true">
     <!-- List works -->
     <div class="works" id="works">
       <div class="works content-box">
         <h1 id="work">Matthew's work portfolio</h1>
-        <p class="works__sort">(by Date)</p>
+        <p class="works__sort">(Featured by Date)</p>
+
         <Pager :info="$page.works.pageInfo" :showNavigation="true" />
 
         <WorkCard
@@ -33,7 +34,7 @@
 
 <page-query>
 query ($page: Int) {
-  works: allWork  (perPage: 2, page: $page) @paginate {
+  works: allWork  (perPage: 2, page: $page, filter: { published: { eq: true} }) @paginate {
     pageInfo {
       totalPages
       currentPage
@@ -42,6 +43,7 @@ query ($page: Int) {
       node {
         id
         title
+        published
         date (format: "MMMM YYYY")
         timeToRead
         description
@@ -96,6 +98,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.space {
+}
 .works {
   h1 {
     text-align: center;

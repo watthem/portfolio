@@ -436,6 +436,29 @@
   @media screen and (max-width: 900px) {
     flex-direction: column;
   }
+
+  .link-button {
+    &:after {
+      border: none;
+
+      color: #00000000;
+      margin: 0;
+      padding: 0;
+      content: "\279E";
+      cursor: pointer;
+      display: inline-block;
+      opacity: 1;
+      padding: 0.75rem 0.25rem 0.75rem 0.25rem;
+      text-align: center;
+      transition: 1s transform ease, 1s opacity ease;
+    }
+
+    &:hover:after {
+      transform: translateY(-2%);
+      opacity: 0.8;
+      color: var(--title-color);
+    }
+  }
 }
 a.card-link.active--exact.active {
   cursor: default;

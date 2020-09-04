@@ -8,9 +8,9 @@ And while you're here, if there's I've written that makes you want to do better 
 
 ## Something I can help with?
 
-### Get in touch
-
 ![support](../src/assets/support.svg)
+
+### Get in touch
 
 Send me an email, text, or leave a voicemail.
 

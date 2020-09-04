@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout showCall="true">
     <div class="content-box" v-html="$page.doc.content"></div>
     <div class="content-box">
       <h2 id="schedule-a-call">Schedule a call</h2>

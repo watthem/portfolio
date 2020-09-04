@@ -1,5 +1,5 @@
 <template>
-  <Layout :showServices="true">
+  <Layout :showServices="true" :showCall="true">
     <div class="content-box services" v-html="$page.doc.content"></div>
   </Layout>
 </template>

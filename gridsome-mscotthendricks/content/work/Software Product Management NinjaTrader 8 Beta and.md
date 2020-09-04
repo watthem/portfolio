@@ -2,6 +2,7 @@
 title: Software Product Management - NinjaTrader 8 Beta and Major Release
 company: NinjaTrader LLC
 Status: Ready
+published: true
 cover_image: /work/images/pm.png
 description: I was promoted to Product Manager after working as a technical support lead for the NinjaTrader platform. When I was promoted, much of the early planning and specification was already completed, so I was brought on to help with the engineering implementation, user acceptance testing, and documentation up until the first major release of NinjaTrader 8 in November of 2016.
 subjects: ["NinjaTrader"]

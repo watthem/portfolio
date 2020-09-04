@@ -1,12 +1,13 @@
 <template>
-  <Layout showWork="true">
-    <div class="download">
-      <a class="link-button" href="/matthew-hendricks_resume.pdf"
-        ><button>Download PDF</button></a
-      >
+  <Layout showWork="true" showCall="true">
+    <div class="content-box">
+      <div class="download">
+        <a class="link-button " href="/Matthew_Hendricks.pdf"
+          ><button class="">Download PDF</button></a
+        >
+      </div>
+      <div class="content-box resume" v-html="$page.doc.content"></div>
     </div>
-    <div class="content-box resume" v-html="$page.doc.content"></div>
-
     <Author
       :show-title="false"
       :showLinks="true"
@@ -69,33 +70,4 @@ export default {
   margin: auto;
   padding: var(--space);
 }
-
-.download a:before {
-  content: "📃";
-  padding-right: var(--radius);
-}
-
-.download a:after {
-  content: "\2193";
-}
-// .stuff {
-//   display: flex;
-//   flex-direction: row;
-//   flex-wrap: wrap;
-//   justify-content: space-around;
-//   align-content: space-around;
-//   align-items: center;
-// }
-
-// .st:nth-child(1) {
-//   order: 0;
-//   flex: 0 1 auto;
-//   align-self: auto;
-// }
-
-// .st:nth-child(2) {
-//   order: 0;
-//   flex: 0 1 auto;
-//   align-self: auto;
-// }
 </style>

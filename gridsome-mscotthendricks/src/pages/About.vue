@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout showResume="true">
     <div class="content-box about" v-html="$page.doc.content"></div>
 
     <div class="stuff">

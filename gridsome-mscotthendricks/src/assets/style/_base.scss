@@ -57,3 +57,9 @@ a.location:before {
 a.phone:before {
   content: "\f095";
 }
+
+hr {
+  border-color: var(--border-color);
+  width: 80%;
+  margin: var(--space) auto;
+}

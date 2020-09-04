@@ -9,6 +9,22 @@
         />
       </div>
       <div class="header__right">
+        <div class="'">
+          <g-link v-if="showResume" class="link-button" to="/resume">
+            <button>
+              See my resume
+            </button>
+          </g-link>
+          <g-link
+            v-if="showCall"
+            class="link-button"
+            to="/contact#schedule-a-call"
+          >
+            <button>
+              Schedule a call
+            </button>
+          </g-link>
+        </div>
         <ToggleTheme />
       </div>
     </header>
@@ -33,6 +49,8 @@ export default {
     showWork: { default: false },
     showServices: { default: false },
     showWelcome: { default: false },
+    showCall: { default: false },
+    showResume: { default: false },
   },
   components: {
     Logo,
@@ -95,16 +113,17 @@ export default {
     width: 60%;
   }
 }
+
 .link-button {
   white-space: nowrap;
   text-decoration: none;
   & img {
-    width: var(--space);
+    border-radius: 3px 3px 0px 3px;
     display: inline-block;
     margin-left: var(--space);
     margin-right: var(--radius);
     transform: translate(0%, 45%);
-    border-radius: 3px 3px 0px 3px;
+    width: var(--space);
   }
   & button {
     background: var(--bg-code);
@@ -113,9 +132,8 @@ export default {
     box-shadow: var(--box);
     color: var(--title-color);
     cursor: pointer;
-    margin: 0;
-    padding: 0;
     font: inherit;
+    margin: auto;
     padding: 0.75rem 1rem 0.75rem 1rem;
     text-align: center;
     text-decoration: none;
@@ -124,27 +142,6 @@ export default {
       transform: translateY(-2%);
       box-shadow: var(--box-hover);
     }
-  }
-
-  &:after {
-    border: none;
-
-    color: #00000000;
-    margin: 0;
-    padding: 0;
-    content: "\279E";
-    cursor: pointer;
-    display: inline-block;
-    opacity: 1;
-    padding: 0.75rem 0.25rem 0.75rem 0.25rem;
-    text-align: center;
-    transition: 1s transform ease, 1s opacity ease;
-  }
-
-  &:hover:after {
-    transform: translateY(-2%);
-    opacity: 0.8;
-    color: var(--title-color);
   }
 }
 

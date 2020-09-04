@@ -65,7 +65,7 @@ a.active--exact.active {
 }
 
 .tag {
-  background: var(--bg-color);
+  // background: var(--bg-color);
   border-radius: var(--radius) var(--radius) var(--radius);
 
   text-decoration: none;

@@ -7,7 +7,7 @@
       <WorkMeta :work="$page.work" />
     </div>
 
-    <div class="work content-box">
+    <div v-if="$page.work.published" class="work content-box">
       <div class="work__header">
         <a class="work__url" :href="$page.work.URL">
           <g-image
@@ -30,7 +30,17 @@
         v-html="$page.work.content"
       />
     </div>
+    <div v-else>
+      <div class="work-title">
+        <h1 class="work-title__text">Oops 😳</h1>
 
+        <p>That link isn't ready yet, sorry!</p>
+        <p>
+          Check out my other
+          <g-link to="/work">work</g-link>.
+        </p>
+      </div>
+    </div>
     <Author class="work-author" :show-links="true" />
   </Layout>
 </template>
@@ -41,6 +51,7 @@ query Work ($path: String!) {
     title
     id
     content
+    published
     cover_image
     URL
     PDF

@@ -20,7 +20,8 @@ code {
   border: 1px solid var(--border-color);
   font-size: 0.85em;
   padding: 0.2em 0.5em;
-
+  color: var(--code-color);
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   word-break: break-word;
 }
 

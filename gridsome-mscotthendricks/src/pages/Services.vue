@@ -1,7 +1,7 @@
 <template>
-  <Layout>
+  <Layout :showCall="true">
     <!-- Author intro -->
-    <Author :showLinks="false" :show-title="false" :show-intro-short="true" />
+
     <!-- List subjects -->
 
     <ServiceContent></ServiceContent>

@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout showResume="true">
     <div class="content-box">
       <h1>Here's everything I've published</h1>
       <h2>Posts</h2>
@@ -30,6 +30,11 @@
         </li>
       </ul>
     </div>
+    <Author
+      :show-title="true"
+      :show-intro-long="true"
+      :show-links="true"
+    ></Author>
   </Layout>
 </template>
 
