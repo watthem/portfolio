@@ -38,7 +38,7 @@ query ($page: Int) {
     edges {
       node {
         id
-        featured
+        published
         title
         date (format: "MMMM YYYY")
         timeToRead
