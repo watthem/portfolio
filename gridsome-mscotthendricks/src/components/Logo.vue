@@ -4,21 +4,15 @@
       <span class="logo__text">Welcome</span>
     </g-link>
     <g-link v-else-if="showWork" class="logo" to="/work">
-      <span class="logo__text"
-        >&larr; {{ $static.metadata.siteName }}'s portfolio</span
-      >
+      <span class="logo__text">&larr; {{ $static.metadata.siteName }}' portfolio</span>
     </g-link>
 
     <g-link v-else-if="showServices" class="logo" to="/services">
-      <span class="logo__text"
-        >&larr; {{ $static.metadata.siteName }}'s Services</span
-      >
+      <span class="logo__text">&larr; {{ $static.metadata.siteName }}' Tech Services</span>
     </g-link>
 
     <g-link v-else class="logo" to="/">
-      <span class="logo__text"
-        >&larr; {{ $static.metadata.siteName }} Hendricks.net</span
-      >
+      <span class="logo__text">&larr; {{ $static.metadata.siteName }}.net</span>
     </g-link>
   </div>
 </template>

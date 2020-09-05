@@ -1,6 +1,6 @@
 # About Matthew
 
-![author](../src/assets/images/author.jpg)
+![author](https://mscott.b-cdn.net/images/author.jpg)
 
 ## I'm a reliable, organized, and hard-working independent contractor.
 

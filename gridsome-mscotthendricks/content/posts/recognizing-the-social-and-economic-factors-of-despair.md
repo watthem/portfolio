@@ -6,7 +6,7 @@ Subject matter: productivity
 Type: Article
 Writing Stage: Final
 canonical_url: false
-cover_image: /post/images/despair.jpg
+cover_image: https://mscott.b-cdn.net/images/despair.jpg
 date: 2019-12-26
 description: 'They will tell you, "someone’s sitting in the shade today because someone planted a tree a long time ago".'
 published: true

@@ -6,7 +6,7 @@ URL: https://codepen.io/watthem/pen/xREydy
 tags: ["Front-end development"]
 company: Codpen.io
 subjects: ["CSS3/HTML5"]
-cover_image: /work/images/sun.png
+cover_image: https://mscott.b-cdn.net/images/sun.png
 date: 2016-11-16
 published: true
 ---

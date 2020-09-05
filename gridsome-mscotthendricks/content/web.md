@@ -10,7 +10,6 @@ Using a blend of:
 
 ## Services for the modern web
 
-![](../src/assets/images/notion-screenshots/illustrations/use-case-illustration-note-alt.png)
 
 ### I can show you how to improve your current technology assets
 
@@ -30,8 +29,6 @@ We'll do this all while expanding your bottom line by using software services 
   - Third-Party Integration
 
 ## Modern Services for websites
-
-![](../src/assets/images/notion-screenshots/illustrations/use-case-illustration-database.png)
 
 ### I can help you with your existing services or help develop new ones
 

@@ -4,7 +4,7 @@
 
 So, you've got some technical debt. You plan to do something about your documentation and support needs eventually but… all too often, as priorities change, content you planned to be functional suddenly becomes an afterthought. These days, we can all relate to feeling too busy to write every detail.
 
-!["study"](../src/assets/study.svg)
+!["study"](../src/assets/svg/study.svg)
 
 ## It happens - I've been there
 

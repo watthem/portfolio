@@ -6,7 +6,7 @@ Subject matter: productivity
 Type: Article
 Writing Stage: Final
 canonical_url: false
-cover_image: /post/images/gifts.jpg
+cover_image: https://mscott.b-cdn.net/images/gifts.jpg
 date: 2019-02-26
 description: How does your routine bring motivation in your daily life, your goals, and fuel your desires?
 published: true

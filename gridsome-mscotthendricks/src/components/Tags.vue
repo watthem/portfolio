@@ -1,6 +1,6 @@
 <template>
   <div class="list-tags">
-    <h1 class>{{ context }} related articles</h1>
+    <h2 class>{{ context }} related articles</h2>
     <span>(by Subject Matt'ers)</span>
     <ul class="tags">
       <li class="item" v-for="edge in tags.edges" :key="edge.node.id">

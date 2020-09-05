@@ -11,12 +11,12 @@
       />
     </g-link>
     <g-link to="/about">
-      <h1 v-if="showTitle" class="author__site-title">Matthew Hendricks</h1>
+      <h2 v-if="showTitle" class="author__site-title">Matthew Hendricks</h2>
     </g-link>
     <g-link to="/">
-      <h1 v-if="showSiteUrl" class="author__site-site-url">
+      <h2 v-if="showSiteUrl" class="author__site-site-url">
         MatthewHendricks.net
-      </h1>
+      </h2>
     </g-link>
     <h2 v-if="showSubtitle" class="author__sub-title">
       Content Management Systems and Documentation

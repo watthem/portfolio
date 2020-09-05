@@ -5,17 +5,31 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: "Matthew",
-
+  siteName: "Matthew Hendricks",
+  siteUrl: "https://matthewhendricks.neto",
   siteDescription:
-    "Specializes in Content Management Systems | Knowledge Worker, Technical Writer, Product Manager with a background in customer support | Values Collaborative Communication and leading with empathy",
+    "Matthew Hendricks portfolio - Specializes in Content Management Systems | Knowledge Worker, Technical Writer, Product Manager with a background in customer support and documentation.",
   templates: {
     Post: "/:title",
-    Tag: "/tag/:id",
-    Subject: "/subject/:id",
+    Tag: "/tag/:path",
+    Subject: "/subject/:path",
+  },
+
+  permalinks: {
+    trailingSlash: true,
+    slugify: {
+      use: "@sindresorhus/slugify",
+      options: {},
+    },
   },
 
   plugins: [
+    {
+      use: "@gridsome/plugin-google-analytics",
+      options: {
+        id: "UA-89279090-1",
+      },
+    },
     {
       // Create posts from markdown files
       use: "@gridsome/source-filesystem",

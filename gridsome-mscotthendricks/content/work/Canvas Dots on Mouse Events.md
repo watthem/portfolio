@@ -8,7 +8,7 @@ Featured: true
 tags: ["Front-end development"]
 company: Codpen.io
 subjects: ["JavaScript", "CSS3/HTML5", "DirectX"]
-cover_image: /work/images/canvas.png
+cover_image: https://mscott.b-cdn.net/images/canvas.png
 date: 2016-11-18
 published: true
 ---

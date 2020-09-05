@@ -1,7 +1,7 @@
 <template lang="html">
   <div>
     <div v-if="!showPage">
-      <a class="link-button" href="/Matthew_Hendricks.pdf">
+      <a class="link-button" href="https://mscott.b-cdn.net/docs/Matthew_Hendricks.pdf">
         <button>
           <svg
             aria-hidden="true"

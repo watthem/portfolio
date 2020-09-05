@@ -7,7 +7,7 @@ subjects: ["Day trading", "NinjaTrader"]
 URL: https://ninjatrader.com/support/helpGuides/nt8/?charttrader_attachtoindicator.htm
 PDF: "blank"
 canonical_url: false
-cover_image: /work/images/attach.png
+cover_image: https://mscott.b-cdn.net/images/attach.png
 date: 2015-05-28
 published: true
 tags: ["Technical writing"]

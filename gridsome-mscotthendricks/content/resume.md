@@ -45,7 +45,7 @@
 
 ### Contract Technical Writer at Premera
 
-**AIM Consulting (Bothell, WA) -** April 2019 - December 2019 (9 months)
+**AIM Consulting (Bothell, WA) -** April 2019 - December 2019
 
 - Produced a set of 50 process documents for a workforce administration team’s enterprise software suite.
 - Met with subject experts to identify business objectives with sensitivity to differences in needs across various groups.
@@ -80,10 +80,10 @@
 
 ## Portfolio and Work Examples
 
-- [matthewhendricks.net/work](http://www.matthewhendricks.net/work)
-- [linkedin.com/in/watthem](http://www.linkedin.com/in/watthem)
-- [github.com/watthem](http://github.com/watthem)
-- [medium.com/@thoughtabout](http://medium.com/@thoughtabout)
+- [matthewhendricks.net/work](https://www.matthewhendricks.net/work)
+- [linkedin.com/in/watthem](https://www.linkedin.com/in/watthem)
+- [github.com/watthem](https://github.com/watthem)
+- [medium.com/@thoughtabout](https://medium.com/@thoughtabout)
 - [codepen.io/watthem](https://codepen.io/watthem)
 
 ## Interests

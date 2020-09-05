@@ -8,7 +8,7 @@ And while you're here, if there's I've written that makes you want to do better 
 
 ## Something I can help with?{class="big"}
 
-![support](../src/assets/support.svg)
+![support](../src/assets/svg/support.svg)
 
 ### Get in touch
 
@@ -65,7 +65,7 @@ Like my work? Please consider making a small cryptocurrency donation in support 
 
 ### Or buy me a coffee
 
-[![Buy me a coffee](../src/assets/bmc.svg)](https://www.buymeacoff.ee/mscotthendricks)
+[![Buy me a coffee](../src/assets/svg/bmc.svg)](https://www.buymeacoff.ee/mscotthendricks)
 <a class="link-button" href="https://www.buymeacoff.ee/mscotthendricks">
 <button class="">Buy me a coffee </button>
 </a>

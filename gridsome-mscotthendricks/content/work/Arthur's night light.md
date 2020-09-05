@@ -10,7 +10,7 @@ tags: ["Front-end development"]
 company: Codpen.io
 subjects: ["CSS3/HTML5"]
 
-cover_image: /work/images/robot.png
+cover_image: https://mscott.b-cdn.net/images/robot.png
 date: 2016-11-29
 published: true
 ---

@@ -6,7 +6,7 @@ Subject matter: productivity
 Type: Article
 Writing Stage: Final
 canonical_url: false
-cover_image: "https://i.imgur.com/jOO6EEx.png"
+cover_image: https://mscott.b-cdn.net/images/today-things.png
 date: 2020-08-04
 description: "Recently, I've been using an innovative tool for keeping me focused on my daily tasks and priorities (along with a lot of browser add-ons for writing)."
 published: true

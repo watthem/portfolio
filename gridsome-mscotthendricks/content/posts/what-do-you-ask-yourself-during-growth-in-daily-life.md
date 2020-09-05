@@ -3,7 +3,7 @@ Activity: Writing
 Progress: Final
 Project Type: Production
 Status: Done
-cover_image: /post/images/growth.jpg
+cover_image: https://mscott.b-cdn.net/images/growth.jpg
 date: 2019-12-27
 description: "Worry and doubt will surely strike at the worst of times. And it’s usually impossible to catch at the moment — it’s not until I’ve started acting and reacting that I realize that stress drives my behaviors or words."
 published: true

@@ -7,7 +7,7 @@ Subject matter: productivity, psychology
 Type: Article
 Writing Stage: Final
 canonical_url: false
-cover_image: "https://i.imgur.com/pDIfqRL.jpg"
+cover_image: https://mscott.b-cdn.net/images/plan-day.jpg
 date: 2020-08-12
 description: "The best way to genuinely improve mental performance is to understand the natural limits of our brain. By paying attention to your habits, you can learn to cultivate the mind to create your best work."
 published: true

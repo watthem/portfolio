@@ -9,7 +9,7 @@ Type: Article
 Writing Stage: Final
 
 canonical_url: false
-cover_image: /post/images/time-in.jpg
+cover_image: https://mscott.b-cdn.net/images/time-in.jpg
 date: 2019-12-24
 featured: true
 published: true

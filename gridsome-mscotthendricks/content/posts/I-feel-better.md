@@ -7,7 +7,7 @@ Subject matter: productivity, psychology
 Type: Article
 Writing Stage: Final
 canonical_url: false
-cover_image: /post/images/feel-better.jpg
+cover-image: https://mscott.b-cdn.net/images/feel-better.jpg
 date: 2019-02-13
 description: "With careful timing, I could scale off my antidepressants, and I'm working on balancing my mental health through discipline, routine, and structure. I'm finding success through channels that have recently opened up to me—channels that felt neurologically unavailable to me before my journey started last spring. I've made new patterns that are sticking, and I have a pattern of sticking to my habits. And I have data to back it up."
 published: true

@@ -7,7 +7,7 @@ subjects: ["NinjaTrader"]
 URL: https://ninjatrader.com/blog/cme-reduces-tick-size-of-eurusd-futures-2/
 
 canonical_url: false
-cover_image: /work/images/cme.png
+cover_image: https://mscott.b-cdn.net/images/cme.png
 date: 2016-01-08
 published: true
 tags: ["Technical writing"]

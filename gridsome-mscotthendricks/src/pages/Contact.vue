@@ -6,20 +6,20 @@
         <h2 id="schedule-a-call">Schedule a call</h2>
         <p>
           I'm happy to set up a
-          <a href="https://calendly.com/matthewhendricks/quick"
-            >20-minute phone or video call</a
-          >
+          <a
+            href="https://calendly.com/matthewhendricks/quick"
+          >20-minute phone or video call</a>
           to help discuss your needs and requirements.
         </p>
         <a href="https://calendly.com/matthewhendricks/quick">
-          <g-image class="small" src="../../src/assets/calendar.svg"></g-image>
+          <g-image class="small" src="../../src/assets/svg/calendar.svg"></g-image>
         </a>
       </div>
       <!-- <vue-calendly
         class=""
         url="https://calendly.com/matthewhendricks"
         :height="600"
-      ></vue-calendly> -->
+      ></vue-calendly>-->
     </div>
     <Author :show-title="true" :show-links="true" />
   </Layout>

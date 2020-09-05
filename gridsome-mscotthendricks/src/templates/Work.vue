@@ -72,11 +72,21 @@ query Work ($path: String!) {
 }
 </page-query>
 
+<static-query>
+    query {
+        metadata {
+            siteUrl
+        }
+    }
+</static-query>
+
 <script>
 import Layout from "~/layouts/Default.vue";
 import WorkMeta from "~/components/WorkMeta.vue";
 import WorkSubjects from "~/components/WorkSubjects.vue";
 import Author from "~/components/Author.vue";
+
+const slugify = require("@sindresorhus/slugify");
 
 export default {
   components: {
@@ -89,23 +99,40 @@ export default {
     return {};
   },
   watcher: {},
-  computed: {
-    subjectWork: function() {
-      return this.$page.works.edges.filter((edge) => {
-        // this currently returns all matchces, including the current page
-        // --> should update the query to not include current page/id with allWork collection
-        return edge.node.subjects.includes(this.pageSubjectMatter);
-      });
-    },
-    pageSubjectMatter: function() {
-      // just returning the first tag for now
-      return this.$page.work.subjects.split(",")[0];
-    },
-  },
+
   metaInfo() {
     return {
       title: this.$page.work.title,
+      meta: [
+        { key: "og:type", property: "og:type", content: "article" },
+        {
+          key: "og:title",
+          property: "og:title",
+          content: this.$page.work.title,
+        },
+        {
+          key: "description",
+          name: "description",
+          content: this.$page.work.description,
+        },
+        { key: "og:url", property: "og:url", content: this.workUrl },
+        {
+          key: "article:published_time",
+          property: "article:published_time",
+          content: this.$page.work.date,
+        },
+      ],
     };
+  },
+  computed: {
+    workUrl() {
+      let siteUrl = this.$static.metadata.siteUrl;
+      let workPath = this.$page.work.path;
+
+      return workPath
+        ? `${siteUrl}${workPath}`
+        : `${siteUrl}/${slugify(this.$page.work.title)}/`;
+    },
   },
 };
 </script>

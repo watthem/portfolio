@@ -6,7 +6,7 @@ company: Codpen.io
 date: 2017-01-30
 description: Not sure why this is the first thing I thought of when I saw a daily CSS challenge on the topic of "hamburgers", but building this demo using only CSS compontents brought back a lot of fond memories!
 published: true
-cover_image: /work/images/burger.png
+cover_image: https://mscott.b-cdn.net/images/burger.png
 
 subjects: ["CSS3/HTML5"]
 tags: ["Front-end development"]
