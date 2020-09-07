@@ -36,7 +36,7 @@
           <a href="//gridsome.org">Gridsome</a>
         </span>
         <br />
-        <a href="mailto=mscotthendricks@gmail.com">mscotthendricks@gmail.com</a>
+        <a href="mailto:mscotthendricks@gmail.com">mscotthendricks@gmail.com</a>
       </div>
 
       <div class="hidden"></div>
@@ -85,13 +85,8 @@
 }
 
 .footer-nav {
-
-
-  
-  
-  
   background: var(--bg-color);
-  
+
   display: grid;
   gap: 1px 1px;
   grid-template-areas: ". . . ." ". . . ." ". . . ." ". . . .";
@@ -101,7 +96,7 @@
   max-width: var(--content-width);
   min-height: var(--header-height);
   padding: 0 var(--space);
-  
+
   text-overflow: ellipsis;
   white-space: nowrap;
 
@@ -109,11 +104,11 @@
     list-style: none;
     padding: 0;
     margin: 0 1rem;
-    
 
     & ul {
       font-size: 80%;
-      margin: 0;    }
+      margin: 0;
+    }
   }
 
   & a {

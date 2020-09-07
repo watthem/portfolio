@@ -34,4 +34,4 @@ Recently, I've learned to develop a new perspective on work, which has helped me
 - **Recruiters** see my [resume](/resume) and [LinkedIn](https://linkedin.com/in/watthem) 😊.
 - I'm also experienced as a technical husband & father.
 
-  <video preload loop muted autoplay src="/seattle.mp4"></video>
+  <video preload loop muted autoplay src="https://mscott.b-cdn.net/seattle.mp4"></video>
