@@ -10,11 +10,7 @@
     <div v-if="$page.work.published" class="work content-box">
       <div class="work__header">
         <a class="work__url" :href="$page.work.URL">
-          <g-image
-            alt="Cover image"
-            v-if="$page.work.cover_image"
-            :src="$page.work.cover_image"
-          />
+          <g-image alt="Cover image" v-if="$page.work.cover_image" :src="$page.work.cover_image" />
         </a>
       </div>
       <div class="work__description" v-html="$page.work.description" />

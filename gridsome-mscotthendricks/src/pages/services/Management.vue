@@ -34,7 +34,7 @@ query {
 export default {
   components: {},
   metaInfo: {
-    title: "Management",
+    title: "Management Services",
   },
 };
 </script>

@@ -24,36 +24,29 @@ Send me an email, text, or leave a voicemail.
 
 Project in mind? Or need some help with documentation? Want to share your thoughts about an article I wrote? Reach out using your name, email, and a brief message (or [schedule a call](#schedule-a-call) instead.)
 
-<p>
-<form name="contact" method="post" v-on:submit.prevent="handleSubmit" action="/success/" data-netlify="true" data-netlify-honeypot="bot-field">
-  <input type="hidden" name="form-name" value="contact" />
-  <p hidden>
-    <label>
-      Don’t fill this out: <input name="bot-field" />
-    </label>
-  </p>
-  <div class="sender-info">
-    <div class="group">
-      <label for="name" class="form-input-label">Your name</label>
-      <input class="form-input" required type="text" name="name" v-model="formData.name" />
-      <span class="bar"></span>
+<div>
+  <form action="https://formspree.io/mayprbyk" method="POST">
+    <div class="sender-info">
+      <div class="group">
+        <label for="name" class="form-input-label">Your name</label>
+        <input required class="form-input" type="text" name="name" />
+      </div>
+      <div class="group">
+        <label class="form-input-label"> Your email:</label>
+        <input required class="form-input" type="text" name="_replyto" />
+      </div>
     </div>
-    <div class="group">
-      <label class="form-input-label" for="email">Your email</label>
-      <input class="form-input" required type="email" name="email" v-model="formData.email" />
-      <span class="bar"></span>
+    <div class="group message-wrapper">
+      <label class="form-input-label">Your message:</label>
+      <textarea required class="form-input" name="message"></textarea>
     </div>
-  </div>
-  <div class="group message-wrapper">
-    <label class="form-input-label" for="message">Message</label>
-    <textarea required class="form-input" name="message" v-model="formData.message"></textarea>
     <span class="bar"></span>
-  </div>
-  <a class="link-button" href="#">
-    <button type="submit">Submit form</button>
-  </a>
-</form>
-</p>
+    <div class="link-button">
+      <button type="submit">Send</button>
+    </div>
+  </form>
+</div>
+
 
 ## Donate
 

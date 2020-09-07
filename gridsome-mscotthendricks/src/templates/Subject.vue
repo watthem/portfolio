@@ -1,21 +1,14 @@
 <template>
   <Layout :showWork="true" :showResume="true">
     <div class="works content-box">
-      <h1 class="subject-title text-center space-bottom">
-        Work related to ⚡ {{ $page.subject.title }}
-      </h1>
+      <h1 class="subject-title text-center space-bottom">Work related to ⚡ {{ $page.subject.title }}</h1>
       <WorkCard
         v-for="edge in $page.subject.belongsTo.edges"
         :key="edge.node.id"
         :work="edge.node"
       />
     </div>
-    <Author
-      :showIntro="true"
-      :showLinks="true"
-      :showTitle="true"
-      :showSubtitle="true"
-    ></Author>
+    <Author :showIntro="true" :showLinks="true" :showTitle="true" :showSubtitle="true"></Author>
     <Tags context="work" :tags="$page.tags"></Tags>
   </Layout>
 </template>
@@ -74,8 +67,10 @@ export default {
     Tags,
     WorkCard,
   },
-  metaInfo: {
-    title: "Subject",
+  metaInfo() {
+    return {
+      title: this.$page.subject.title,
+    };
   },
 };
 </script>

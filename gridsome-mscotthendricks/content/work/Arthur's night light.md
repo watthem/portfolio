@@ -20,6 +20,6 @@ published: true
   (<a href='https://codepen.io/watthem'>@watthem</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-![robot](../../static/work/images/robot.jpg)
+![robot](https://mscott.b-cdn.net/images/robot.jpg)
 
-![robot](../../static/work/images/robot2.jpg)
+![robot](https://mscott.b-cdn.net/images/robot2.jpg)

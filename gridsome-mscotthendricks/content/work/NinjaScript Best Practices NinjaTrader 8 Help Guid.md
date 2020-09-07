@@ -13,4 +13,4 @@ Featured: true
 tags: ["Technical writing"]
 ---
 
-![alt text](../../static/work/images/best1.png)
+![alt text](https://mscott.b-cdn.net/images/best1.png)

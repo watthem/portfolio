@@ -1,6 +1,6 @@
 # About Matthew
 
-![author](https://mscott.b-cdn.net/images/author.jpg)
+![author](../src/assets/images/author.jpg)
 
 ## I'm a reliable, organized, and hard-working independent contractor.
 
@@ -10,7 +10,7 @@ In a newly remote world, I am eager to exchange lessons, technologies, and metho
 
 Instead of doing it all, let's do what is impactful in a way that brings you success and peace of mind [by focusing on your energy](/how-to-plan-your-day-so-your-creativity-and-focus-will-flourish/).
 
-I'm proud to have worked with smaller start-ups and independent consulting gigs. I've also had the good fortune of working for technology giants:
+I have worked with smaller start-ups and independent consulting gigs. I've also had the good fortune of working for technology giants:
 
 - **Ookla** - (the outstanding cats behind [Speedtest.net](http://speedtest.net/))
 - **Microsoft** - (until [Covid-19 ruined everything](/how-covid-19-ruined-everything/))

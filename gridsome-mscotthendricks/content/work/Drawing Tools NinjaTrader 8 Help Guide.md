@@ -11,4 +11,4 @@ date: 2015-05-28
 tags: ["Technical writing"]
 ---
 
-![alt text](../../static/work/images/drawing1.png)
+![alt text](https://mscott.b-cdn.net/images/drawing1.png)

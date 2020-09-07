@@ -34,7 +34,7 @@ query {
 export default {
   components: {},
   metaInfo: {
-    title: "Notion",
+    title: "Notion Services",
   },
 };
 </script>

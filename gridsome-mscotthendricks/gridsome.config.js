@@ -11,8 +11,8 @@ module.exports = {
     "Matthew Hendricks portfolio - Specializes in Content Management Systems | Knowledge Worker, Technical Writer, Product Manager with a background in customer support and documentation.",
   templates: {
     Post: "/:title",
-    Tag: "/tag/:path",
-    Subject: "/subject/:path",
+    Tag: "/tag/:title",
+    Subject: "/subject/:title",
   },
 
   permalinks: {

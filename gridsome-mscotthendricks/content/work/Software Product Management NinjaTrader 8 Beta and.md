@@ -20,4 +20,4 @@ tags: ["Technical writing", "Product Management"]
 - Rehashed user experiences working with customer-facing teams, company stakeholders, and key partners to help ensure the milestone transition between products was seamless.
 - Painstakingly reviewed implementations and changes with quality to teams to ensure consistency between naming, color, and sub-class behaviors.
 
-![alt text](../../static/work/images/pm1.png)
+![alt text](https://mscott.b-cdn.net/images/pm1.png)

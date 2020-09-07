@@ -8,11 +8,7 @@
 
         <Pager :info="$page.works.pageInfo" :showNavigation="true" />
 
-        <WorkCard
-          v-for="edge in $page.works.edges"
-          :key="edge.node.id"
-          :work="edge.node"
-        />
+        <WorkCard v-for="edge in $page.works.edges" :key="edge.node.id" :work="edge.node" />
         <Pager :info="$page.works.pageInfo" :showNavigation="true" />
       </div>
 
@@ -91,8 +87,13 @@ export default {
     WorkCard,
     Tags,
   },
-  metaInfo: {
-    title: "Work",
+  metaInfo() {
+    return {
+      title:
+        this.$page.works.pageInfo.currentPage == 1
+          ? "Work examples"
+          : `Work examples ( ${this.$page.works.pageInfo.currentPage} of ${this.$page.works.pageInfo.totalPages})`,
+    };
   },
 };
 </script>

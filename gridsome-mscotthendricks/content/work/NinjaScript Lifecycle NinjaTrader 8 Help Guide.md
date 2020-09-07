@@ -11,4 +11,4 @@ date: 2016-06-01
 tags: ["Technical writing"]
 ---
 
-![alt text](../../static/work/images/lifecycle1.png)
+![alt text](https://mscott.b-cdn.net/images/lifecycle1.png)

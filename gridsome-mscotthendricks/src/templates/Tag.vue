@@ -1,14 +1,8 @@
 <template>
   <Layout>
     <div class="posts content-box">
-      <h1 class="tag-title text-center space-bottom">
-        Posts related to ⚡ {{ $page.tag.title }}
-      </h1>
-      <PostCard
-        v-for="edge in $page.tag.belongsTo.edges"
-        :key="edge.node.id"
-        :post="edge.node"
-      />
+      <h1 class="tag-title text-center space-bottom">Posts related to ⚡ {{ $page.tag.title }}</h1>
+      <PostCard v-for="edge in $page.tag.belongsTo.edges" :key="edge.node.id" :post="edge.node" />
     </div>
     <Author :showTitle="true" :showLinks="true"></Author>
   </Layout>
@@ -48,11 +42,6 @@ query Tag ($id: String!) {
             timeToRead
             description
             content
-            tags {
-              id
-              path
-              title
-            }
             subjects {
               id
               path
@@ -75,8 +64,10 @@ export default {
     Author,
     PostCard,
   },
-  metaInfo: {
-    title: "Tag",
+  metaInfo() {
+    return {
+      title: this.$page.tag.title,
+    };
   },
 };
 </script>
