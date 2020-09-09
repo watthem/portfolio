@@ -6,9 +6,11 @@
 
 **Phone** +1 ‪ (646) 694-2062
 
+**Location** Seattle, WA (98125)
+
 **Email** [mscotthendricks@gmail.com](mailto:mscotthendricks@gmail.com)
 
-**Work portfolio** [matthewhendricks.net/work](https://www.notion.so/work)
+**Work portfolio** [matthewhendricks.net/work](https://matthewhendricks.net/work)
 
 ---
 

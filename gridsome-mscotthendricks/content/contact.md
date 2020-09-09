@@ -32,12 +32,12 @@ Project in mind? Or need some help with documentation? Want to share your though
         <input required class="form-input" type="text" name="name" />
       </div>
       <div class="group">
-        <label class="form-input-label"> Your email:</label>
+        <label  for="_replyto" class="form-input-label"> Your email:</label>
         <input required class="form-input" type="text" name="_replyto" />
       </div>
     </div>
     <div class="group message-wrapper">
-      <label class="form-input-label">Your message:</label>
+      <label for="message" class="form-input-label">Your message:</label>
       <textarea required class="form-input" name="message"></textarea>
     </div>
     <span class="bar"></span>
@@ -46,7 +46,6 @@ Project in mind? Or need some help with documentation? Want to share your though
     </div>
   </form>
 </div>
-
 
 ## Donate
 
