@@ -4,9 +4,9 @@ You need someone who understands the plan and the deliverable. Getting a compreh
 
 What I do almost every day (and what I can help you with doing):
 
-1. [Technical Writing](/services/documentation) for internal and external audiences.
-2. [Product and Project Management](/services/management) for software projects.
-3. [Technical Solutions](/services/web) for the web.
+1. [Technical Writing](/services/documentation/) for internal and external audiences.
+2. [Product and Project Management](/services/management/) for software projects.
+3. [Technical Solutions](/services/web/) for the web.
 
 As a disciplined technical writer, my core strength is in understanding how to use the entire team to manage subject-matter time efficiently. As a versatile product manager, I keep a bird's-eye view on all priorities that keep me transparent and flexible to make changes when needed.
 
@@ -32,55 +32,55 @@ Let's work together on something you enjoy.
 
 I specialize in delivering technical resources for both internal and external audiences.
 
-[!["document"](../src/assets/svg/document.svg){class="medium"}](/services/documentation)
+[!["document"](../src/assets/svg/document.svg){class="medium"}](/services/documentation/)
 
 - **CMS Maintenance and Management**
 - **Help desk optimization and Process improvement**
 - **Technical Documentation and User guides**
 
-<a class="link-button" href="/services/documentation"> <button>Read more</button></a>
+<a class="link-button" href="/services/documentation/"> <button>Read more</button></a>
 
 ### **Client and Project Management**{class="big"}
 
 Be it a physical a software application or a service you deliver, let me get your project off the ground or give you the extra push you need for it to become successful.
 
-[!["document"](../src/assets/svg/product.svg){class="medium"}](/services/management)
+[!["document"](../src/assets/svg/product.svg){class="medium"}](/services/management/)
 
 I can work with you you on your approach, feature prioritizations, or even talk to your customers to help you define your needs and provide insight to help you complete features for your project.
 
 Since I'm also a technical writer, I'll make sure we've properly documented your solutions, and your decisions.
 
-<a class="link-button" href="/services/management"> <button>Read more</button></a>
+<a class="link-button" href="/services/management/"> <button>Read more</button></a>
 
 ---
 
 My preferred method of tracking productivity and planning is through [Notion.so](http://notion.so/).
 
-[![https://mscott.b-cdn.net/images/notion/notion-front-page-hero.png](https://mscott.b-cdn.net/images/notion/notion-front-page-hero.png){class="large"}](/services/notion)
+[![https://mscott.b-cdn.net/images/notion/notion-front-page-hero.png](https://mscott.b-cdn.net/images/notion/notion-front-page-hero.png){class="large"}](/services/notion/)
 
 <a class="link-button" href="/services/notion"> <button>Learn about Notion.so</button></a>
 
 But I'm also experienced and skilled with most popular collaboration services:
 
-[![collab](../src/assets/svg/collab.svg){class="medium"}](services)
+[![collab](../src/assets/svg/collab.svg){class="medium"}](/services/)
 
 - **Atlassian Suite (JIRA, Confluence, Trello)**
 - **Office 365 and Azure**
 - **G Suite for Business**
 
-<a class="link-button" href="/services/management"> <button>Read more</button></a>
+<a class="link-button" href="/services/management/"> <button>Read more</button></a>
 
 ### **Solutions for Web and Mobile**{class="big"}
 
 I'm a hands-on product manager who knows and uses code every day. I've figured out ways to work on systems that help develop easy-to-understand solutions.
 
-[!["code"](../src/assets/svg/code.svg){class="medium"}](/services/web)
+[!["code"](../src/assets/svg/code.svg){class="medium"}](/services/web/)
 
 - **Help Desk and eCommerce Services for Small Businesses**
 - **Website builder and hosting consultation (Squarespace, Wix, Shopify, Ghost, Netlify)**
 - **Custom JAMStack Development (JavaScript, APIs, Markdown)**
 
-<a class="link-button" href="/services/web"><button>Read more</button></a>
+<a class="link-button" href="/services/web/"><button>Read more</button></a>
 
 ## **Deliverables**
 

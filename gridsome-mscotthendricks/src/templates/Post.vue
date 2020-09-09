@@ -9,11 +9,7 @@
 
       <div class="post content-box">
         <div class="post__header">
-          <g-image
-            alt="Cover image"
-            v-if="$page.post.cover_image"
-            :src="$page.post.cover_image"
-          />
+          <g-image alt="Cover image" v-if="$page.post.cover_image" :src="$page.post.cover_image" />
         </div>
 
         <div class="post__content" v-html="$page.post.content" />
@@ -34,7 +30,7 @@
         <p>That link isn't ready yet, sorry!</p>
         <p>
           Check out my other
-          <g-link to="/blog">posts</g-link>.
+          <g-link to="/blog/">posts</g-link>.
         </p>
       </div>
     </div>

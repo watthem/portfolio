@@ -33,7 +33,7 @@
         <p>That link isn't ready yet, sorry!</p>
         <p>
           Check out my other
-          <g-link to="/work">work</g-link>.
+          <g-link to="/work/">work</g-link>.
         </p>
       </div>
     </div>

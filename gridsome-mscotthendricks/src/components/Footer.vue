@@ -3,15 +3,15 @@
     <div class="navs">
       <nav class="footer-nav">
         <ul>
-          <li><g-link class to="/services">Services</g-link></li>
-          <li><g-link class to="/services/documentation">Documentation</g-link
+          <li><g-link class to="/services/">Services</g-link></li>
+          <li><g-link class to="/services/documentation/">Documentation</g-link
                 ></li>
-          <li><g-link class to="/services/management">Management</g-link></li>
-          <li><g-link class to="/services/web">Web</g-link></li>
+          <li><g-link class to="/services/management/">Management</g-link></li>
+          <li><g-link class to="/services/web/">Web</g-link></li>
         </ul>
         <ul>
           <li><g-link class to="/">Home</g-link></li>
-          <li><g-link class to="/archive">Archive</g-link></li>
+          <li><g-link class to="/archive/">Archive</g-link></li>
           <li><g-link class to="/blog#recent">Recent Posts</g-link></li>
         </ul>
         <ul>
@@ -23,8 +23,8 @@
         </ul>
 
         <ul>
-          <li><g-link class to="/resume">Resume</g-link></li>
-          <li><g-link class to="/work"> Work Examples</g-link></li>
+          <li><g-link class to="/resume/">Resume</g-link></li>
+          <li><g-link class to="/work/"> Work Examples</g-link></li>
         </ul>
       </nav>
       <div class="details">
@@ -33,7 +33,7 @@
         >
         <span class="footer__links">
           Powered by
-          <a href="//gridsome.org">Gridsome</a>
+          <a href="//gridsome.org/">Gridsome</a>
         </span>
         <br />
         <a href="mailto:mscotthendricks@gmail.com">mscotthendricks@gmail.com</a>

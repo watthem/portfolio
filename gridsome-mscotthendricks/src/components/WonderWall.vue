@@ -4,12 +4,12 @@
       <div class="wall spacer bg-link-color">
         <h3 class="title">Helpful subjects</h3>
         <p>
-          <g-link class="link-button" to="/blog">
+          <g-link class="link-button" to="/blog/">
             <button>Read blog posts</button>
           </g-link>
         </p>
         <p>
-          <g-link class="link-button" to="/services">
+          <g-link class="link-button" to="/services/">
             <button>View services</button>
           </g-link>
         </p>
@@ -140,12 +140,12 @@
           <h3 class="title">Work portfolio</h3>
 
           <p class="">
-            <g-link class="link-button" to="/work">
+            <g-link class="link-button" to="/work/">
               <button>See work examples</button>
             </g-link>
           </p>
           <p class="">
-            <g-link class="link-button" to="/resume">
+            <g-link class="link-button" to="/resume/">
               <button>View resume</button>
             </g-link>
           </p>

@@ -3,11 +3,11 @@
     <g-link v-if="showWelcome" class="logo" to="/">
       <span class="logo__text">Welcome</span>
     </g-link>
-    <g-link v-else-if="showWork" class="logo" to="/work">
+    <g-link v-else-if="showWork" class="logo" to="/work/">
       <span class="logo__text">&larr; {{ $static.metadata.siteName }}' portfolio</span>
     </g-link>
 
-    <g-link v-else-if="showServices" class="logo" to="/services">
+    <g-link v-else-if="showServices" class="logo" to="/services/">
       <span class="logo__text">&larr; {{ $static.metadata.siteName }}' Tech Services</span>
     </g-link>
 

@@ -7,11 +7,11 @@
         <p>
           I'm happy to set up a
           <a
-            href="https://calendly.com/matthewhendricks/quick"
+            href="https://calendly.com/matthewhendricks/quick/"
           >20-minute phone or video call</a>
           to help discuss your needs and requirements.
         </p>
-        <a href="https://calendly.com/matthewhendricks/quick">
+        <a href="https://calendly.com/matthewhendricks/quick/">
           <g-image class="small" src="../../src/assets/svg/calendar.svg"></g-image>
         </a>
       </div>

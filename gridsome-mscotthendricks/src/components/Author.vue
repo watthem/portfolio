@@ -1,6 +1,6 @@
 <template>
   <div class="author">
-    <g-link to="/about">
+    <g-link to="/about/">
       <g-image
         alt="Author image"
         class="author__image"
@@ -10,64 +10,59 @@
         blur="5"
       />
     </g-link>
-    <g-link to="/about">
+    <g-link to="/about/">
       <h2 v-if="showTitle" class="author__site-title">Matthew Hendricks</h2>
     </g-link>
     <g-link to="/">
-      <h2 v-if="showSiteUrl" class="author__site-site-url">
-        MatthewHendricks.net
-      </h2>
+      <h2 v-if="showSiteUrl" class="author__site-site-url">MatthewHendricks.net</h2>
     </g-link>
-    <h2 v-if="showSubtitle" class="author__sub-title">
-      Content Management Systems and Documentation
-    </h2>
-    <p v-if="showIntroShort" class="author__intro">
-      Knowledge Worker, Technical Writer, Product Manager
-    </p>
+    <h2 v-if="showSubtitle" class="author__sub-title">Content Management Systems and Documentation</h2>
+    <p
+      v-if="showIntroShort"
+      class="author__intro"
+    >Knowledge Worker, Technical Writer, Product Manager</p>
     <p v-if="showIntroLong" class="author__intro">
       Knowledge Worker, Technical Writer, Product Manager with a background in
       customer support and documentation.
       <br />
       <small>
         Specializes in Content Management Systems and values collaborative
-        communication.</small
-      >
+        communication.
+      </small>
     </p>
     <div v-if="showLinks" class="author__links">
       <p>Find me on these platforms:</p>
 
       <ul class="flex justify-center list-none">
         <li>
-          <a href="https://medium.com/@thoughtabout">
-            <font-awesome class="author__icons" :icon="['fab', 'medium']" />
+          <a href="https://medium.com/@thoughtabout/">
+            <font-awesome class="author__icons" :icon="['fab', 'medium']" alt="Medium.com" />
           </a>
         </li>
         <li>
-          <a href="https://linkedin.com/in/watthem">
-            <font-awesome class="author__icons" :icon="['fab', 'linkedin']" />
+          <a href="https://www.linkedin.com/in/watthem/">
+            <font-awesome class="author__icons" :icon="['fab', 'linkedin']" alt="LinkedIn.com" />
           </a>
         </li>
         <li>
-          <a href="https://github.com/watthem">
-            <font-awesome class="author__icons" :icon="['fab', 'github']" />
+          <a href="https://github.com/watthem/">
+            <font-awesome class="author__icons" :icon="['fab', 'github']" alt="Github.com" />
           </a>
         </li>
         <li>
-          <a href="https://codepen.io/watthem">
-            <font-awesome class="author__icons" :icon="['fab', 'codepen']" />
+          <a href="https://codepen.io/watthem/">
+            <font-awesome class="author__icons" :icon="['fab', 'codepen']" alt="CodePen.io" />
           </a>
         </li>
       </ul>
 
       <p v-if="showEmail" class="space-bottom">
         <span>Or email me -</span>
-        <a alt="email" href="mailto:mscohendricks@gmail.com"
-          >mscotthendricks@gmail.com</a
-        >
+        <a alt="email" href="mailto:mscohendricks@gmail.com">mscotthendricks@gmail.com</a>
       </p>
     </div>
     <div v-if="showResume" class>
-      <g-link to="/resume" class="link-button">
+      <g-link to="/resume/" class="link-button">
         <button>View and download resume</button>
       </g-link>
     </div>

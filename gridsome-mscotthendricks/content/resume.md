@@ -10,7 +10,7 @@
 
 **Email** [mscotthendricks@gmail.com](mailto:mscotthendricks@gmail.com)
 
-**Work portfolio** [matthewhendricks.net/work](https://matthewhendricks.net/work)
+**Portfolio** [matthewhendricks.net/work](https://matthewhendricks.net/work/)
 
 ---
 
@@ -82,7 +82,7 @@
 
 ## Portfolio and Work Examples
 
-- [matthewhendricks.net/work](https://www.matthewhendricks.net/work)
+- [matthewhendricks.net/work](https://www.matthewhendricks.net/work/)
 - [linkedin.com/in/watthem](https://www.linkedin.com/in/watthem)
 - [github.com/watthem](https://github.com/watthem)
 - [medium.com/@thoughtabout](https://medium.com/@thoughtabout)

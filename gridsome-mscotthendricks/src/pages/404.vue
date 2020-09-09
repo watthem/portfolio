@@ -3,7 +3,7 @@
     <div class="text-center m-20 p-20">
       <h1 class="font-bold">Sorry, I don't know where that link went... 😳</h1>
       <div class="icon">
-        <g-link to="/blog">
+        <g-link to="/blog/">
           <font-awesome :icon="['fa', 'heart-broken']" />
           <br />Check out my other
           posts

@@ -1,9 +1,9 @@
 <template lang="html">
   <nav class="nav">
-    <g-link class to="/about">About</g-link>
-    <g-link class to="/blog">Blog</g-link>
-    <g-link class to="/contact">Contact</g-link>
-    <g-link class to="/work">Work </g-link>
+    <g-link class to="/about/">About</g-link>
+    <g-link class to="/blog/">Blog</g-link>
+    <g-link class to="/contact/">Contact</g-link>
+    <g-link class to="/work/">Work </g-link>
   </nav>
 </template>
 

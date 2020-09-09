@@ -23,7 +23,7 @@
       </a>
     </div>
     <div v-else-if="showPage">
-      <g-link class="link-button" to="/resume">
+      <g-link class="link-button" to="/resume/">
         <button>
           <svg
             aria-hidden="true"
