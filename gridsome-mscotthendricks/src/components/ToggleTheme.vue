@@ -64,6 +64,7 @@ export default {
 
 <style lang="scss">
 .toggle-theme {
+  margin: 0 0 0 calc(var(--space) / 2);
   background-color: transparent;
   border: 0;
   color: var(--body-color);

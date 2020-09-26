@@ -2,20 +2,16 @@
   <div id="app">
     <header class="header">
       <div class="header__left">
-        <Logo
-          :showWelcome="showWelcome"
-          :showWork="showWork"
-          :showServices="showServices"
-        />
+        <Logo :showWelcome="showWelcome" :showWork="showWork" :showServices="showServices" />
       </div>
       <div class="header__right">
-        <div v-if="showCall">
+        <div class="navi" v-if="showCall">
           <CallButton></CallButton>
         </div>
-        <div v-else-if="showResume">
+        <div class="navi" v-else-if="showResume">
           <ResumeButton :showPage="true"></ResumeButton>
         </div>
-        <div v-else-if="showWelcome"></div>
+        <div class="navi" v-else-if="showWelcome"></div>
 
         <ToggleTheme />
       </div>
@@ -270,5 +266,21 @@ export default {
 }
 .bar:after {
   right: 50%;
+}
+
+.navi {
+  animation: blink-2 0.9s infinite 10s both;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 </style>
