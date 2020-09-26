@@ -30,9 +30,9 @@ I think it's a good habit to keep yourself grounded; occasionally it's helpful t
 
 A place where you can see through the dark and see details of your life in a new field of view. A perspective where you can try on new thoughts or ideas or desires—or even see people and relationships for the connections by which they’re made—all the complex paths you've established over your life weave and unfold into space where you can meet them on the bridge that binds two concepts.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/940d294e-2d87-43ea-bbf6-b560d3c3adf8/photo-1515245696852-ae418cad9b62](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/940d294e-2d87-43ea-bbf6-b560d3c3adf8/photo-1515245696852-ae418cad9b62)
+![https://miro.medium.com/max/700/0*yhCJxRo5sncxrIaU](https://miro.medium.com/max/700/0*yhCJxRo5sncxrIaU)
 
-Photo by [Jonas Verstuyft](https://unsplash.com/@verstuyftj?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+Photo by [Hendra Pontomudis](https://unsplash.com/@hpontomudis?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
 
 Just how abstract those thoughts can be is entirely subjective to your experiences—but it seems to leave you with the awareness there is still a physicality to your thoughts. Almost as though your attention can suddenly exist between the contacts of consciousness and energy that drive their relationship. A tangible connection you can break or tighten.
 
@@ -46,9 +46,9 @@ On this day, during my second round of [ketamine IV treatment](https://watthem.g
 
 With my eyes closed, the familiar darkness of the back of my eyelids suddenly appeared much lighter. Suddenly, in that new light, I noticed there was a dimension to it. As I found myself drawn to that depth, I realized that there was a pair of legs in there!
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a4e24206-1b88-4f91-8c2e-71f39755f307/photo-1460893330858-0c301e67cacf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a4e24206-1b88-4f91-8c2e-71f39755f307/photo-1460893330858-0c301e67cacf)
+![https://miro.medium.com/max/700/0*a8Pq6KkrVU0B7kxh](https://miro.medium.com/max/700/0*a8Pq6KkrVU0B7kxh)
 
-Photo by [Tom Sodoge](https://unsplash.com/@tomsdg?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+Photo by [Alex Knight](https://unsplash.com/@agkdesign?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
 
 So just like you can look down and kick your legs, I did that to this pair. I was suddenly walking in a busy street I didn't recognize, using a body I wasn't ready to be using—in an atmosphere—and a state where I couldn't perceive as my emotions as my own overwhelmed me. I imagined myself in a foreign country.
 
@@ -62,9 +62,9 @@ There were some perceptions about death and my father that I felt comforted by, 
 
 I walked into another room, one I could remember this time. And almost immediately, as the experience kept changing, I felt an uncomfortable, anxious feeling. The familiar and uneasy feeling you got being out of your bed past your bedtime, I thought.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d4a7229b-3019-49a4-891a-6bf7c8b149f2/photo-1535556572967-276cd0ad5cba](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d4a7229b-3019-49a4-891a-6bf7c8b149f2/photo-1535556572967-276cd0ad5cba)
+![https://miro.medium.com/max/700/0*0cFl8Y7BY5A0gv2h](https://miro.medium.com/max/700/0*0cFl8Y7BY5A0gv2h)
 
-Photo by [Mat Reding](https://unsplash.com/@matreding?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+Photo by [Mat Reding](https://unsplash.com/@matreding?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
 
 Suddenly, I sensed a presence sitting around a corner. As I approached, I noticed the figures waved outline that I hoped for it to be my wife.
 
@@ -90,10 +90,6 @@ I couldn't say I lost track of time because there was no time to track.
 
 I saw that darkness morph into a distinctive shape of an animal I recognized as a cat. Similar to the experience earlier, I was hoping to see my new kitten. As the form grew, it turned into a remarkably clear appearance of a black cat. When this cat looked at me, it was simultaneously staring back at me as it was growing larger.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f96d3f36-68d1-4765-906e-d27175fe4d98/photo-1508027347466-400cc1518d61](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f96d3f36-68d1-4765-906e-d27175fe4d98/photo-1508027347466-400cc1518d61)
-
-Photo by [German Eduardo Jaber De Lima](https://unsplash.com/@germanjaber?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
-
 ## Quickly yet again
 
 I realized that it wasn't a cat at all, but my mind just wanted me to see something!
@@ -108,8 +104,6 @@ I started noticing the music again. Just as I saw the music, I felt the pain of 
 
 Again, I felt comfort as the feelings replaced by the love for my 2-year-old son.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cbf4714f-5dab-47df-a698-b5fdef837e9c/arthur.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cbf4714f-5dab-47df-a698-b5fdef837e9c/arthur.jpg)
-
 ## An ego gained
 
 As I came back to reality and interacted with my wife and the RN in the room. My passion for Arthur overwhelmed me as I realized the experiences over the last two years were shaping him into the anxiety we're trying to avoid. I didn't mourn for him the way I've lamented my childhood. It satisfied me with the knowledge my present experiences grant me.
@@ -122,6 +116,6 @@ I came out of that experience self-intact, and a stronger bond to my present sta
 
 I came out of that experience with a fantasy I can fulfill. Hope for a good night sleep and pleasant dreams. A good habit for everyone involved.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/081f6a8a-be78-4778-b2cd-dd81ba4cb1df/photo-1516047157009-970cab2005ca](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/081f6a8a-be78-4778-b2cd-dd81ba4cb1df/photo-1516047157009-970cab2005ca)
+![https://miro.medium.com/max/700/0*w_e4zvYGzYDZxJmz](https://miro.medium.com/max/700/0*w_e4zvYGzYDZxJmz)
 
-Photo by [Clint McKoy](https://unsplash.com/@clintmckoy?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
+Photo by [Clint McKoy](https://unsplash.com/@clintmckoy?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)

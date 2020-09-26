@@ -43,7 +43,7 @@ There is a lot outsides of medicine I've been working on with a significant impa
 
 ### Ketamine helped me separate myself into different parts, not in a way that made me feel in pieces, but in a way that allowed me to feel whole.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2935240f-8c28-4d72-bc02-16cddb7426b4/photo-1442499470257-b9d4da617f83](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2935240f-8c28-4d72-bc02-16cddb7426b4/photo-1442499470257-b9d4da617f83)
+![https://images.unsplash.com/photo-1442499470257-b9d4da617f83?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ](https://images.unsplash.com/photo-1442499470257-b9d4da617f83?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ)
 
 Photo by [Mark Daynes](https://unsplash.com/@markdaynes?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
 
@@ -57,7 +57,7 @@ Even though they happened months ago, they are fresh in my mind, I've been worki
 
 I sincerely hope more and more get to experience this lucid imagination. I am re-treated every time a person reaches out to me to share one of their delusive or elusive sightings. It's impossible to put into words without getting into metaphors and unlikely to make any impression on you, the reader, [as they had on me](https://blog.thoughtaboutsolutions.com/one-week-following-treatment-ketamine-part-iii/). But so many of the signals become universal once you understand how to read them.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1f5a7833-6bde-4739-a3c6-cfe9e9302ce2/photo-1478272798175-3e553cc43e67](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1f5a7833-6bde-4739-a3c6-cfe9e9302ce2/photo-1478272798175-3e553cc43e67)
+![https://images.unsplash.com/photo-1478272798175-3e553cc43e67?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ](https://images.unsplash.com/photo-1478272798175-3e553cc43e67?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ)
 
 Photo by [Gus Ruballo](https://unsplash.com/@gusruballo?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
 
@@ -94,7 +94,7 @@ My best scores on the scale registered well after Ketamine—right after Christm
 
 To go from those highs to the lowest scores in that amount of time has been nothing short of remarkable. As with any progress, my treatment has not been a linear decline—those advances and declines represent the waves of life that I've learned I need to ride—not control.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bbb3eb24-fbd7-408f-9a65-4a0365bcb070/photo-1512130017599-6e7db038ea4f](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bbb3eb24-fbd7-408f-9a65-4a0365bcb070/photo-1512130017599-6e7db038ea4f)
+![https://images.unsplash.com/photo-1512130017599-6e7db038ea4f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ](https://images.unsplash.com/photo-1512130017599-6e7db038ea4f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ)
 
 Photo by [Michael Olsen](https://unsplash.com/@mganeolsen?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
 
@@ -144,7 +144,7 @@ It's not just crying, but respecting the [science behind](https://www.ncbi.nlm.n
 
 Aside, I'm happy to say that I could have one of the first cries concerning the recent grief I've been facing, and with little effort, gratitude opened an outlet for healthy healing. I've known for some time our nervous systems regularly need to have a cathartic release, but as with a lot of things with a depressed mind, it had felt foggily unattainable.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/85f7ba64-a9d6-4e8a-bd6e-5b469ec9470c/photo-1434332253042-50df2f9f7b39](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/85f7ba64-a9d6-4e8a-bd6e-5b469ec9470c/photo-1434332253042-50df2f9f7b39)
+![https://images.unsplash.com/photo-1434332253042-50df2f9f7b39?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ](https://images.unsplash.com/photo-1434332253042-50df2f9f7b39?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ)
 
 Photo by [Amanda Flavell](https://unsplash.com/@aflavell?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
 
@@ -162,7 +162,7 @@ So I've spent a lot of time thinking about strategy. How we interact, document, 
 
 With the help from many, I've been able to locate the parts of me I needed to change to separate those things from me to where I no longer felt burdened by my thoughts but merely visited by them. And I would like to pay for my successes forward.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4f36c4de-eb72-44ce-8771-af4bda50cc7c/photo-1484264121943-78dd345bd494](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4f36c4de-eb72-44ce-8771-af4bda50cc7c/photo-1484264121943-78dd345bd494)
+![https://images.unsplash.com/photo-1484264121943-78dd345bd494?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ](https://images.unsplash.com/photo-1484264121943-78dd345bd494?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ)
 
 Photo by [Andrey Larin](https://unsplash.com/@engine9?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
 
@@ -186,7 +186,7 @@ I'm here to tell you I feel better. And I'm still improving.
 
 There's a fantastic power to understanding and acceptance, and with it comes immediate control of your worldview.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c19d3601-2ccb-4e6d-814a-bace1591fb1f/photo-1543589083-660b9ebfbf28](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c19d3601-2ccb-4e6d-814a-bace1591fb1f/photo-1543589083-660b9ebfbf28)
+![https://images.unsplash.com/photo-1543589083-660b9ebfbf28?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ](https://images.unsplash.com/photo-1543589083-660b9ebfbf28?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ)
 
 Photo by [Theodore Mitchell-Bey](https://unsplash.com/@zeeman_photos63?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)
 

@@ -28,7 +28,7 @@
 
 ### Web Development
 
-- `CSS` | `Git` | `GitHub` | `HTML` | `JAMStack` | `JavaScript` | `Markdown` | `VSCode` | `Vue.js`
+- `CSS` | `Git` | `GitHub` | `HTML` | `JAMStack` | `JavaScript` | `Markdown` | `.NET/C#` | `VSCode` | `Vue.js`
 
 ### IT Administration
 
@@ -38,7 +38,7 @@
 
 ### Contract Technical Writer at Microsoft
 
-**Apex Systems (Redmond, WA) -** March 2020 - May 2020
+**Apex Systems (Redmond, WA)** March 2020 to May 2020
 
 - Met with the documentation team's program manager to review and track documentation assignments in Azure DevOps.
 - Contributed to content development and peer review of onboarding, compliance, and operations topics for internal wikis used by 27,000 commercial and consumer support agents.
@@ -47,7 +47,7 @@
 
 ### Contract Technical Writer at Premera
 
-**AIM Consulting (Bothell, WA) -** April 2019 - December 2019
+**AIM Consulting (Bothell, WA)** April 2019 to December 2019
 
 - Produced a set of 50 process documents for a workforce administration team’s enterprise software suite.
 - Met with subject experts to identify business objectives with sensitivity to differences in needs across various groups.
@@ -55,7 +55,7 @@
 
 ### Technical Services Manager for Speedtest Custom
 
-**Ookla (Seattle, WA) -** April 2017 - December 2018
+**Ookla (Seattle, WA)** April 2017 to December 2018
 
 - Led a small remote team responsible for pre-sales, onboarding, billing, and support for Speedtest Custom and Speedtest Host infrastructure clients.
 - Developed, implemented and optimized customer success process strategies used in Salesforce, JIRA, and Zendesk.
@@ -63,7 +63,7 @@
 
 ### Product Manager II / Technical Support Supervisor
 
-**NinjaTrader (Denver, CO) -** May 2010 - June 2016
+**NinjaTrader (Denver, CO) -** May 2010 to June 2016
 
 - Collaborated with Director of Product Management to drive the product life cycle for a team of 5 developers during a major rewrite and product launch of a C# desktop application for day trading.
 - Researched root cause analysis and provided customer technical support of critical bugs while offering confident recommendations for process improvements.
@@ -74,7 +74,7 @@
 
 ### Technical Support Supervisor
 
-**Falcon Trading Systems (Laramie, WY) -** May 2007 - May 2010
+**Falcon Trading Systems (Laramie, WY)** May 2007 to May 2010
 
 - Managed a team of five customer service representatives providing technical support to financial brokers and hedge funds through email, phone, and chat.
 - Developed how-to tutorials, troubleshooting guides, and on-boarding processes for new customers and technical support staff.
@@ -84,9 +84,9 @@
 
 - [matthewhendricks.net/work](https://www.matthewhendricks.net/work/)
 - [linkedin.com/in/watthem](https://www.linkedin.com/in/watthem)
-- [github.com/watthem](https://github.com/watthem)
-- [medium.com/@thoughtabout](https://medium.com/@thoughtabout)
-- [codepen.io/watthem](https://codepen.io/watthem)
+- [github.com/watthem](https://www.github.com/watthem)
+- [medium.com/@thoughtabout](https://www.medium.com/@thoughtabout)
+- [codepen.io/watthem](https://www.codepen.io/watthem)
 
 ## Interests
 

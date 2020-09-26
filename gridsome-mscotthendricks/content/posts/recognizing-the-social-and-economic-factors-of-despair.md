@@ -59,9 +59,9 @@ Many of the problems with following these figures become even more complicated t
 
 The result is a lagging socioeconomic indicator: we won’t know how our decisions will change the information until after the fact.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2246b6d5-9422-4022-a018-ebbc75fcefe7/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2246b6d5-9422-4022-a018-ebbc75fcefe7/Untitled.png)
+![https://images.unsplash.com/photo-1565010505255-cd05a670b436?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80](https://images.unsplash.com/photo-1565010505255-cd05a670b436?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80)
 
-Photo by [Michał Parzuchowski](https://unsplash.com/@mparzuchowski?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
+Photo by [Tristan McKenzie](https://unsplash.com/@trism?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
 
 # **Desperation is a zero-sum game**
 
