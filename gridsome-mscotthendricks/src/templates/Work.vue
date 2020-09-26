@@ -1,5 +1,5 @@
 <template>
-  <Layout :title="$page.work.title" showWork="true">
+  <Layout :title="$page.work.title" showWork="true" showResume="true">
     <div class="work-title">
       <h1 class="work-title__text">{{ $page.work.title }}</h1>
       <WorkSubjects :work="$page.work" />
