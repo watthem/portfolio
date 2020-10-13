@@ -11,44 +11,48 @@ import { config, library } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
 import {
-  faTwitter,
-  faGithub,
-  faMedium,
-  faLinkedin,
   faCodepen,
+  faGithub,
+  faLinkedin,
+  faMarkdown,
+  faMedium,
+  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import {
+  faAddressCard,
   faAt,
-  faFileAlt,
+  faBriefcase,
+  faBullseye,
   faCodeBranch,
+  faFileAlt,
+  faFilePdf,
+  faFileWord,
   faHeartBroken,
   faKeyboard,
-  faUniversalAccess,
   faSignature,
-  faBriefcase,
-  faFilePdf,
-  faBullseye,
-  faAddressCard,
+  faUniversalAccess,
 } from "@fortawesome/free-solid-svg-icons";
 
 config.autoAddCss = false;
 library.add(
-  faGithub,
-  faMedium,
-  faLinkedin,
+  faAddressCard,
+  faAt,
+  faBriefcase,
   faBullseye,
+  faCodeBranch,
+  faCodepen,
   faFileAlt,
   faFilePdf,
-  faCodepen,
-  faAt,
+  faFileWord,
+  faGithub,
   faHeartBroken,
-  faUniversalAccess,
   faKeyboard,
-  faCodeBranch,
+  faLinkedin,
+  faMarkdown,
+  faMedium,
   faSignature,
-  faBriefcase,
-  faAddressCard
+  faUniversalAccess,
 );
 
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
