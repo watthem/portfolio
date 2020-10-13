@@ -1,9 +1,9 @@
 <template lang="html">
   <div>
-    <strong>Download my CV & resume</strong>
+ 
     <div class="resume-buttons" v-if="!showPage">
+     <strong>Download my CV & resume</strong>
       
-      <br>
       <a class="link-button resume-buttons__links" href="/Matthew_Hendricks-CV.pdf">
         <button>
           <font-awesome class="resume-buttons__icons" :icon="['fa', 'file-pdf']" alt="PDF Formatted Resume" />
@@ -23,7 +23,7 @@
       </a>
     </div>
     <div v-else-if="showPage">
-      <g-link class="resume-buttons__links" to="/resume/">
+      <g-link class="link-button resume-buttons__links" to="/resume/">
         <button>
           <svg
             aria-hidden="true"

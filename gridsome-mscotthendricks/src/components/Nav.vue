@@ -33,20 +33,17 @@
 .nav {
   align-items: center;
   background: var(--bg-color);
-  bottom: -0.5rem;
+  
   max-width: var(--content-width);
-  display: grid;
-
-  grid-template-areas: ". . . .";
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-
+  display: flex;
+  justify-content: space-evenly;
+  
   margin: auto;
 
   min-height: var(--header-height);
   // padding: 0 calc(var(--space) / 2);
   position: sticky;
-
+  text-align: left;
   z-index: 10;
   padding: 0 var(--space);
   & a {

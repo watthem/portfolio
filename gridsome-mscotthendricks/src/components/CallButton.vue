@@ -1,5 +1,5 @@
 <template lang="html">
-  <g-link class="link-button" to="/contact#schedule-a-call">
+  <g-link class="link-button" to="/contact">
     <button>
       <svg
         aria-hidden="true"

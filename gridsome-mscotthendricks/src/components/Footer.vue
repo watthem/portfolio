@@ -84,21 +84,20 @@
   }
 }
 
+.navs {
+  overflow-x: scroll;
+}
+
 .footer-nav {
   background: var(--bg-color);
-
-  display: grid;
-  gap: 1px 1px;
-  grid-template-areas: ". . . ." ". . . ." ". . . ." ". . . .";
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1f;
-  margin: auto;
-  max-width: var(--content-width);
-  min-height: var(--header-height);
+max-width: var(--content-width);
+  display: flex;
+ 
   padding: 0 var(--space);
 
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  text-align: left;
+  justify-content: space-evenly;
+  
 
   & ul {
     list-style: none;
@@ -135,8 +134,14 @@
 
   // make sure this matches with Nav compontent
   // To-do: unify footer nav and site nav compontents
-  @media screen and (min-width: 1300px) {
-    margin: 0 auto;
+  @media screen and (max-width: 500px) {
+    
+    
+    max-height: 300px;
+    
+    flex-wrap: wrap;
+    flex-direction: column;
+  
   }
 }
 </style>
