@@ -8,7 +8,7 @@ module.exports = {
   siteName: "Matthew Hendricks",
   siteUrl: "https://matthewhendricks.neto",
   siteDescription:
-    "Matthew Hendricks portfolio - Specializes in Content Management Systems | Knowledge Worker, Technical Writer, Product Manager with a background in customer support and documentation.",
+    "Matthew Hendricks portfolio | Knowledge Worker, Technical Writer, Product Manager — Focused on client solutions for product teams | values opportunities for Collaborative Communication",
   templates: {
     Post: "/:title",
     Tag: "/tag/:title",

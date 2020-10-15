@@ -2,21 +2,19 @@
   <div>
  
     <div class="resume-buttons" v-if="!showPage">
-     <strong>Download my CV & resume</strong>
-      
+     <div class="resume-buttons__title">Download my CV & resume:</div>
+      <br>
       <a class="link-button resume-buttons__links" href="/Matthew_Hendricks-CV.pdf">
         <button>
           <font-awesome class="resume-buttons__icons" :icon="['fa', 'file-pdf']" alt="PDF Formatted Resume" />
         </button>
       </a>
-       
-       <a class="link-button resume-buttons__links" href="/Matthew_Hendricks-CV.docx">
+      <a class="link-button resume-buttons__links" href="/Matthew_Hendricks-CV.docx">
        <button>
        <font-awesome class="resume-buttons__icons" :icon="['fa', 'file-word']" alt="Word Formatted Resume" />
        </button>
       </a>
-
-        <a class="link-button resume-buttons__links" href="/Matthew_Hendricks-CV.md">
+      <a class="link-button resume-buttons__links" href="/Matthew_Hendricks-CV.md">
        <button>
        <font-awesome class="resume-buttons__icons" :icon="['fab', 'markdown']" alt="Markdown Formatted Resume" />
        </button>
@@ -73,11 +71,12 @@
 
 .resume-buttons {
     
-  &__links {
-    padding: 1rem;
-  }
-    &__icons {
-      
+  &__title {
+      color: var(--code-color);
     }
+  &__links {
+    padding: 1rem;    
+  }
+    
 }
 </style>

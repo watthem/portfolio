@@ -22,13 +22,7 @@
       class="author__intro"
     >Knowledge Worker, Technical Writer, Product Manager</p>
     <p v-if="showIntroLong" class="author__intro">
-      Knowledge Worker, Technical Writer, Product Manager with a background in
-      customer support and documentation.
-      <br />
-      <small>
-        Specializes in Content Management Systems and values collaborative
-        communication.
-      </small>
+      Knowledge Worker, Technical Writer, Product Manager — Focused on client solutions for product teams | values opportunities for Collaborative Communication
     </p>
     <div v-if="showLinks" class="author__links">
       <p>Find me on these platforms:</p>
