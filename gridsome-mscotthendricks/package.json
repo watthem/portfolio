@@ -8,18 +8,18 @@
     "convert": "node pandoc.utility.js"
   },
   "dependencies": {
-    "@fortawesome/free-solid-svg-icons": "^5.14.0",
-    "@gridsome/plugin-google-analytics": "^0.1.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@gridsome/plugin-google-analytics": "^0.1.2",
     "@gridsome/remark-prismjs": "^0.2.0",
     "@gridsome/source-filesystem": "^0.6.0",
-    "@gridsome/transformer-remark": "^0.3.4",
+    "@gridsome/transformer-remark": "^0.6.3",
     "@sindresorhus/slugify": "^1.1.0",
-    "gridsome": "^0.7.0",
+    "gridsome": "^0.7.21",
     "remark-attr": "^0.11.1"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.30",
-    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
     "@fortawesome/vue-fontawesome": "^0.1.10",
     "node-pandoc": "^0.3.0",
     "node-sass": "^4.12.0",
