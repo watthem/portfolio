@@ -92,9 +92,9 @@
   background: var(--bg-color);
 max-width: var(--content-width);
   display: flex;
- 
+  
   padding: 0 var(--space);
-
+margin: 0 auto;
   text-align: left;
   justify-content: space-evenly;
   
@@ -132,11 +132,17 @@ max-width: var(--content-width);
     text-decoration: none;
   }
 
+ 
+
   // make sure this matches with Nav compontent
   // To-do: unify footer nav and site nav compontents
+  @media screen and (min-width: 1300px) {
+    margin: 0 auto;
+  }
+
   @media screen and (max-width: 500px) {
     
-    
+    margin: 0 auto;
     max-height: 300px;
     
     flex-wrap: wrap;
