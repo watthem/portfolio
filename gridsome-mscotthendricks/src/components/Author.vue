@@ -28,15 +28,16 @@
       <p>Find me on these platforms:</p>
 
       <ul class="flex justify-center list-none">
-        <li>
-          <a href="https://medium.com/@thoughtabout/">
-            <font-awesome class="author__icons" :icon="['fab', 'medium']" alt="Medium.com" />
+        <li class="disabled">
+            <a href="/linked-in/">
+          <font-awesome class="author__icons" :icon="['fab', 'linkedin']" alt="LinkedIn.com" />
           </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/watthem/">
-            <font-awesome class="author__icons" :icon="['fab', 'linkedin']" alt="LinkedIn.com" />
-          </a>
+          <figure class="arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" width="55" height="35"><g fill="none" stroke="var(--code-color)" stroke-width="1.5" stroke-linecap="round" stroke-miterlimit="10"><path d="M48.569 27.616c-4.254-4.052-15.443 2.992-20.225 3.767-18.011 2.916-23.035-13.832-27.109-28.1"/><path stroke-linejoin="round" d="M41.907 31.488c3.811-2.175 7.875-.701 11.857-2.026-2.17-2.355-6.355-7.329-6.883-10.66"/></g></svg>
+            </figure>
+             <a href="/linked-in/">
+            <small>Let me say why</small>
+             </a>
         </li>
         <li>
           <a href="https://github.com/watthem/">

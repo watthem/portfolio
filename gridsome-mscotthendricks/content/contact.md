@@ -14,7 +14,7 @@ And while you're here, if there's I've written that makes you want to do better 
 
 Send me an email, text, or leave a voicemail.
 
-**Phone** [+1 ‪ (646) 694-2062](tel:+16466942062)
+**Phone** [+1 ‪ (206) 446-5495](tel:+12064465495)
 
 **Email** [mscotthendricks@gmail.com](mailto:mscotthendricks@gmail.com)
 

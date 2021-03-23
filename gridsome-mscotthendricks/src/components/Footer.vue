@@ -3,13 +3,6 @@
     <div class="navs">
       <nav class="footer-nav">
         <ul>
-          <li><g-link class to="/services/">Services</g-link></li>
-          <li><g-link class to="/services/documentation/">Documentation</g-link
-                ></li>
-          <li><g-link class to="/services/management/">Management</g-link></li>
-          <li><g-link class to="/services/web/">Web</g-link></li>
-        </ul>
-        <ul>
           <li><g-link class to="/">Home</g-link></li>
           <li><g-link class to="/archive/">Archive</g-link></li>
           <li><g-link class to="/blog#recent">Recent Posts</g-link></li>

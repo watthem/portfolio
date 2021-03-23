@@ -63,3 +63,32 @@ hr {
   width: 80%;
   margin: calc(var(--space) / 3) auto;
 }
+
+
+
+
+
+.disabled {
+  position: relative;
+  
+  opacity: 1 
+}
+
+.disabled:before {
+
+  display: block;
+  content: 'x';
+  color: var(--code-color);
+  text-decoration: none;
+  font-size: 300%;
+  position: absolute;
+  left: 33%;
+  top: -25%;
+  z-index: 1;
+  opacity: 1;
+}
+
+.arrow {
+  transform: rotate(45deg);
+
+}

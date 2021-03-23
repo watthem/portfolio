@@ -8,11 +8,11 @@
             <button>Read blog posts</button>
           </g-link>
         </p>
-        <p>
+        <!-- <p>
           <g-link class="link-button" to="/services/">
             <button>View services</button>
           </g-link>
-        </p>
+        </p> -->
         <div class="wall-image">
           <svg
             class="svg-image"
