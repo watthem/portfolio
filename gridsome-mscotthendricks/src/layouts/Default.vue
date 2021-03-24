@@ -2,27 +2,32 @@
   <div id="app">
     <header class="header">
       <div class="header__left">
-        <Logo :showWelcome="showWelcome" :showWork="showWork" :showServices="showServices" />
+        <Logo
+          :showWelcome="showWelcome"
+          :showWork="showWork"
+          :showServices="showServices"
+        />
       </div>
+      <Nav></Nav>
       <div class="header__right">
-        <div class="navi" v-if="showCall">
-          <CallButton></CallButton>
-        </div>
-        <div class="navi" v-else-if="showResume">
-          <ResumeButton :showPage="true"></ResumeButton>
-        </div>
-        <div class="navi" v-else-if="showWelcome"></div>
-
         <ToggleTheme />
       </div>
     </header>
+
     <transition name="fade" appear>
       <main class="main">
         <slot />
       </main>
     </transition>
-
-    <Nav></Nav>
+    <div class="action">
+      <div class="navi" v-if="showCall">
+        <CallButton></CallButton>
+      </div>
+      <div class="navi" v-else-if="showResume">
+        <ResumeButton :showPage="true"></ResumeButton>
+      </div>
+      <div class="navi" v-else-if="showWelcome"></div>
+    </div>
     <Footer></Footer>
   </div>
 </template>
@@ -54,6 +59,12 @@ export default {
 </script>
 
 <style lang="scss">
+.action {
+  margin: auto;
+  text-align: center;
+  padding: var(--space);
+}
+
 .tag {
   border-radius: var(--radius) var(--radius) var(--radius);
   display: block;
@@ -169,6 +180,10 @@ export default {
 
   background: var(--bg-color);
   box-shadow: var(--box);
+
+  &__right {
+    font-size: 80%;
+  }
 
   &__left,
   &__right {

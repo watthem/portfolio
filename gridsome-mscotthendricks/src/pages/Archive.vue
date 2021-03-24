@@ -5,6 +5,7 @@
       <h2>Posts</h2>
       <ul>
         <li v-for="edge in $page.posts.edges" :key="edge.node.id">
+          <span v-if="edge.node.featured">✨</span>
           <strong>{{ edge.node.date }}</strong> -
           <a :href="edge.node.path">{{ edge.node.title }}</a>
         </li>
@@ -12,6 +13,7 @@
       <h2>Work</h2>
       <ul>
         <li v-for="edge in $page.works.edges" :key="edge.node.id">
+          <span v-if="edge.node.featured">✨</span>
           <strong>{{ edge.node.date }}</strong> -
           <a :href="edge.node.path">{{ edge.node.title }}</a>
         </li>
@@ -45,9 +47,10 @@ query {
       node {
         id
         title
-        date (format: "MMMM YYYY")
+        date (format: "YYYY-MM-DD")
         timeToRead
         description
+        featured
         cover_image
         path
         tags {
@@ -64,7 +67,7 @@ query {
       node {
         id
         title
-        date (format: "MMMM YYYY")
+        date (format: "YYYY-MM-DD")
         timeToRead
         description
         cover_image

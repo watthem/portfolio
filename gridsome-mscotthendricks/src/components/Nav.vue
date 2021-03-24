@@ -1,9 +1,8 @@
 <template lang="html">
   <nav class="nav">
     <g-link class to="/about/">About</g-link>
-    <g-link class to="/blog/">Blog</g-link>
+    <g-link class to="/work/">Work</g-link>
     <g-link class to="/contact/">Contact</g-link>
-    <g-link class to="/work/">Work </g-link>
   </nav>
 </template>
 
@@ -31,26 +30,21 @@
 
 <style scoped lang="scss">
 .nav {
-  align-items: center;
-  background: var(--bg-color);
-  
-  max-width: var(--content-width);
   display: flex;
   justify-content: space-evenly;
-  
-  margin: auto;
-
+  align-self: center;
+  color: var(--title-color);
   min-height: var(--header-height);
-  // padding: 0 calc(var(--space) / 2);
-  position: sticky;
-  text-align: left;
+
   z-index: 10;
-  padding: 0 var(--space);
+  padding: 1rem var(--space);
+
   & a {
     font-size: 1.2rem;
     text-decoration: none;
     opacity: 0.8;
     margin: 0 1rem;
+    color: var(--title-color);
   }
 
   & a.active--exact.active {
@@ -67,16 +61,12 @@
     display: block;
     content: "";
     border-bottom: solid var(--radius) var(--border-color);
-    transform: scaleX(0);
+    transform: scaleX(0.6);
     transition: transform 250ms ease-in-out;
     transform-origin: 0%;
   }
   & a:not(.active):hover:after {
-    transform: scaleX(0.6);
-  }
-
-  @media screen and (min-width: 1300px) {
-    margin: 0 auto;
+    transform: scaleX(0);
   }
 }
 </style>

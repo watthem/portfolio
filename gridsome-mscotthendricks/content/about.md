@@ -30,8 +30,9 @@ Recently, I've learned to develop a new perspective on work, which has helped me
 ## I am currently Living in Seattle, WA
 
 - Experienced as a technical writer, product manager, technical services manager.
-- See examples of my [work](/work/) and check out my [services](/services/).
-- **Recruiters** see my [resume](/resume/) and [LinkedIn](https://www.linkedin.com/in/watthem) 😊.
-- I'm also experienced as a technical husband & father.
+- See examples of my [work](/work/) and check out my [github](https://www.github.com/watthem/).
+- **Recruiters** see my [resume](/resume/).
 
-  <video preload loop muted autoplay src="https://mscott.b-cdn.net/seattle.mp4"></video>
+## I'm also experienced as a technical husband & father.
+
+<video preload loop muted autoplay src="https://mscott.b-cdn.net/seattle.mp4"></video>

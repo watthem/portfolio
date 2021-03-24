@@ -1,15 +1,21 @@
 <template>
   <Layout>
     <div class="posts content-box">
-      <h1 class="tag-title text-center space-bottom">Posts related to ⚡ {{ $page.tag.title }}</h1>
-      <PostCard v-for="edge in $page.tag.belongsTo.edges" :key="edge.node.id" :post="edge.node" />
+      <h1 class="tag-title text-center space-bottom">
+        Posts related to ⚡ {{ $page.tag.title }}
+      </h1>
+      <PostCard
+        v-for="edge in $page.tag.belongsTo.edges"
+        :key="edge.node.id"
+        :post="edge.node"
+      />
     </div>
     <Author :showTitle="true" :showLinks="true"></Author>
   </Layout>
 </template>
 
 <page-query>
-query Tag ($id: String!) {
+query Tag ($id: ID!) {
   tag (id: $id) {
     title
     belongsTo {
