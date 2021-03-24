@@ -101,3 +101,12 @@
 .color-from-bg {
   color: var(--bg-color);
 }
+
+.small {
+  font-size: small;
+}
+
+.space {
+  margin: var(--space);
+  padding: var(--space);
+}

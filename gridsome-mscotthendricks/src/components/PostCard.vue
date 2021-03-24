@@ -50,7 +50,7 @@ export default {
     margin-top: calc(var(--space) * -1);
     overflow: hidden;
     border-radius: var(--radius) var(--radius) 0 0;
-
+    box-shadow: var(--box2);
     &:empty {
       display: none;
     }

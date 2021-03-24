@@ -8,12 +8,12 @@
           :showServices="showServices"
         />
       </div>
-      <Nav></Nav>
+
       <div class="header__right">
         <ToggleTheme />
       </div>
     </header>
-
+    <Nav></Nav>
     <transition name="fade" appear>
       <main class="main">
         <slot />
@@ -28,6 +28,7 @@
       </div>
       <div class="navi" v-else-if="showWelcome"></div>
     </div>
+
     <Footer></Footer>
   </div>
 </template>
@@ -73,14 +74,14 @@ export default {
   position: relative;
 }
 
-.tag:before {
+.tag:after {
   content: "⚡";
   opacity: 0;
-
+  text-decoration: none;
   padding: var(--radius);
 }
 
-.tag:hover:before {
+.tag:hover:after {
   opacity: 1;
 }
 .services {
@@ -135,9 +136,22 @@ export default {
   }
 }
 
+a,
+.link-button button {
+  color: var(--link-color);
+}
+a:visited,
+.link-button:visited button {
+  color: var(--comp-color);
+}
+
+.link-button:hover button {
+  text-decoration: underline;
+}
+
 .link-button {
   white-space: nowrap;
-  text-decoration: none;
+  text-decoration: underline;
   & img {
     border-radius: 3px 3px 0px 3px;
     display: inline-block;
@@ -151,14 +165,14 @@ export default {
     border-radius: 3px;
     border: none;
     box-shadow: var(--box);
-    color: var(--title-color);
+
     cursor: pointer;
     font-size: 90%;
 
     margin: auto;
     padding: 0.75rem 1rem 0.75rem 1rem;
     text-align: center;
-    text-decoration: none;
+
     transition: 1s transform ease;
     &:hover {
       transform: translateY(-2%);

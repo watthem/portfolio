@@ -9,7 +9,11 @@
 
       <div class="post content-box">
         <div class="post__header">
-          <g-image alt="Cover image" v-if="$page.post.cover_image" :src="$page.post.cover_image" />
+          <g-image
+            alt="Cover image"
+            v-if="$page.post.cover_image"
+            :src="$page.post.cover_image"
+          />
         </div>
 
         <div class="post__content" v-html="$page.post.content" />
@@ -34,7 +38,12 @@
         </p>
       </div>
     </div>
-    <Author class="post-author" :show-links="true" :show-title="true" />
+    <Author
+      class="post-author"
+      :show-image="true"
+      :show-links="true"
+      :show-title="true"
+    />
   </Layout>
 </template>
 

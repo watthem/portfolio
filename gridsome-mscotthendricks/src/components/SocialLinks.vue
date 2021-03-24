@@ -98,7 +98,7 @@
             </g>
           </svg>
         </figure>
-        <a href="/linked-in/"> Let me explain...</a>
+        <a class="small" href="/linked-in/"> Let me explain...</a>
       </li>
     </ul>
   </div>

@@ -8,14 +8,23 @@
         <p class="posts__sort">(Featured by Date)</p>
         <Pager :info="$page.posts.pageInfo" />
 
-        <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node" />
+        <PostCard
+          v-for="edge in $page.posts.edges"
+          :key="edge.node.id"
+          :post="edge.node"
+        />
         <Pager :info="$page.posts.pageInfo" />
         <Tags context="personal" :tags="$page.tags"></Tags>
         <WonderWall></WonderWall>
       </div>
     </section>
     <!-- Author intro -->
-    <Author :show-site-url="true" :show-subtitle="true" :show-intro="true" :showLinks="true" />
+    <Author
+      :show-site-url="true"
+      :show-subtitle="true"
+      :show-intro="true"
+      :showLinks="true"
+    />
   </Layout>
 </template>
 

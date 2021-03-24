@@ -56,8 +56,8 @@ So I’m looking for healthier alternatives instead.
 
 ### Feedback
 
-<a class="link-button" href="/feedback#thanks"><button style="background: var(--good-color)" >That's cool</button></a>
-<a class="link-button" href="/feedback#sorry"><button style="background: var(--code-color)">Not cool</button></a>
+<a class="link-button" href="/feedback#thanks"><button style="background: var(--good-color); color: var(--title-color)" >That's cool</button></a>
+<a class="link-button" href="/feedback#sorry"><button style="background: var(--code-color);color: var(--title-color)">Not cool</button></a>
 
 ## If you’d like to connect
 

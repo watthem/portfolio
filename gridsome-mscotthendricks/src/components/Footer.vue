@@ -39,9 +39,7 @@
           <p>Subscribe to my newsletter to get our latest news.</p>
           <iframe
             src="https://matthewhendricks.substack.com/embed"
-            width="480"
             height="320"
-            style="border: 1px solid #eee; background: white"
             frameborder="0"
             scrolling="no"
           ></iframe>
@@ -55,6 +53,34 @@
         </div>
       </section>
 
+      <aside>
+        <div class="wrap">
+          <label class="close" for="toggle">
+            <span class="cool">😃</span></label
+          >
+
+          <input type="checkbox" id="toggle" class="visually-hidden" />
+
+          <div class="control-me sales-popup small">
+            <h2>Is it ok for you?</h2>
+            <!---->
+            <ul class="choices mb-1">
+              <li><g-link to="/feedback#one-star">⭐</g-link></li>
+              <li><g-link to="/feedback#two-stars">⭐⭐</g-link></li>
+              <li><g-link to="/feedback#three-stars">⭐⭐⭐</g-link></li>
+            </ul>
+            <p class="mb-0 mt-a small">
+              <a
+                href="https://calendly.com/matthewhendricks/website-demo"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                >Book a tech review</a
+              >
+              directly
+            </p>
+          </div>
+        </div>
+      </aside>
       <!-- Footer legal -->
       <section class="ft-legal">
         <ul class="ft-legal-list">
@@ -109,6 +135,81 @@ import SocialLinks from "~/components/SocialLinks.vue";
 </script>
 
 <style scoped lang="scss">
+aside {
+  position: absolute;
+
+  right: 0;
+}
+.control-me::before {
+  content: "Feedback";
+  word-wrap: break-word;
+  // font-size: 200%;
+}
+#toggle:checked ~ .control-me::before {
+  content: "Leave feedback";
+}
+
+#toggle:checked ~ * * {
+  visibility: hidden;
+}
+
+#toggle ~ .control-me {
+}
+
+#toggle:checked ~ .control-me {
+  opacity: 0.5;
+  background: transparent;
+}
+
+label {
+  z-index: 1000;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: var(--link-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -100vw;
+
+  /* Note, you may want to position the checkbox over top the label and set the opacity to zero instead. It can be better for accessibilty on some touch devices for discoverability. */
+}
+
+.close {
+  cursor: pointer;
+
+  position: absolute;
+  text-align: right;
+  right: 10%;
+}
+
+.choices li {
+  text-decoration: none;
+  padding: calc(var(--space) / 4);
+  color: var(--bg-color);
+  background-color: var(--bg-code);
+}
+.choices {
+  word-break: break-word;
+  text-align: center;
+  width: 66%;
+  margin: auto;
+  list-style-type: none;
+}
+
+.wrap {
+  margin: 0 10rem;
+
+  text-align: center;
+  position: sticky;
+  right: 0;
+
+  padding: calc(var(--space) / 4);
+}
+.sales-popup {
+  background-color: var(--highlight-color);
+}
+
 ul {
   list-style: none;
   padding-left: 0;
@@ -116,6 +217,7 @@ ul {
 footer {
   line-height: 1.5;
   max-width: var(--content-width);
+  margin: auto;
 }
 footer a {
   text-decoration: none;
@@ -126,7 +228,7 @@ a:hover {
 
 /* Footer main */
 .ft-main {
-  padding: 1.25rem 1.875rem;
+  padding: var(--space);
   display: flex;
   flex-wrap: wrap;
 }
@@ -141,8 +243,9 @@ a:hover {
   }
 }
 .ft-main-item {
-  padding: 1.25rem;
-  min-width: 12.5rem;
+  // padding: 1.25rem;
+  // min-width: 12.5rem;
+  font-size: small;
 }
 
 /* Footer main | Newsletter form */
@@ -152,9 +255,7 @@ iframe {
 }
 
 /* Footer social */
-.ft-social {
-  padding: 0 1.875rem 1.25rem;
-}
+
 .ft-social-list {
   display: flex;
   justify-content: center;
@@ -163,13 +264,14 @@ iframe {
 }
 
 /* Footer legal */
-.ft-legal {
+.ft-legal,
+.ft-social {
   padding: 0.9375rem 1.875rem;
   background-color: #000;
 }
 .ft-legal-list {
   padding: calc(var(--space) * 2);
-  text-align: center;
+  text-align: left;
   font-weight: 500;
   font-size: 0.8em;
 

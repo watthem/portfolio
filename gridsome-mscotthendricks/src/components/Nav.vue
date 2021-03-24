@@ -43,7 +43,7 @@
     font-size: 1.2rem;
     text-decoration: none;
     opacity: 0.8;
-    margin: 0 1rem;
+    margin: 0 2rem;
     color: var(--title-color);
   }
 

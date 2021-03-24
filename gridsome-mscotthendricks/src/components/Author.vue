@@ -2,6 +2,7 @@
   <div class="author">
     <g-link to="/about/">
       <g-image
+        v-if="showImage"
         alt="Author image"
         class="author__image"
         src="~/assets/images/author.jpg"
@@ -64,6 +65,7 @@ export default {
   components: { SocialLinks },
   props: [
     "showTitle",
+    "showImage",
     "showEmail",
     "showSiteUrl",
     "showResume",
@@ -125,8 +127,6 @@ export default {
       &:hover,
       &:focus {
         opacity: 0.5;
-      }
-      .wide {
       }
     }
   }

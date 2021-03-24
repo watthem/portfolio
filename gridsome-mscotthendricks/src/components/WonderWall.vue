@@ -1,18 +1,18 @@
 <template lang="html">
   <div class="wonder-wall">
     <div class="card-link">
-      <div class="wall spacer bg-link-color">
+      <div class="wall spacer">
         <h3 class="title">Helpful subjects</h3>
         <p>
           <g-link class="link-button" to="/blog/">
             <button>Read blog posts</button>
           </g-link>
         </p>
-        <!-- <p>
-          <g-link class="link-button" to="/services/">
-            <button>View services</button>
+        <p>
+          <g-link class="link-button" to="/archive/">
+            <button>View archive</button>
           </g-link>
-        </p> -->
+        </p>
         <div class="wall-image">
           <svg
             class="svg-image"
@@ -135,7 +135,7 @@
       </div>
     </div>
     <div class="card-link">
-      <div class="wall spacer bg-link-color">
+      <div class="wall spacer">
         <div class style>
           <h3 class="title">Work portfolio</h3>
 
@@ -478,7 +478,7 @@ a.link-button.active--exact.active:after {
 }
 
 .wall {
-  box-shadow: var(--box);
+  box-shadow: var(--box2);
 
   display: flex;
   flex-basis: 100%;

@@ -33,6 +33,7 @@
       </ul>
     </div>
     <Author
+      :show-image="true"
       :show-title="true"
       :show-intro-long="true"
       :show-links="true"
