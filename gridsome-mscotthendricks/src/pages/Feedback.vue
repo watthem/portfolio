@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="feedback">
     <div class="text-center m-20 p-20">
       <h1 class="font-bold">Noted, thanks</h1>
 

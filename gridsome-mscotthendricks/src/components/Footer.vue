@@ -61,7 +61,7 @@
 
           <input type="checkbox" id="toggle" class="visually-hidden" />
 
-          <div class="control-me sales-popup small">
+          <div class="control-me feedback-pop-up small">
             <h2>Is it ok for you?</h2>
             <!---->
             <ul class="choices mb-1">
@@ -82,14 +82,25 @@
         </div>
       </aside>
       <!-- Footer legal -->
-      <section class="ft-legal">
+      <section class="ft-legal smaller">
+        <span>Marked-up using and made awesome with:</span>
         <ul class="ft-legal-list">
           <li>
-            Marked-up with
             <a href="//daringfireball.net/projects/markdown/">Markdown</a>
+            <img class="logo" src="/markdown-logo.svg" />
           </li>
-          <li>Powered by <a href="//gridsome.org/">Gridsome</a></li>
-          <li>Built with <a href="//vue.js/">Vue.js</a></li>
+          <li>
+            <a href="//gridsome.org/">Gridsome</a>
+            <img class="logo" src="/gridsome-logo.svg" />
+          </li>
+          <li>
+            <a href="//vue.js/">Vue.js</a>
+            <img class="logo" src="/vuejs-logo.svg" />
+          </li>
+          <li>
+            <a href="//graphql.org">GraphQL</a>
+            <img class="logo" src="/graphql-logo.svg" />
+          </li>
           <li>Copyright &copy; {{ new Date().getFullYear() }}.</li>
         </ul>
       </section>
@@ -135,10 +146,15 @@ import SocialLinks from "~/components/SocialLinks.vue";
 </script>
 
 <style scoped lang="scss">
+.logo {
+  height: 1rem;
+  padding: 0.25rem;
+  margin: 0.25rem;
+}
 aside {
   position: absolute;
 
-  right: 0;
+  right: 10%;
 }
 .control-me::before {
   content: "Feedback";
@@ -197,16 +213,13 @@ label {
   list-style-type: none;
 }
 
-.wrap {
-  margin: 0 10rem;
-
-  text-align: center;
-  position: sticky;
-  right: 0;
-
-  padding: calc(var(--space) / 4);
+// no feedback on feedback page (sorry folks)
+.feedback .feedback-pop-up,
+.feedback .cool {
+  visibility: hidden;
 }
-.sales-popup {
+
+.feedback-pop-up {
   background-color: var(--highlight-color);
 }
 
@@ -270,7 +283,6 @@ iframe {
   background-color: #000;
 }
 .ft-legal-list {
-  padding: calc(var(--space) * 2);
   text-align: left;
   font-weight: 500;
   font-size: 0.8em;
