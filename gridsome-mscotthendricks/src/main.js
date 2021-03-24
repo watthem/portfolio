@@ -16,6 +16,7 @@ import {
   faLinkedin,
   faMarkdown,
   faMedium,
+  faMastodon,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import "@fortawesome/fontawesome-svg-core/styles.css";
@@ -46,6 +47,7 @@ library.add(
   faFilePdf,
   faFileWord,
   faGithub,
+  faMastodon,
   faHeartBroken,
   faKeyboard,
   faLinkedin,

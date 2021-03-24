@@ -1,7 +1,7 @@
 <template>
   <Layout :showWelcome="true">
     <Author :show-title="true" :showIntroShort="true" :show-links="true" />
-
+    <FeaturedContent></FeaturedContent>
     <WonderWall></WonderWall>
 
     <div class="bump"></div>
@@ -48,10 +48,11 @@ import PostCard from "~/components/PostCard.vue";
 import ServiceContent from "~/components/ServiceContent.vue";
 import Tags from "~/components/Tags.vue";
 import WonderWall from "~/components/WonderWall.vue";
+import FeaturedContent from "~/components/FeaturedContent.vue";
 export default {
   components: {
     Author,
-
+    FeaturedContent,
     PostCard,
     ServiceContent,
     Tags,
