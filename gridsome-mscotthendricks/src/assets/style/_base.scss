@@ -70,6 +70,33 @@ hr {
   opacity: 1;
 }
 
+.disabled:hover {
+  animation: shake 0.2s;
+  animation-iteration-count: 2;
+}
+
+.disabled:hover svg {
+  filter: blur(2px);
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  80% {
+    transform: rotate(0deg);
+  }
+  85% {
+    transform: rotate(5deg);
+  }
+  95% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 .disabled:before {
   display: block;
   content: "x";
