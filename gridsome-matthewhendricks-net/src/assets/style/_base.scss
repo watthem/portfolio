@@ -1,3 +1,5 @@
+/** @format */
+
 // Default
 * {
   box-sizing: border-box;
@@ -66,14 +68,17 @@ hr {
 
 .disabled {
   position: relative;
+  cursor: default;
+}
 
-  opacity: 1;
+.disabled svg {
+  opacity: 0.5;
 }
 
 .disabled:before {
   display: block;
   content: "x";
-  color: var(--code-color);
+  color: var(--bg-content-color);
   text-decoration: none;
   font-size: 300%;
   position: absolute;

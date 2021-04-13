@@ -1,6 +1,6 @@
 <template lang="html">
 
-    <ul class="flex justify-center list-none">
+    <ul class="flex row-wrap justify-center list-none">
       <li>
         <a href="https://matthewhendricks.substack.com/">
           <svg
@@ -98,7 +98,7 @@
             </g>
           </svg>
         </figure>
-        <a class="small" href="/linked-in/"> Let me explain...</a>
+        <a class="small" href="/linked-in/"> Why is this disabled?</a>
       </li>
     </ul>
   </div>
