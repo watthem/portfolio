@@ -1,6 +1,6 @@
-# Contact
+<!-- @format -->
 
-Hey, thanks for stopping by my little nook.
+# Contact
 
 I enjoy writing about and developing things that help people make their daily lives a little easier. So if there's anything you think I can help with, then please [get in touch](#get-in-touch) or [schedule a call](#schedule-a-call).
 
@@ -16,7 +16,7 @@ Send me an email, text, or leave a voicemail.
 
 **Phone** [+1 ‪ (206) 446-5495](tel:+12064465495)
 
-**Email** [mscotthendricks@gmail.com](mailto:mscotthendricks@gmail.com)
+**Email** [contact@matthewhendricks.net](mailto:contact@matthewhendricks.net)
 
 **Location** [Seattle WA (98125)](https://www.google.com/maps/place/Seattle,+WA+98125)
 

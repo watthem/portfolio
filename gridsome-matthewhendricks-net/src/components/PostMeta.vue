@@ -1,3 +1,5 @@
+<!-- @format -->
+
 <template>
   <div class="post-meta">
     <time>Posted: {{ post.date }}</time>
@@ -9,14 +11,15 @@
 </template>
 
 <script>
-export default {
-  props: ["post"],
-};
+  export default {
+    props: ["post"],
+  };
 </script>
 
 <style lang="scss">
-.post-meta {
-  font-size: 0.8em;
-  opacity: 0.8;
-}
+  .post-meta {
+    font-size: 0.8em;
+    opacity: 0.8;
+    color: var(--body-color);
+  }
 </style>

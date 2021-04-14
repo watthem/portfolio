@@ -1,3 +1,5 @@
+<!-- @format -->
+
 <template lang="html">
   <g-link class="link-button" to="/contact">
     <button>
@@ -23,27 +25,27 @@
 
 <script lang="js">
 
-  export default  {
-    name: 'call-button',
-    props: [],
-    mounted () {
+    export default  {
+      name: 'call-button',
+      props: [],
+      mounted () {
 
-    },
-    data () {
-      return {
+      },
+      data () {
+        return {
+
+        }
+      },
+      methods: {
+
+      },
+      computed: {
 
       }
-    },
-    methods: {
-
-    },
-    computed: {
-
-    }
-}
+  }
 </script>
 
 <style scoped lang="scss">
-.call-button {
-}
+  .call-button {
+  }
 </style>

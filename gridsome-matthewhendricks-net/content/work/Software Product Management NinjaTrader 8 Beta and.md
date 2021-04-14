@@ -5,11 +5,13 @@ Status: Ready
 published: true
 cover_image: https://mscott.b-cdn.net/images/pm.png
 description: I was promoted to Product Manager after working as a technical support lead for the NinjaTrader platform. When I was promoted, much of the early planning and specification was already completed, so I was brought on to help with the engineering implementation, user acceptance testing, and documentation up until the first major release of NinjaTrader 8 in November of 2016.
-subjects: ["NinjaTrader"]
+subjects: ["NinjaTrader", "Fintech"]
 URL: https://ninjatrader.com/support/helpGuides/nt8/beta_release_notes.htm
 date: 2016-06-01
 tags: ["Technical writing", "Product Management"]
 ---
+
+<!-- @format -->
 
 - I was Junior Product Manager.
 - Responsible for updating legacy documentation, comparing to current programming interfaces, and conducting code reviews to understand changes to new technology.

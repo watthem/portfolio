@@ -6,8 +6,8 @@
     <span>(by Subject Matt'ers)</span>
     <ul class="tags">
       <li class="item" v-for="edge in tags.edges" :key="edge.node.id">
-        <a class="link-button tag" :href="edge.node.path">
-          <button>{{ edge.node.title }}</button>
+        <a class="tag" :href="edge.node.path">
+          {{ edge.node.title }}
         </a>
       </li>
     </ul>
@@ -28,7 +28,7 @@
     padding: var(--space) calc(var(--space) / 2);
     margin: var(--space) auto;
     margin-bottom: 0;
-    text-align: center;
+
     max-width: var(--content-width);
     h1 {
       color: var(--body-color);
@@ -37,12 +37,8 @@
   }
 
   .tags {
-    list-style: none;
-
     padding: calc(var(--space) / 2) 0 0 0;
-
-    text-align: justify;
-
+    list-style: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

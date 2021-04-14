@@ -1,13 +1,22 @@
+<!-- @format -->
+
 <template>
   <Layout>
     <div class="posts content-box">
       <h1 class="tag-title text-center space-bottom">
         Posts related to ⚡ {{ $page.tag.title }}
       </h1>
+
       <PostCard
         v-for="edge in $page.tag.belongsTo.edges"
         :key="edge.node.id"
         :post="edge.node"
+      />
+
+      <WorkCard
+        v-for="edge in $page.tag.belongsTo.edges"
+        :key="edge.workNode.id"
+        :work="edge.workNode"
       />
     </div>
     <Author :showTitle="true" :showLinks="true"></Author>
@@ -30,7 +39,7 @@ query Tag ($id: ID!) {
             timeToRead
             description
             content
-          
+            published
             tags {
               id
               path
@@ -48,6 +57,7 @@ query Tag ($id: ID!) {
             timeToRead
             description
             content
+            
             subjects {
               id
               path
@@ -62,20 +72,22 @@ query Tag ($id: ID!) {
 </page-query>
 
 <script>
-import Author from "~/components/Author.vue";
-import PostCard from "~/components/PostCard.vue";
+  import Author from "~/components/Author.vue";
+  import PostCard from "~/components/PostCard.vue";
+  import WorkCard from "~/components/WorkCard.vue";
 
-export default {
-  components: {
-    Author,
-    PostCard,
-  },
-  metaInfo() {
-    return {
-      title: this.$page.tag.title,
-    };
-  },
-};
+  export default {
+    components: {
+      Author,
+      PostCard,
+      WorkCard,
+    },
+    metaInfo() {
+      return {
+        title: this.$page.tag.title,
+      };
+    },
+  };
 </script>
 
 <style lang="scss"></style>

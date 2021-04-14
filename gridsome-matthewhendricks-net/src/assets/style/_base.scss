@@ -24,7 +24,7 @@ a:not(.link-button) {
   opacity: 0.8;
   word-wrap: break-word;
   cursor: pointer;
-  text-decoration: underline;
+  // text-decoration: underline;
   &:hover {
     opacity: 1;
   }

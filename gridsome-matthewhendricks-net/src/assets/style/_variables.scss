@@ -1,3 +1,5 @@
+/** @format */
+
 // Default variables
 html {
   --base-font-size: 20px;
@@ -21,8 +23,8 @@ body {
   --content-width: 860px;
   --header-height: 80px;
   --radius: 5px;
-  --box: 1px 1px 5px 0 rgba(0, 0, 0, 0.02), 1px 1px 15px 0 rgba(0, 0, 0, 0.03);
-  --box2: 1px 10px 30px 0 rgba(0, 0, 0, 0.1);
+
+  --box: 1px 10px 15px 0 rgba(0, 0, 0, 0.1);
   --box-hover: 1px 10px 30px 0 rgba(0, 0, 0, 0.1);
 }
 

@@ -1,86 +1,92 @@
 <!-- @format -->
 
 <template lang="html">
-  <div>
-    <footer>
-      <Nav></Nav>
-      <!-- Footer main -->
-      <section class="ft-main">
-        <div class="ft-main-item">
-          <!-- <h2 class="ft-title">About</h2> -->
-          <ul>
-            <li><g-link class to="/">Home</g-link></li>
-            <li><g-link class to="/archive/">Archive</g-link></li>
-            <li><g-link class to="/blog#recent">Recent Posts</g-link></li>
-          </ul>
-        </div>
-        <div class="ft-main-item">
-          <!-- <h2 class="ft-title">Work</h2> -->
-          <ul>
-            <li><g-link class to="/resume/">Resume</g-link></li>
-            <li><g-link class to="/work/"> Work Examples</g-link></li>
-            <li><g-link class to="/posts/"> Blog</g-link></li>
-          </ul>
-        </div>
-        <div class="ft-main-item">
-          <!-- <h2 class="ft-title">Contact</h2> -->
-          <ul>
-            <li>
-              <g-link class to="/contact#get-in-touch">Get in touch</g-link>
-            </li>
-            <li>
-              <g-link class to="/contact#schedule-a-call"
-                >Schedule a call</g-link
-              >
-            </li>
-            <li><g-link class to="/contact#donate">Donate</g-link></li>
-          </ul>
-        </div>
-        <div class="ft-newsletter-item">
-          <h2 class="ft-title">Stay Updated</h2>
-          <p>Subscribe to my newsletter to get my latest writings.</p>
-          <iframe
-            src="https://matthewhendricks.substack.com/embed"
-            width="100%"
-            height="320"
-            frameborder="0"
-            scrolling="no"
-          ></iframe>
-        </div>
-      </section>
-
-      <!-- Footer social -->
-      <section class="ft-social">
-        <div class="ft-social-list">
-          <SocialLinks></SocialLinks>
-        </div>
-      </section>
-
-      <!-- Footer legal -->
-      <section class="ft-legal smaller">
-        <span>Marked-up using and made awesome with:</span>
-        <ul class="ft-legal-list">
-          <li>
-            <a href="//daringfireball.net/projects/markdown/">Markdown</a>
-            <img class="logo" src="/markdown-logo.svg" />
-          </li>
-          <li>
-            <a href="//gridsome.org/">Gridsome</a>
-            <img class="logo" src="/gridsome-logo.svg" />
-          </li>
-          <li>
-            <a href="//vue.js/">Vue.js</a>
-            <img class="logo" src="/vuejs-logo.svg" />
-          </li>
-          <li>
-            <a href="//graphql.org">GraphQL</a>
-            <img class="logo" src="/graphql-logo.svg" />
-          </li>
-          <li>Copyright &copy; {{ new Date().getFullYear() }}.</li>
+  <footer>
+    <Nav></Nav>
+    <!-- Footer main -->
+    <section class="ft-main">
+      <div class="ft-main-item">
+        <!-- <h2 class="ft-title">About</h2> -->
+        <ul>
+          <li><g-link class to="/">Home</g-link></li>
+          <li><g-link class to="/archive/">Archive</g-link></li>
+          <li><g-link class to="/blog#recent">Recent Posts</g-link></li>
         </ul>
-      </section>
-    </footer>
-  </div>
+      </div>
+      <div class="ft-main-item">
+        <!-- <h2 class="ft-title">Work</h2> -->
+        <ul>
+          <li><g-link class to="/resume/">Resume</g-link></li>
+          <li><g-link class to="/work/"> Work Examples</g-link></li>
+          <li><g-link class to="/blog/"> Blog</g-link></li>
+        </ul>
+      </div>
+      <div class="ft-main-item">
+        <!-- <h2 class="ft-title">Contact</h2> -->
+        <ul>
+          <li>
+            <g-link class to="/contact#get-in-touch">Get in touch</g-link>
+          </li>
+          <li>
+            <g-link class to="/contact#schedule-a-call">Schedule a call</g-link>
+          </li>
+          <li><g-link class to="/contact#donate">Donate</g-link></li>
+        </ul>
+      </div>
+      <div class="ft-newsletter-item">
+        <h2 class="ft-title">Stay Updated</h2>
+        <p>Subscribe to my newsletter to get my latest writings.</p>
+        <iframe
+          src="https://matthewhendricks.substack.com/embed"
+          width="100%"
+          height="320"
+          frameborder="0"
+          scrolling="no"
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- Footer social -->
+    <section class="ft-social">
+      <div class="ft-social-list">
+        <SocialLinks></SocialLinks>
+      </div>
+    </section>
+
+    <!-- Footer legal -->
+    <section class="ft-legal">
+      <ul class="ft-tech-list smaller">
+        <span>Marked-up and made awesome with:</span>
+        <li>
+          <img class="logo" src="/markdown-logo.svg" />
+          <a href="//daringfireball.net/projects/markdown/">Markdown</a>
+        </li>
+        <li>
+          <img class="logo" src="/gridsome-logo.svg" />
+          <a href="//gridsome.org/">Gridsome</a>
+        </li>
+        <li>
+          <img class="logo" src="/vuejs-logo.svg" />
+          <a href="//vue.js/">Vue.js</a>
+        </li>
+        <li>
+          <img class="logo" src="/graphql-logo.svg" />
+          <a href="//graphql.org">GraphQL</a>
+        </li>
+      </ul>
+      <br />
+      <ul class="ft-legal-list smaller">
+        <li>
+          Copyright &copy; {{ new Date().getFullYear() }}.
+          <div class="email">
+            <a href="mailto:hi@matthewhendricks.net"
+              >contact@matthewhendricks.net</a
+            >
+          </div>
+        </li>
+      </ul>
+    </section>
+  </footer>
 </template>
 
 <script lang="js">
@@ -198,6 +204,10 @@
   ul {
     list-style: none;
     padding-left: 0;
+    margin: 0;
+    li {
+      margin: calc(var(--space) / 2);
+    }
   }
   footer {
     line-height: 1.5;
@@ -213,24 +223,18 @@
 
   /* Footer main */
   .ft-main {
-    padding: var(--space);
+    padding: calc(var(--space) / 2);
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
   }
-  @media only screen and (min-width: 29.8125rem /* 477px */) {
-    .ft-main {
-      justify-content: space-evenly;
-    }
-  }
-  @media only screen and (min-width: 77.5rem /* 1240px */) {
-    .ft-main {
-      justify-content: space-evenly;
-    }
-  }
+
   .ft-main-item {
-    // padding: 1.25rem;
-    // min-width: 12.5rem;
     font-size: small;
+  }
+
+  .email small {
+    text-decoration: underline;
   }
 
   /* Footer main | Newsletter form */
@@ -244,7 +248,7 @@
   .ft-social-list {
     display: flex;
     justify-content: center;
-    border-top: 1px var(--bg-code) solid;
+
     padding-top: 1.25rem;
   }
 
@@ -258,8 +262,6 @@
     text-align: left;
     font-weight: 500;
     font-size: 0.8em;
-
-    margin-top: var(--space);
 
     width: 100%;
     display: flex;

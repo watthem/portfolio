@@ -1,3 +1,5 @@
+<!-- @format -->
+
 <template>
   <div class="author">
     <g-link to="/about/">
@@ -25,7 +27,7 @@
     <p v-if="showIntroShort" class="author__intro">
       Developer-centric Technical Writer and Product Manager
     </p>
-    <p class="author__hashtags"><a href="/tag/de-fintech/">#DeFintech</a></p>
+    <p class="author__hashtags"><a href="/subject/fintech/">#Fintech</a></p>
     <p v-if="showIntroLong" class="author__intro">
       Focused on decentralized solutions for remote teams | values opportunities
       for Collaborative Communication
@@ -59,76 +61,76 @@ query {
 </static-query>
 
 <script>
-import SocialLinks from "~/components/SocialLinks.vue";
+  import SocialLinks from "~/components/SocialLinks.vue";
 
-export default {
-  components: { SocialLinks },
-  props: [
-    "showTitle",
-    "showImage",
-    "showEmail",
-    "showSiteUrl",
-    "showResume",
-    "showSubtitle",
-    "showLinks",
-    "showIntroLong",
-    "showIntroShort",
-  ],
-};
+  export default {
+    components: { SocialLinks },
+    props: [
+      "showTitle",
+      "showImage",
+      "showEmail",
+      "showSiteUrl",
+      "showResume",
+      "showSubtitle",
+      "showLinks",
+      "showIntroLong",
+      "showIntroShort",
+    ],
+  };
 </script>
 
 <style lang="scss">
-.author {
-  margin: var(--space) auto;
-  max-width: 500px;
+  .author {
+    margin: var(--space) auto;
+    max-width: 500px;
 
-  text-align: center;
-  padding: calc(var(--space) / 2) 0;
+    text-align: center;
+    padding: calc(var(--space) / 2) 0;
 
-  &__image {
-    border-radius: 100%;
-    width: calc(var(--space) * 3);
-    height: calc(var(--space) * 3);
-    margin-bottom: 1em;
-    filter: grayscale(50%);
-  }
+    &__image {
+      border-radius: 100%;
+      width: calc(var(--space) * 3);
+      height: calc(var(--space) * 3);
+      margin-bottom: 1em;
+      filter: grayscale(50%);
+    }
 
-  &__hashtags {
-    font-size: 90%;
-    color: rgb(27, 149, 224);
-  }
+    &__hashtags {
+      font-size: 90%;
+      color: rgb(27, 149, 224);
+    }
 
-  &__full_image {
-    border-radius: 100%;
-    width: 100%;
-    height: 100%;
-    margin-bottom: 1em;
-    filter: grayscale(50%);
-  }
+    &__full_image {
+      border-radius: 100%;
+      width: 100%;
+      height: 100%;
+      margin-bottom: 1em;
+      filter: grayscale(50%);
+    }
 
-  &__icons {
-    font-size: 1.8rem;
-    margin: var(--radius);
-  }
+    &__icons {
+      font-size: 1.8rem;
+      margin: var(--radius);
+    }
 
-  &__intro {
-    opacity: 0.8;
-  }
+    &__intro {
+      opacity: 0.8;
+    }
 
-  &__site-title {
-    font-size: 1.5em;
-  }
+    &__site-title {
+      font-size: 1.5em;
+    }
 
-  &__links {
-    margin-top: -0.5em;
-    a {
-      color: currentColor;
+    &__links {
+      margin-top: -0.5em;
+      a {
+        color: currentColor;
 
-      &:hover,
-      &:focus {
-        opacity: 0.5;
+        &:hover,
+        &:focus {
+          opacity: 0.5;
+        }
       }
     }
   }
-}
 </style>

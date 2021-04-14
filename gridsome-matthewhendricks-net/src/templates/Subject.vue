@@ -1,14 +1,24 @@
+<!-- @format -->
+
 <template>
   <Layout :showWork="true" :showResume="true">
     <div class="works content-box">
-      <h1 class="subject-title text-center space-bottom">Work related to ⚡ {{ $page.subject.title }}</h1>
+      <h1 class="subject-title text-center space-bottom">
+        Work related to ⚡ {{ $page.subject.title }}
+      </h1>
+
       <WorkCard
         v-for="edge in $page.subject.belongsTo.edges"
         :key="edge.node.id"
         :work="edge.node"
       />
     </div>
-    <Author :showIntro="true" :showLinks="true" :showTitle="true" :showSubtitle="true"></Author>
+    <Author
+      :showIntro="true"
+      :showLinks="false"
+      :showTitle="true"
+      :showSubtitle="true"
+    ></Author>
     <Tags context="work" :tags="$page.tags"></Tags>
   </Layout>
 </template>
@@ -28,6 +38,7 @@ query Subject ($id: ID!) {
             description
             content
             cover_image
+            published
             company
             tags {
               id
@@ -57,22 +68,22 @@ query Subject ($id: ID!) {
 </page-query>
 
 <script>
-import Author from "~/components/Author.vue";
-import WorkCard from "~/components/WorkCard.vue";
-import Tags from "~/components/Tags.vue";
+  import Author from "~/components/Author.vue";
+  import WorkCard from "~/components/WorkCard.vue";
+  import Tags from "~/components/Tags.vue";
 
-export default {
-  components: {
-    Author,
-    Tags,
-    WorkCard,
-  },
-  metaInfo() {
-    return {
-      title: this.$page.subject.title,
-    };
-  },
-};
+  export default {
+    components: {
+      Author,
+      Tags,
+      WorkCard,
+    },
+    metaInfo() {
+      return {
+        title: this.$page.subject.title,
+      };
+    },
+  };
 </script>
 
 <style lang="scss"></style>

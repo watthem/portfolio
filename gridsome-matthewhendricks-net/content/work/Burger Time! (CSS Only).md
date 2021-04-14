@@ -1,5 +1,5 @@
 ---
-Featured: true
+featured: false
 Status: Completed
 URL: https://codepen.io/watthem/pen/qRjwPq
 company: Codpen.io
@@ -8,10 +8,12 @@ description: Not sure why this is the first thing I thought of when I saw a dail
 published: true
 cover_image: https://mscott.b-cdn.net/images/burger.png
 
-subjects: ["CSS3/HTML5"]
+subjects: ["Codepen.io", "CSS3/HTML5"]
 tags: ["Front-end development"]
 title: Burger Time! (CSS Only)
 ---
+
+<!-- @format -->
 
 <iframe height="775" style="width: 100%;" scrolling="no" title="Burger Time! (CSS Only)" src="https://codepen.io/watthem/embed/qRjwPq?height=775&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/watthem/pen/qRjwPq'>Burger Time! (CSS Only)</a> by Matthew Hendricks

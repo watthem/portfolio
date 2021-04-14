@@ -39,7 +39,8 @@
           </svg>
         </a>
       </li>
-      <li>
+      <!-- disabled; not actively used -->
+      <!-- <li>
         <a href="https://mastodon.online/@matthewhendricks">
           <font-awesome
             title="Mastodon.online"
@@ -48,7 +49,7 @@
             alt="mastodon.online"
           />
         </a>
-      </li>
+      </li> -->
       <li>
         <a href="https://github.com/watthem/">
           <font-awesome
@@ -69,14 +70,14 @@
           />
         </a>
       </li>
-
-      <li v-if="showLinkedIn" class="disabled">
-        <a href="/linked-in/">
+      <!-- disabled; until people start asking -->
+      <!-- <li v-if="showLinkedIn" class="disabled">
+        <a href="/where-is-your-linked-in/">
           <font-awesome
             title="linkedin.com"
             class="author__icons"
             :icon="['fab', 'linkedin']"
-            alt="LinkedIn.com"
+            alt="/where-is-your-linked-in/"
           />
         </a>
         <figure class="arrow">
@@ -98,7 +99,7 @@
             </g>
           </svg>
         </figure>
-        <a class="small" href="/linked-in/"> Why is this disabled?</a>
+        <a class="small"  href="/where-is-your-linked-in/"> Why is this disabled?</a> -->
       </li>
     </ul>
   </div>

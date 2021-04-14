@@ -8,10 +8,10 @@ Writing Stage: Draft
 canonical_url: false
 date: 2021-03-23
 cover_image: https://images.unsplash.com/photo-1510432160893-9e77a331fc0c
-description: "(well this is awkward...)"
+description: "Why you can't find me on LinkedIn."
 published: true
-tags: ["Work"]
-title: "LinkedIn"
+tags: ["Mindfulness & Mental Health"]
+title: "Where is your LinkedIn?"
 ---
 
 <!-- @format -->
@@ -50,7 +50,9 @@ You can skip [the philosophy](#why-im-not-on-linkedin).
 
 ## Why I’m not on LinkedIn
 
-I was a daily LinkedIn users for a number of years. Despite the postive connections and interactions it brought me, in December 2020, I took a hard look at my ROI over time. And it hit me - all that time - LinkedIn had provided me $0 in successful opportunities.
+I was a daily LinkedIn users for a number of years. Despite the postive connections and interactions, I had to take a break.
+
+In December 2020, I took a hard look at my ROI over time. And it hit me - all that time - LinkedIn had provided me $0 in successful opportunities.
 
 Maybe I didn’t use it correctly, or perhaps I didn’t have time. But I know I walked away from LinkedIn feeling bad about myself ([you know the type of content](https://www.buzzfeednews.com/article/ryanmac/why-are-these-posts-taking-over-your-linkedin-feed-because)). And the jobs that used to reach me on that platform [made me feel even worse](https://techcrunch.com/2018/09/10/linkedin-sucks/).
 
@@ -62,7 +64,9 @@ So I’m looking for healthier alternatives instead.
 
 ### If you’d like to connect
 
-I’m on [matrix.org](https://matrix.to/#/@matthewhendricks:matrix.org), [substack.com](https://matthewhendricks.substack.com/), and [mastodon.online](https://mastodon.online/@matthewhendricks)
+Feel freeo to [DM me](#if-you-wanted-to-dm-me).
+
+I’m also on [matrix.org](https://matrix.to/#/@matthewhendricks:matrix.org), [substack.com](https://matthewhendricks.substack.com/), and [mastodon.online](https://mastodon.online/@matthewhendricks)
 
 ### If you just wanted to see my face
 

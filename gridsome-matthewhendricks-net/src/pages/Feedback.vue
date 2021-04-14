@@ -1,3 +1,5 @@
+<!-- @format -->
+
 <template>
   <Layout class="feedback">
     <div class="text-center m-20 p-20">
@@ -19,7 +21,7 @@
               >
               <p>
                 Thanks, I appreicate the input. Please feel free to reach me at
-                webmaster@matthewhendrick.net for additional feedback
+                contact@matthewhendrick.net for additional feedback
               </p>
             </li>
             <li>
@@ -41,7 +43,7 @@
 
             <li>
               <g-link class="dynamic-choice" id="sorry" to="/feedback#sorry"
-                >:(</g-link
+                >😔</g-link
               >
             </li>
           </ol>
@@ -56,39 +58,39 @@
 </template>
 
 <script>
-import Footer from "~/components/WonderWall.vue";
-import Nav from "~/components/Author.vue";
+  import Footer from "~/components/WonderWall.vue";
+  import Nav from "~/components/Author.vue";
 
-export default {
-  components: {
-    Footer,
-    Nav,
-  },
-  metaInfo: {
-    title: "Feedback",
-  },
-};
+  export default {
+    components: {
+      Footer,
+      Nav,
+    },
+    metaInfo: {
+      title: "Feedback",
+    },
+  };
 </script>
 
 <style scoped>
-ol {
-  list-style: none;
-}
-.dynamic-choice {
-  visibility: hidden;
-}
+  ol {
+    list-style: none;
+  }
+  .dynamic-choice {
+    visibility: hidden;
+  }
 
-.active--exact {
-  visibility: visible;
-}
+  .active--exact {
+    visibility: visible;
+  }
 
-div {
-  text-align: center;
-  margin: auto;
-  padding: var(--space);
-}
+  div {
+    text-align: center;
+    margin: auto;
+    padding: var(--space);
+  }
 
-svg {
-  font-size: 5rem;
-}
+  svg {
+    font-size: 5rem;
+  }
 </style>

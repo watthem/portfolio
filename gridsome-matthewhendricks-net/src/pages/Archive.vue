@@ -1,3 +1,5 @@
+<!-- @format -->
+
 <template>
   <Layout showResume="true">
     <div class="content-box">
@@ -5,7 +7,7 @@
       <h2>Posts</h2>
       <ul>
         <li v-for="edge in $page.posts.edges" :key="edge.node.id">
-          <span v-if="edge.node.featured">✨</span>
+          <span v-if="edge.node.featured">✨ &#8203;</span>
           <strong>{{ edge.node.date }}</strong> -
           <a :href="edge.node.path">{{ edge.node.title }}</a>
         </li>
@@ -13,7 +15,7 @@
       <h2>Work</h2>
       <ul>
         <li v-for="edge in $page.works.edges" :key="edge.node.id">
-          <span v-if="edge.node.featured">✨</span>
+          <span v-if="edge.node.featured">✨ &#8203;</span>
           <strong>{{ edge.node.date }}</strong> -
           <a :href="edge.node.path">{{ edge.node.title }}</a>
         </li>
@@ -71,6 +73,7 @@ query {
         date (format: "YYYY-MM-DD")
         timeToRead
         description
+        featured
         cover_image
         path
         tags {
@@ -104,21 +107,21 @@ query {
 </page-query>
 
 <script>
-import Author from "~/components/Author.vue";
-import PostCard from "~/components/PostCard.vue";
-import Tags from "~/components/Tags.vue";
-import WonderWall from "~/components/WonderWall.vue";
-export default {
-  components: {
-    Author,
-    WonderWall,
-    PostCard,
-    Tags,
-  },
-  metaInfo: {
-    title: "Archive",
-  },
-};
+  import Author from "~/components/Author.vue";
+  import PostCard from "~/components/PostCard.vue";
+  import Tags from "~/components/Tags.vue";
+  import WonderWall from "~/components/WonderWall.vue";
+  export default {
+    components: {
+      Author,
+      WonderWall,
+      PostCard,
+      Tags,
+    },
+    metaInfo: {
+      title: "Archive",
+    },
+  };
 </script>
 
 <style scoped></style>

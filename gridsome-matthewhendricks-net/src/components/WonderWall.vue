@@ -1,3 +1,5 @@
+<!-- @format -->
+
 <template lang="html">
   <div class="wonder-wall">
     <div class="card-link">
@@ -405,124 +407,124 @@
 
 <script lang="js">
 
-  export default  {
-    name: 'wonder-wall',
-    props: [],
-    mounted () {
+    export default  {
+      name: 'wonder-wall',
+      props: [],
+      mounted () {
 
-    },
-    data () {
-      return {
+      },
+      data () {
+        return {
+
+        }
+      },
+      methods: {
+
+      },
+      computed: {
 
       }
-    },
-    methods: {
-
-    },
-    computed: {
-
-    }
-}
+  }
 </script>
 
 <style scoped lang="scss">
-.wonder-wall {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  margin: auto;
-  justify-content: center;
-  @media screen and (max-width: 900px) {
-    flex-direction: column;
-  }
-
-  .link-button {
-    &:after {
-      border: none;
-
-      color: #00000000;
-      margin: 0;
-      padding: 0;
-      content: "\279E";
-      cursor: pointer;
-      display: inline-block;
-      opacity: 1;
-      padding: 0.75rem 0.25rem 0.75rem 0.25rem;
-      text-align: center;
-      transition: 1s transform ease, 1s opacity ease;
+  .wonder-wall {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    @media screen and (max-width: 900px) {
+      flex-direction: column;
     }
 
-    &:hover:after {
-      transform: translateY(-2%);
-      opacity: 0.8;
-      color: var(--title-color);
+    .link-button {
+      &:after {
+        border: none;
+
+        color: #00000000;
+        margin: 0;
+        padding: 0;
+        content: "\279E";
+        cursor: pointer;
+        display: inline-block;
+        opacity: 1;
+        padding: 0.75rem 0.25rem 0.75rem 0.25rem;
+        text-align: center;
+        transition: 1s transform ease, 1s opacity ease;
+      }
+
+      &:hover:after {
+        transform: translateY(-2%);
+        opacity: 0.8;
+        color: var(--title-color);
+      }
     }
   }
-}
-a.card-link.active--exact.active {
-  cursor: default;
-  & .button-link {
+  a.card-link.active--exact.active {
     cursor: default;
-    filter: none;
+    & .button-link {
+      cursor: default;
+      filter: none;
+    }
   }
-}
 
-a.link-button.active--exact.active button {
-  opacity: 0.2;
-  cursor: default;
-}
-
-a.link-button.active--exact.active:after {
-  content: "";
-}
-
-.wall {
-  box-shadow: var(--box2);
-
-  display: flex;
-  flex-basis: 100%;
-
-  flex-direction: column;
-
-  flex: 1;
-  height: 600px;
-  overflow: hidden;
-  text-align: justify;
-
-  @media screen and (max-width: 900px) {
+  a.link-button.active--exact.active button {
+    opacity: 0.2;
+    cursor: default;
   }
-}
-.wall:hover {
-  box-shadow: var(--box-hover);
-}
 
-.spacer {
-  margin: var(--radius);
-  padding: var(--space);
-}
+  a.link-button.active--exact.active:after {
+    content: "";
+  }
 
-.title {
-  margin: 0;
-  font-weight: 600;
-  font-size: 1.875rem;
-  line-height: 1.25;
-  margin-bottom: 2.5rem;
-  color: var(--title-color);
-  z-index: 10;
-}
+  .wall {
+    box-shadow: var(--box);
 
-.wall-image {
-  width: 100%;
-  height: 0;
-  padding-top: 80%;
-  margin: auto;
-  position: relative;
-}
+    display: flex;
+    flex-basis: 100%;
 
-svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
+    flex-direction: column;
+
+    flex: 1;
+    height: 600px;
+    overflow: hidden;
+    text-align: justify;
+
+    @media screen and (max-width: 900px) {
+    }
+  }
+  .wall:hover {
+    box-shadow: var(--box-hover);
+  }
+
+  .spacer {
+    margin: var(--radius);
+    padding: var(--space);
+  }
+
+  .title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 1.25;
+    margin-bottom: 2.5rem;
+    color: var(--title-color);
+    z-index: 10;
+  }
+
+  .wall-image {
+    width: 100%;
+    height: 0;
+    padding-top: 80%;
+    margin: auto;
+    position: relative;
+  }
+
+  svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 </style>

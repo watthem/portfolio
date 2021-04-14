@@ -1,30 +1,23 @@
+<!-- @format -->
+
 <template>
   <Layout :showResume="true">
-    <!-- List works -->
-    <div class="works" id="works">
+    <section class="work-list" id="worklist">
+      <!-- List works -->
       <div class="works content-box">
         <h1 id="work">Matthew's work portfolio</h1>
+
         <p class="works__sort">(Featured by Date)</p>
+        <Pager :info="$page.works.pageInfo" />
 
-        <Pager :info="$page.works.pageInfo" :showNavigation="true" />
-
-        <WorkCard v-for="edge in $page.works.edges" :key="edge.node.id" :work="edge.node" />
-        <Pager :info="$page.works.pageInfo" :showNavigation="true" />
+        <WorkCard
+          v-for="edge in $page.works.edges"
+          :key="edge.node.id"
+          :work="edge.node"
+        />
+        <Pager :info="$page.works.pageInfo" />
       </div>
-
-      <!-- List subjects -->
-      <Tags context="work" :tags="$page.subjects"></Tags>
-      <!-- Author intro -->
-      <Author
-        :show-title="true"
-        :show-email="true"
-        :show-subtitle="true"
-        :show-intro-long="true"
-        :show-links="false"
-        :show-resume="true"
-      />
-      <WonderWall></WonderWall>
-    </div>
+    </section>
   </Layout>
 </template>
 
@@ -66,6 +59,7 @@ query ($page: Int) {
         id
         title
         path
+        
       }
     }
   }  
@@ -73,55 +67,55 @@ query ($page: Int) {
 </page-query>
 
 <script>
-import { Pager } from "gridsome";
+  import { Pager } from "gridsome";
 
-import Author from "~/components/Author.vue";
-import WorkCard from "~/components/WorkCard.vue";
-import Tags from "~/components/Tags.vue";
-import WonderWall from "~/components/WonderWall.vue";
-export default {
-  components: {
-    Author,
-    Pager,
-    WonderWall,
-    WorkCard,
-    Tags,
-  },
-  metaInfo() {
-    return {
-      title:
-        this.$page.works.pageInfo.currentPage == 1
-          ? "Work examples"
-          : `Work examples ( ${this.$page.works.pageInfo.currentPage} of ${this.$page.works.pageInfo.totalPages})`,
-    };
-  },
-};
+  import Author from "~/components/Author.vue";
+  import WorkCard from "~/components/WorkCard.vue";
+  import Tags from "~/components/Tags.vue";
+  import WonderWall from "~/components/WonderWall.vue";
+  export default {
+    components: {
+      Author,
+      Pager,
+      WonderWall,
+      WorkCard,
+      Tags,
+    },
+    metaInfo() {
+      return {
+        title:
+          this.$page.works.pageInfo.currentPage == 1
+            ? "Work examples"
+            : `Work examples ( ${this.$page.works.pageInfo.currentPage} of ${this.$page.works.pageInfo.totalPages})`,
+      };
+    },
+  };
 </script>
 
 <style lang="scss" scoped>
-.space {
-}
-.works {
-  h1 {
-    text-align: center;
-    text-transform: capitalize;
-    color: var(--body-color);
+  .space {
   }
+  .works {
+    h1 {
+      text-align: center;
+      text-transform: capitalize;
+      color: var(--body-color);
+    }
 
-  &__link {
-    padding: var(--space);
-  }
+    &__link {
+      padding: var(--space);
+    }
 
-  &__sort {
-    text-align: center;
-  }
+    &__sort {
+      text-align: center;
+    }
 
-  nav {
-    text-align: center;
-    margin: var(--space);
+    nav {
+      text-align: center;
+      margin: var(--space);
+    }
+    nav a {
+      padding: 1rem;
+    }
   }
-  nav a {
-    padding: 1rem;
-  }
-}
 </style>
