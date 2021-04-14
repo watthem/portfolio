@@ -39,8 +39,8 @@
 
       <p v-if="showEmail" class="space-bottom">
         <span>Or email me -</span>
-        <a alt="email" href="mailto:mscotthendricks@gmail.com"
-          >mscotthendricks@gmail.com</a
+        <a alt="email" href="mailto:contact@matthewhendricks.net"
+          >contact@matthewhendricks.net</a
         >
       </p>
     </div>

@@ -42,9 +42,9 @@ You can skip [the philosophy](#why-im-not-on-linkedin).
 
 - 📲 Please feel free to message me directly:
 
-  - [email me](mailto:matthew.scott.hendricks@gmail.com)
+  - [email me](mailto:contact@matthewhendricks.net)
 
-  - [text me](tel:+12064465495)
+  - [text me](tel:+13072238744)
 
   - [schedule a call](/contact#schedule-a-call)
 

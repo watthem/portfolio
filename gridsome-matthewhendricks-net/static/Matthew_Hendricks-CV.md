@@ -1,12 +1,14 @@
+<!-- @format -->
+
 # Matthew Hendricks' CV
 
 **Knowledge Worker, Technical Writer, Product Manager** — Focused on client solutions for product teams | values opportunities for Collaborative Communication
 
-**Work Phone:** 646-694-2062
+**Work Phone:** + 1 (307) 223-8744
 
 **Location:** Seattle, WA (98125)
 
-**Email:** [mscotthendricks@gmail.com](mailto:mscotthendricks@gmail.com)
+**Email:** [contact@matthewhendricks.net](mailto:contact@matthewhendricks.net)
 
 **Portfolio:** [matthewhendricks.net/work/](https://www.matthewhendricks.net/work)
 
