@@ -14,7 +14,7 @@ And while you're here, if there's I've written that makes you want to do better 
 
 Send me an email, text, or leave a voicemail.
 
-**Phone** [+1 ‪ (206) 446-5495](tel:+12064465495)
+**Work Phone** [+1 ‪ (307) 223-8744](tel:+13072238744)
 
 **Email** [contact@matthewhendricks.net](mailto:contact@matthewhendricks.net)
 
@@ -40,6 +40,7 @@ Project in mind? Or need some help with documentation? Want to share your though
       <label for="message" class="form-input-label">Your message:</label>
       <textarea required class="form-input" name="message"></textarea>
     </div>
+    <blockquote> Sorry: you'll have to complete a captcha.</blockquote>
     <span class="bar"></span>
     <div class="link-button">
       <button type="submit">Send</button>

@@ -133,7 +133,8 @@
     margin-right: 0.5rem;
     background: var(--highlight-color);
     color: var(--bg-color);
-    font-size: 100%;
+    font-size: 120%;
+    font-weight: bolder;
     width: var(--space);
     height: var(--space);
     border-radius: 100%;
