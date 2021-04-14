@@ -41,4 +41,4 @@ I am proud of the accomplishments I have had on the teams I've been a part of an
 
 ## I'm also experienced as a technical husband & father
 
-<video preload loop muted autoplay src="https://mscott.b-cdn.net/seattle.mp4"></video>
+<video loop muted autoplay src="https://mscott.b-cdn.net/seattle.mp4"></video>
