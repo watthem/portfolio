@@ -11,11 +11,7 @@
           </g-link>
           <div class="feature-image">
             <g-link class="link-image" to="/subject/fintech/">
-              <g-image
-                width="229"
-                height="50"
-                src="http://decentfinance.club/img/room-phone.png"
-              />
+              <g-image width="229" height="50" src="/decentfinance.club.png" />
             </g-link>
           </div>
 
