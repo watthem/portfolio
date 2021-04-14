@@ -3,7 +3,12 @@
 <template>
   <div>
     <div class="work-tags">
-      <a class="" v-for="tag in work.tags" :key="tag.id" :href="tag.path">
+      <a
+        class="tag-title"
+        v-for="tag in work.tags"
+        :key="tag.id"
+        :href="tag.path"
+      >
         {{ tag.title }}
       </a>
 
