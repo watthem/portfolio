@@ -20,12 +20,6 @@ title: "Technical Writer (for hire)"
 
 I've been writing professionally for various DevOps teams for over 13 years. I do technical writing for companies as a product manager, but also take on short-term contracts (W2s or 1099).
 
-## Link to Work Subjects
-
-If you'd like to see some of my work subjects check this out:
-
-[Tech Writing Work](/subject/technical-writing)
-
 ## Link to Tags
 
 If you'd like to see some of my blog posts:

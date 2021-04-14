@@ -15,7 +15,7 @@ URL: https://ninjatrader.com/support/helpGuides/nt8/?beta_release_notes.htm
 canonical_url: false
 cover_image: https://mscott.b-cdn.net/images/beta.png
 date: 2017-01-09
-tags: ["Product managment"]
+tags: ["Technical writing"]
 ---
 
 <!-- @format -->
