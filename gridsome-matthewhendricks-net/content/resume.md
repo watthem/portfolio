@@ -107,7 +107,6 @@ Confluence | Ghost | HelpSpot | JIRA | Notion | OoklaServer | TCP/IP | Trello | 
 > Collections of technical writing, work examples, and creative work
 
 - **Work portfolio:** [matthewhendricks.net/work](https://www.matthewhendricks.net/work/)
-- **Social:** [linkedin.com/in/watthem](https://www.linkedin.com/in/watthem)
-- **Writing:** [medium.com/thoughtabout](https://www.medium.com/@thoughtabout)
+- **Writing:** [matthewhendricks.substack.com](https://matthewhendricks.substack.com/)
 - **CSS:** [codepen.io/watthem](https://www.codepen.io/watthem)
 - **Code:** [github.com/watthem](https://www.github.com/watthem)

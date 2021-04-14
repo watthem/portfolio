@@ -37,7 +37,7 @@ I am proud of the accomplishments I have had on the teams I've been a part of an
 
 - Experienced as a [technical writer](/tag/technical-writing), [product manager](/tag/product-management), and tech service manager
 - See examples of my [work](/work/) and check out my [github](https://www.github.com/watthem/).
-- **Recruiters** see my [resume](/resume/). (Sorry but I'm not on [linked-in](/linked-in/).)
+- **Recruiters** see my [resume](/resume/). (Sorry but I'm not on [LinkedIn](/linked-in/).)
 
 ## I'm also experienced as a technical husband & father
 
